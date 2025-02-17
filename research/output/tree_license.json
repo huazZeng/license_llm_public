@@ -1,0 +1,3223 @@
+{
+    "name": "/home/zhz/repo/hackingtool",
+    "license_result": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+    ],
+    "declared_licenses": [
+        "spdxMIT"
+    ],
+    "declared_licenses_goodsent": [
+        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+    ],
+    "children": [
+        {
+            "name": "/home/zhz/repo/hackingtool/core.py",
+            "license_result": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "dependencys_licenses_result": [],
+            "ninka_output": "NONE",
+            "dependencys": [],
+            "goodsent": "",
+            "dependencys_licenses": [],
+            "declared_licenses": [],
+            "declared_licenses_goodsent": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/LICENSE",
+            "license_result": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "dependencys_licenses_result": [],
+            "ninka_output": "spdxMIT",
+            "dependencys": [],
+            "goodsent": "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE",
+            "dependencys_licenses": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/install.sh",
+            "license_result": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "dependencys_licenses_result": [],
+            "ninka_output": "NONE",
+            "dependencys": [],
+            "goodsent": "",
+            "dependencys_licenses": [],
+            "declared_licenses": [
+                "spdxMIT"
+            ],
+            "declared_licenses_goodsent": [
+                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+            ],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/docker-compose.yml",
+            "license_result": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "dependencys_licenses_result": [],
+            "ninka_output": "NONE",
+            "dependencys": [],
+            "goodsent": "",
+            "dependencys_licenses": [],
+            "declared_licenses": [
+                "spdxMIT"
+            ],
+            "declared_licenses_goodsent": [
+                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+            ],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/update.sh",
+            "license_result": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "dependencys_licenses_result": [],
+            "ninka_output": "NONE",
+            "dependencys": [],
+            "goodsent": "",
+            "dependencys_licenses": [],
+            "declared_licenses": [
+                "spdxMIT"
+            ],
+            "declared_licenses_goodsent": [
+                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+            ],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/hackingtool.py",
+            "license_result": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "dependencys_licenses_result": [
+                [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            ],
+            "ninka_output": "NONE",
+            "dependencys": [
+                "core",
+                "tools"
+            ],
+            "goodsent": "",
+            "dependencys_licenses": [
+                "GNU GPL",
+                "MIT"
+            ],
+            "declared_licenses": [
+                "spdxMIT"
+            ],
+            "declared_licenses_goodsent": [
+                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+            ],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/README.md",
+            "license_result": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "dependencys_licenses_result": [],
+            "ninka_output": "UNKNOWN",
+            "dependencys": [],
+            "goodsent": "All in One Hacking tool For Hackers\ud83e\udd47 ![](https<colon>//img.shields.io/github/license/Z4nzu/hackingtool) ![](https<colon>//img.shields.io/github/issues/Z4nzu/hackingtool) ![](https<colon>//img.shields.io/github/issues-closed/Z4nzu/hackingtool) ![](https<colon>//img.shields.io/badge/Python-3-blue) ![](https<colon>//img.shields.io/github/forks/Z4nzu/hackingtool) ![](https<colon>//img.shields.io/github/stars/Z4nzu/hackingtool) ![](https<colon>//img.shields.io/github/last-commit/Z4nzu/hackingtool) [![HitCount](http<colon>//hits.dwyl.com/Z4nzu/hackingtool.svg)](http<colon>//hits.dwyl.com/Z4nzu/hackingtool) ![](https<colon>//img.shields.io/badge/platform-Linux%20%7C%20KaliLinux%20%7C%20ParrotOs-blue)\n<img src =<quotes>https<colon>//img.shields.io/badge/Important-notice-red<quotes> /> <h4>Please Don<quotes>t Use for illegal Activity</h4>",
+            "dependencys_licenses": [],
+            "declared_licenses": [
+                "spdxMIT"
+            ],
+            "declared_licenses_goodsent": [
+                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+            ],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/images",
+            "license_result": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "declared_licenses": [
+                "spdxMIT"
+            ],
+            "declared_licenses_goodsent": [
+                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+            ],
+            "children": [
+                {
+                    "name": "/home/zhz/repo/hackingtool/images/A2.png",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [],
+                    "ninka_output": "NONE",
+                    "dependencys": [],
+                    "goodsent": "",
+                    "dependencys_licenses": [],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/images/A0.png",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [],
+                    "ninka_output": "NONE",
+                    "dependencys": [],
+                    "goodsent": "",
+                    "dependencys_licenses": [],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/images/A1.png",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [],
+                    "ninka_output": "NONE",
+                    "dependencys": [],
+                    "goodsent": "",
+                    "dependencys_licenses": [],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/images/demo",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [],
+                    "ninka_output": "NONE",
+                    "dependencys": [],
+                    "goodsent": "",
+                    "dependencys_licenses": [],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/images/A4.png",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [],
+                    "ninka_output": "NONE",
+                    "dependencys": [],
+                    "goodsent": "",
+                    "dependencys_licenses": [],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/images/A00.png",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [],
+                    "ninka_output": "NONE",
+                    "dependencys": [],
+                    "goodsent": "",
+                    "dependencys_licenses": [],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/.github",
+            "license_result": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "declared_licenses": [
+                "spdxMIT"
+            ],
+            "declared_licenses_goodsent": [
+                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+            ],
+            "children": [
+                {
+                    "name": "/home/zhz/repo/hackingtool/.github/ISSUE_TEMPLATE",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/hackingtool/.github/ISSUE_TEMPLATE/bug_report.md",
+                            "license_result": [
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "dependencys_licenses_result": [],
+                            "ninka_output": "UNKNOWN",
+                            "dependencys": [],
+                            "goodsent": "To Reproduce Steps to reproduce the behavior<colon>",
+                            "dependencys_licenses": [],
+                            "declared_licenses": [
+                                "spdxMIT"
+                            ],
+                            "declared_licenses_goodsent": [
+                                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/.github/ISSUE_TEMPLATE/feature_request.md",
+                            "license_result": [
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "dependencys_licenses_result": [],
+                            "ninka_output": "NONE",
+                            "dependencys": [],
+                            "goodsent": "",
+                            "dependencys_licenses": [],
+                            "declared_licenses": [
+                                "spdxMIT"
+                            ],
+                            "declared_licenses_goodsent": [
+                                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                            ],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/.github/workflows",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/hackingtool/.github/workflows/lint_python.yml",
+                            "license_result": [
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "dependencys_licenses_result": [],
+                            "ninka_output": "NONE",
+                            "dependencys": [],
+                            "goodsent": "",
+                            "dependencys_licenses": [],
+                            "declared_licenses": [
+                                "spdxMIT"
+                            ],
+                            "declared_licenses_goodsent": [
+                                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/.github/workflows/test_install.yml",
+                            "license_result": [
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "dependencys_licenses_result": [],
+                            "ninka_output": "NONE",
+                            "dependencys": [],
+                            "goodsent": "",
+                            "dependencys_licenses": [],
+                            "declared_licenses": [
+                                "spdxMIT"
+                            ],
+                            "declared_licenses_goodsent": [
+                                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                            ],
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/tools",
+            "license_result": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "declared_licenses": [
+                "spdxMIT"
+            ],
+            "declared_licenses_goodsent": [
+                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+            ],
+            "children": [
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/other_tools.py",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "ninka_output": "NONE",
+                    "dependencys": [
+                        "core",
+                        "tools"
+                    ],
+                    "goodsent": "",
+                    "dependencys_licenses": [
+                        "GNU GPL",
+                        "MIT"
+                    ],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/anonsurf.py",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "ninka_output": "NONE",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "goodsent": "",
+                    "dependencys_licenses": [
+                        "GNU GPL"
+                    ],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/tool_manager.py",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "ninka_output": "NONE",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "goodsent": "",
+                    "dependencys_licenses": [
+                        "GNU GPL"
+                    ],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/ddos.py",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "ninka_output": "UNKNOWN",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "goodsent": "TITLE = <quotes>UFOnet<quotes> DESCRIPTION = ( <quotes>UFONet - is a free software, P2P and cryptographic <quotes> <quotes>-disruptive n toolkit- that allows to perform DoS and <quotes> <quotes>DDoS attacks n b <quotes> <quotes>More Usage Visit<quotes> ) INSTALL_COMMANDS = [ <quotes>sudo git clone https<colon>//github.com/epsylon/ufonet.git<quotes>, <quotes>cd ufonet;sudo python3 setup.py install;sudo pip3 install GeoIP;sudo pip3 install python-geoip;sudo pip3 install pygeoip;sudo pip3 install requests;sudo pip3 install pycrypto;sudo pip3 install pycurl;sudo pip3 install whois;sudo pip3 install scapy-python3<quotes>, ] RUN_COMMANDS = [<quotes>sudo python3 ufonet --gui<quotes>] PROJECT_URL = <quotes>https<colon>//github.com/epsylon/ufonet<quotes>",
+                    "dependencys_licenses": [
+                        "GNU GPL"
+                    ],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/reverse_engineering.py",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "ninka_output": "NONE",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "goodsent": "",
+                    "dependencys_licenses": [
+                        "GNU GPL"
+                    ],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/xss_attack.py",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "ninka_output": "NONE",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "goodsent": "",
+                    "dependencys_licenses": [
+                        "GNU GPL"
+                    ],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/wireless_attack_tools.py",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "ninka_output": "UNKNOWN",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "goodsent": "n For More Details Visit >> https<colon>//github.com/wifiphisher/wifiphisher <quotes> INSTALL_COMMANDS = [ <quotes>git clone https<colon>//github.com/wifiphisher/wifiphisher.git<quotes>, <quotes>cd wifiphisher;sudo python3 setup.py install<quotes> ] RUN_COMMANDS = [<quotes>cd wifiphisher;sudo wifiphisher<quotes>] PROJECT_URL = <quotes>https<colon>//github.com/wifiphisher/wifiphisher<quotes>",
+                    "dependencys_licenses": [
+                        "GNU GPL"
+                    ],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/webattack.py",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "ninka_output": "NONE",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "goodsent": "",
+                    "dependencys_licenses": [
+                        "GNU GPL"
+                    ],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/wordlist_generator.py",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "ninka_output": "NONE",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "goodsent": "",
+                    "dependencys_licenses": [
+                        "GNU GPL"
+                    ],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/information_gathering_tools.py",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "ninka_output": "NONE",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "goodsent": "",
+                    "dependencys_licenses": [
+                        "GNU GPL"
+                    ],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/phising_attack.py",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "ninka_output": "NONE",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "goodsent": "",
+                    "dependencys_licenses": [
+                        "GNU GPL"
+                    ],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/forensic_tools.py",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "ninka_output": "UNKNOWN",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "goodsent": "&& cd java_gui && ./BEViewer<quotes>) print( <quotes>If you getting error after clone go to /java_gui/src/ And Compile .Jar file && run ./BEViewer<quotes>) print( <quotes>Please Visit For More Details About Installation >> https<colon>//github.com/simsong/bulk_extractor<quotes>)",
+                    "dependencys_licenses": [
+                        "GNU GPL"
+                    ],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/others",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/hackingtool/tools/others/homograph_attacks.py",
+                            "license_result": [
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "dependencys_licenses_result": [
+                                [
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "ninka_output": "NONE",
+                            "dependencys": [
+                                "core"
+                            ],
+                            "goodsent": "",
+                            "dependencys_licenses": [
+                                "GNU GPL"
+                            ],
+                            "declared_licenses": [
+                                "spdxMIT"
+                            ],
+                            "declared_licenses_goodsent": [
+                                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/tools/others/wifi_jamming.py",
+                            "license_result": [
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "dependencys_licenses_result": [
+                                [
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "ninka_output": "NONE",
+                            "dependencys": [
+                                "core"
+                            ],
+                            "goodsent": "",
+                            "dependencys_licenses": [
+                                "GNU GPL"
+                            ],
+                            "declared_licenses": [
+                                "spdxMIT"
+                            ],
+                            "declared_licenses_goodsent": [
+                                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/tools/others/web_crawling.py",
+                            "license_result": [
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "dependencys_licenses_result": [
+                                [
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "ninka_output": "NONE",
+                            "dependencys": [
+                                "core"
+                            ],
+                            "goodsent": "",
+                            "dependencys_licenses": [
+                                "GNU GPL"
+                            ],
+                            "declared_licenses": [
+                                "spdxMIT"
+                            ],
+                            "declared_licenses_goodsent": [
+                                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/tools/others/socialmedia_finder.py",
+                            "license_result": [
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "dependencys_licenses_result": [
+                                [
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "ninka_output": "NONE",
+                            "dependencys": [
+                                "core"
+                            ],
+                            "goodsent": "",
+                            "dependencys_licenses": [
+                                "GNU GPL"
+                            ],
+                            "declared_licenses": [
+                                "spdxMIT"
+                            ],
+                            "declared_licenses_goodsent": [
+                                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/tools/others/android_attack.py",
+                            "license_result": [
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "dependencys_licenses_result": [
+                                [
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "ninka_output": "NONE",
+                            "dependencys": [
+                                "core"
+                            ],
+                            "goodsent": "",
+                            "dependencys_licenses": [
+                                "GNU GPL"
+                            ],
+                            "declared_licenses": [
+                                "spdxMIT"
+                            ],
+                            "declared_licenses_goodsent": [
+                                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/tools/others/socialmedia.py",
+                            "license_result": [
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "dependencys_licenses_result": [
+                                [
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "ninka_output": "NONE",
+                            "dependencys": [
+                                "core"
+                            ],
+                            "goodsent": "",
+                            "dependencys_licenses": [
+                                "GNU GPL"
+                            ],
+                            "declared_licenses": [
+                                "spdxMIT"
+                            ],
+                            "declared_licenses_goodsent": [
+                                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/tools/others/mix_tools.py",
+                            "license_result": [
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "dependencys_licenses_result": [
+                                [
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "ninka_output": "NONE",
+                            "dependencys": [
+                                "core"
+                            ],
+                            "goodsent": "",
+                            "dependencys_licenses": [
+                                "GNU GPL"
+                            ],
+                            "declared_licenses": [
+                                "spdxMIT"
+                            ],
+                            "declared_licenses_goodsent": [
+                                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/tools/others/payload_injection.py",
+                            "license_result": [
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "dependencys_licenses_result": [
+                                [
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "ninka_output": "NONE",
+                            "dependencys": [
+                                "core"
+                            ],
+                            "goodsent": "",
+                            "dependencys_licenses": [
+                                "GNU GPL"
+                            ],
+                            "declared_licenses": [
+                                "spdxMIT"
+                            ],
+                            "declared_licenses_goodsent": [
+                                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/tools/others/email_verifier.py",
+                            "license_result": [
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "dependencys_licenses_result": [
+                                [
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "ninka_output": "NONE",
+                            "dependencys": [
+                                "core"
+                            ],
+                            "goodsent": "",
+                            "dependencys_licenses": [
+                                "GNU GPL"
+                            ],
+                            "declared_licenses": [
+                                "spdxMIT"
+                            ],
+                            "declared_licenses_goodsent": [
+                                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/tools/others/hash_crack.py",
+                            "license_result": [
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "dependencys_licenses_result": [
+                                [
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "ninka_output": "NONE",
+                            "dependencys": [
+                                "core"
+                            ],
+                            "goodsent": "",
+                            "dependencys_licenses": [
+                                "GNU GPL"
+                            ],
+                            "declared_licenses": [
+                                "spdxMIT"
+                            ],
+                            "declared_licenses_goodsent": [
+                                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                            ],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/remote_administration.py",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "ninka_output": "NONE",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "goodsent": "",
+                    "dependencys_licenses": [
+                        "GNU GPL"
+                    ],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/payload_creator.py",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "ninka_output": "NONE",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "goodsent": "",
+                    "dependencys_licenses": [
+                        "GNU GPL"
+                    ],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/post_exploitation.py",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "ninka_output": "NONE",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "goodsent": "",
+                    "dependencys_licenses": [
+                        "GNU GPL"
+                    ],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/sql_tools.py",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "ninka_output": "NONE",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "goodsent": "",
+                    "dependencys_licenses": [
+                        "GNU GPL"
+                    ],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/steganography.py",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "ninka_output": "NONE",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "goodsent": "",
+                    "dependencys_licenses": [
+                        "GNU GPL"
+                    ],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/exploit_frameworks.py",
+                    "license_result": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "dependencys_licenses_result": [
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "ninka_output": "NONE",
+                    "dependencys": [
+                        "core",
+                        "tools"
+                    ],
+                    "goodsent": "",
+                    "dependencys_licenses": [
+                        "GNU GPL",
+                        "MIT"
+                    ],
+                    "declared_licenses": [
+                        "spdxMIT"
+                    ],
+                    "declared_licenses_goodsent": [
+                        "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+                    ],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/.gitignore",
+            "license_result": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "dependencys_licenses_result": [],
+            "ninka_output": "NONE",
+            "dependencys": [],
+            "goodsent": "",
+            "dependencys_licenses": [],
+            "declared_licenses": [
+                "spdxMIT"
+            ],
+            "declared_licenses_goodsent": [
+                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+            ],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/requirements.txt",
+            "license_result": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "dependencys_licenses_result": [],
+            "ninka_output": "NONE",
+            "dependencys": [],
+            "goodsent": "",
+            "dependencys_licenses": [],
+            "declared_licenses": [
+                "spdxMIT"
+            ],
+            "declared_licenses_goodsent": [
+                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+            ],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/README_template.md",
+            "license_result": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "dependencys_licenses_result": [],
+            "ninka_output": "UNKNOWN",
+            "dependencys": [],
+            "goodsent": "All in One Hacking tool For Hackers\ud83e\udd47 ![](https<colon>//img.shields.io/github/license/Z4nzu/hackingtool) ![](https<colon>//img.shields.io/github/issues/Z4nzu/hackingtool) ![](https<colon>//img.shields.io/github/issues-closed/Z4nzu/hackingtool) ![](https<colon>//img.shields.io/badge/Python-3-blue) ![](https<colon>//img.shields.io/github/forks/Z4nzu/hackingtool) ![](https<colon>//img.shields.io/github/stars/Z4nzu/hackingtool) ![](https<colon>//img.shields.io/github/last-commit/Z4nzu/hackingtool) [![HitCount](http<colon>//hits.dwyl.com/Z4nzu/hackingtool.svg)](http<colon>//hits.dwyl.com/Z4nzu/hackingtool) ![](https<colon>//img.shields.io/badge/platform-Linux%20%7C%20KaliLinux%20%7C%20ParrotOs-blue)\n<img src =<quotes>https<colon>//img.shields.io/badge/Important-notice-red<quotes> /> <h4>Please Don<quotes>t Use for illegal Activity</h4>",
+            "dependencys_licenses": [],
+            "declared_licenses": [
+                "spdxMIT"
+            ],
+            "declared_licenses_goodsent": [
+                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+            ],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/generate_readme.py",
+            "license_result": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "dependencys_licenses_result": [
+                [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            ],
+            "ninka_output": "NONE",
+            "dependencys": [
+                "core"
+            ],
+            "goodsent": "",
+            "dependencys_licenses": [
+                "GNU GPL"
+            ],
+            "declared_licenses": [
+                "spdxMIT"
+            ],
+            "declared_licenses_goodsent": [
+                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+            ],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/Dockerfile",
+            "license_result": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "dependencys_licenses_result": [],
+            "ninka_output": "NONE",
+            "dependencys": [],
+            "goodsent": "",
+            "dependencys_licenses": [],
+            "declared_licenses": [
+                "spdxMIT"
+            ],
+            "declared_licenses_goodsent": [
+                "MIT License\nCopyright (c) 2020 Mr.Z4nzu\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the <quotes>Software<quotes>), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions<colon>\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software\nTHE SOFTWARE IS PROVIDED <quotes>AS IS<quotes>, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE"
+            ],
+            "children": []
+        }
+    ]
+}

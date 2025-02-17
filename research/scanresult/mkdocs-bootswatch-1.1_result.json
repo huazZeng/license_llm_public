@@ -1,0 +1,2658 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "32.3.0",
+      "options": {
+        "input": [
+          "pypi_source\\mkdocs-bootswatch-1.1"
+        ],
+        "--json-pp": "scanresult/mkdocs-bootswatch-1.1_result.json",
+        "--license": true,
+        "--license-text": true
+      },
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2025-02-07T104132.462386",
+      "end_timestamp": "2025-02-07T104229.877979",
+      "output_format_version": "4.0.0",
+      "duration": 57.41559290885925,
+      "message": null,
+      "errors": [],
+      "warnings": [],
+      "extra_data": {
+        "system_environment": {
+          "operating_system": "win",
+          "cpu_architecture": "64",
+          "platform": "Windows-10-10.0.22631-SP0",
+          "platform_version": "10.0.22631",
+          "python_version": "3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)]"
+        },
+        "spdx_license_list_version": "3.25",
+        "files_count": 95
+      }
+    }
+  ],
+  "license_detections": [
+    {
+      "identifier": "bsd_new-261898a0-0118-87c4-7092-14e4ff134882",
+      "license_expression": "bsd-new",
+      "license_expression_spdx": "BSD-3-Clause",
+      "detection_count": 3,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "from_file": "mkdocs-bootswatch-1.1/PKG-INFO",
+          "start_line": 8,
+          "end_line": 8,
+          "matcher": "2-aho",
+          "score": 99.0,
+          "matched_length": 2,
+          "match_coverage": 100.0,
+          "rule_relevance": 99,
+          "rule_identifier": "bsd-new_89.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_89.RULE",
+          "matched_text": "License: BSD"
+        }
+      ]
+    },
+    {
+      "identifier": "bsd_simplified-a1deb97f-56cd-71ea-a95f-82477d400503",
+      "license_expression": "bsd-simplified",
+      "license_expression_spdx": "BSD-2-Clause",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "from_file": "mkdocs-bootswatch-1.1/LICENSE",
+          "start_line": 3,
+          "end_line": 26,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 183,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "bsd-simplified.LICENSE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/bsd-simplified.LICENSE",
+          "matched_text": "Redistribution and use in source and binary forms, with or\nwithout modification, are permitted provided that the following\nconditions are met:\n\nRedistributions of source code must retain the above copyright\nnotice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright\nnotice, this list of conditions and the following disclaimer in\nthe documentation and/or other materials provided with the\ndistribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND\nCONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES,\nINCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR\nCONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\nSPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\nLIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF\nUSE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED\nAND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\nLIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN\nANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE\nPOSSIBILITY OF SUCH DAMAGE."
+        }
+      ]
+    },
+    {
+      "identifier": "bsd_simplified-ef94b224-fd70-c71a-96ef-54c1b7131828",
+      "license_expression": "bsd-simplified",
+      "license_expression_spdx": "BSD-2-Clause",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "unknown-license-reference",
+          "license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+          "from_file": "mkdocs-bootswatch-1.1/setup.cfg",
+          "start_line": 5,
+          "end_line": 5,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 3,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "unknown-license-reference_see_license_at_manifest_1.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/unknown-license-reference_see_license_at_manifest_1.RULE",
+          "matched_text": "license_file = LICENSE"
+        },
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "from_file": "mkdocs-bootswatch-1.1/LICENSE",
+          "start_line": 3,
+          "end_line": 26,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 183,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "bsd-simplified.LICENSE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/bsd-simplified.LICENSE",
+          "matched_text": "Redistribution and use in source and binary forms, with or\nwithout modification, are permitted provided that the following\nconditions are met:\n\nRedistributions of source code must retain the above copyright\nnotice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright\nnotice, this list of conditions and the following disclaimer in\nthe documentation and/or other materials provided with the\ndistribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND\nCONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES,\nINCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR\nCONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\nSPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\nLIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF\nUSE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED\nAND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\nLIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN\nANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE\nPOSSIBILITY OF SUCH DAMAGE."
+        }
+      ]
+    },
+    {
+      "identifier": "mit-450cebd7-c4c9-f708-c96d-2bb2762e10ea",
+      "license_expression": "mit",
+      "license_expression_spdx": "MIT",
+      "detection_count": 20,
+      "reference_matches": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cerulean/css/bootstrap.min.css",
+          "start_line": 5,
+          "end_line": 5,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 3,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "mit_172.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_172.RULE",
+          "matched_text": "Licensed under MIT"
+        }
+      ]
+    },
+    {
+      "identifier": "mit-5f9f3372-c045-dddc-a2a0-e926bd711c42",
+      "license_expression": "mit",
+      "license_expression_spdx": "MIT",
+      "detection_count": 20,
+      "reference_matches": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cerulean/css/bootstrap.min.css",
+          "start_line": 11,
+          "end_line": 11,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 11,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "mit_179.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_179.RULE",
+          "matched_text": "Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)"
+        }
+      ]
+    },
+    {
+      "identifier": "mit-86fcf017-3572-9813-b7e8-0a10ec4a120f",
+      "license_expression": "mit",
+      "license_expression_spdx": "MIT",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "from_file": "mkdocs-bootswatch-1.1/bootswatch.LICENSE",
+          "start_line": 1,
+          "end_line": 1,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 4,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "mit_26.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_26.RULE",
+          "matched_text": "The MIT License (MIT)"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "from_file": "mkdocs-bootswatch-1.1/bootswatch.LICENSE",
+          "start_line": 5,
+          "end_line": 21,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 161,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "mit.LICENSE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "matched_text": "Permission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "mkdocs-bootswatch-1.1",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/bootswatch.LICENSE",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/bootswatch.LICENSE",
+              "start_line": 1,
+              "end_line": 1,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 4,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_26.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_26.RULE",
+              "matched_text": "The MIT License (MIT)"
+            },
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/bootswatch.LICENSE",
+              "start_line": 5,
+              "end_line": 21,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 161,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+              "matched_text": "Permission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+            }
+          ],
+          "identifier": "mit-86fcf017-3572-9813-b7e8-0a10ec4a120f"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 97.06,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/LICENSE",
+      "type": "file",
+      "detected_license_expression": "bsd-simplified",
+      "detected_license_expression_spdx": "BSD-2-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-simplified",
+              "license_expression_spdx": "BSD-2-Clause",
+              "from_file": "mkdocs-bootswatch-1.1/LICENSE",
+              "start_line": 3,
+              "end_line": 26,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 183,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/bsd-simplified.LICENSE",
+              "matched_text": "Redistribution and use in source and binary forms, with or\nwithout modification, are permitted provided that the following\nconditions are met:\n\nRedistributions of source code must retain the above copyright\nnotice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright\nnotice, this list of conditions and the following disclaimer in\nthe documentation and/or other materials provided with the\ndistribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND\nCONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES,\nINCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR\nCONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\nSPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\nLIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF\nUSE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED\nAND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\nLIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN\nANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE\nPOSSIBILITY OF SUCH DAMAGE."
+            }
+          ],
+          "identifier": "bsd_simplified-a1deb97f-56cd-71ea-a95f-82477d400503"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 96.32,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/MANIFEST.in",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": "bsd-new",
+      "detected_license_expression_spdx": "BSD-3-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "mkdocs-bootswatch-1.1/PKG-INFO",
+              "start_line": 8,
+              "end_line": 8,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "bsd-new_89.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_89.RULE",
+              "matched_text": "License: BSD"
+            }
+          ],
+          "identifier": "bsd_new-261898a0-0118-87c4-7092-14e4ff134882"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 5.13,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/README.md",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/setup.cfg",
+      "type": "file",
+      "detected_license_expression": "bsd-simplified",
+      "detected_license_expression_spdx": "BSD-2-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "matches": [
+            {
+              "license_expression": "unknown-license-reference",
+              "license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+              "from_file": "mkdocs-bootswatch-1.1/setup.cfg",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "unknown-license-reference_see_license_at_manifest_1.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/unknown-license-reference_see_license_at_manifest_1.RULE",
+              "matched_text": "license_file = LICENSE"
+            },
+            {
+              "license_expression": "bsd-simplified",
+              "license_expression_spdx": "BSD-2-Clause",
+              "from_file": "mkdocs-bootswatch-1.1/LICENSE",
+              "start_line": 3,
+              "end_line": 26,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 183,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/bsd-simplified.LICENSE",
+              "matched_text": "Redistribution and use in source and binary forms, with or\nwithout modification, are permitted provided that the following\nconditions are met:\n\nRedistributions of source code must retain the above copyright\nnotice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright\nnotice, this list of conditions and the following disclaimer in\nthe documentation and/or other materials provided with the\ndistribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND\nCONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES,\nINCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR\nCONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\nSPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\nLIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF\nUSE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED\nAND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\nLIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN\nANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE\nPOSSIBILITY OF SUCH DAMAGE."
+            }
+          ],
+          "identifier": "bsd_simplified-ef94b224-fd70-c71a-96ef-54c1b7131828",
+          "detection_log": [
+            "unknown-reference-to-local-file"
+          ]
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 20.0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/setup.py",
+      "type": "file",
+      "detected_license_expression": "bsd-new",
+      "detected_license_expression_spdx": "BSD-3-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "mkdocs-bootswatch-1.1/setup.py",
+              "start_line": 12,
+              "end_line": 12,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "bsd-new_89.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_89.RULE",
+              "matched_text": "    license='BSD',"
+            }
+          ],
+          "identifier": "bsd_new-261898a0-0118-87c4-7092-14e4ff134882"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 1.38,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cerulean",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cerulean/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cerulean/mkdocs_theme.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cerulean/css",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cerulean/css/base.css",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cerulean/css/bootstrap.min.css",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cerulean/css/bootstrap.min.css",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_172.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_172.RULE",
+              "matched_text": "Licensed under MIT"
+            }
+          ],
+          "identifier": "mit-450cebd7-c4c9-f708-c96d-2bb2762e10ea"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cerulean/css/bootstrap.min.css",
+              "start_line": 11,
+              "end_line": 11,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_179.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_179.RULE",
+              "matched_text": "Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)"
+            }
+          ],
+          "identifier": "mit-5f9f3372-c045-dddc-a2a0-e926bd711c42"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.05,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cosmo",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cosmo/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cosmo/mkdocs_theme.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cosmo/css",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cosmo/css/base.css",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cosmo/css/bootstrap.min.css",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cosmo/css/bootstrap.min.css",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_172.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_172.RULE",
+              "matched_text": "Licensed under MIT"
+            }
+          ],
+          "identifier": "mit-450cebd7-c4c9-f708-c96d-2bb2762e10ea"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cosmo/css/bootstrap.min.css",
+              "start_line": 11,
+              "end_line": 11,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_179.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_179.RULE",
+              "matched_text": "Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)"
+            }
+          ],
+          "identifier": "mit-5f9f3372-c045-dddc-a2a0-e926bd711c42"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.05,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cyborg",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cyborg/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cyborg/mkdocs_theme.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cyborg/css",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cyborg/css/base.css",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cyborg/css/bootstrap.min.css",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cyborg/css/bootstrap.min.css",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_172.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_172.RULE",
+              "matched_text": "Licensed under MIT"
+            }
+          ],
+          "identifier": "mit-450cebd7-c4c9-f708-c96d-2bb2762e10ea"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/cyborg/css/bootstrap.min.css",
+              "start_line": 11,
+              "end_line": 11,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_179.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_179.RULE",
+              "matched_text": "Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)"
+            }
+          ],
+          "identifier": "mit-5f9f3372-c045-dddc-a2a0-e926bd711c42"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.05,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/darkly",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/darkly/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/darkly/mkdocs_theme.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/darkly/css",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/darkly/css/base.css",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/darkly/css/bootstrap.min.css",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/darkly/css/bootstrap.min.css",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_172.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_172.RULE",
+              "matched_text": "Licensed under MIT"
+            }
+          ],
+          "identifier": "mit-450cebd7-c4c9-f708-c96d-2bb2762e10ea"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/darkly/css/bootstrap.min.css",
+              "start_line": 11,
+              "end_line": 11,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_179.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_179.RULE",
+              "matched_text": "Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)"
+            }
+          ],
+          "identifier": "mit-5f9f3372-c045-dddc-a2a0-e926bd711c42"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.05,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/flatly",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/flatly/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/flatly/mkdocs_theme.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/flatly/css",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/flatly/css/base.css",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/flatly/css/bootstrap.min.css",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/flatly/css/bootstrap.min.css",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_172.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_172.RULE",
+              "matched_text": "Licensed under MIT"
+            }
+          ],
+          "identifier": "mit-450cebd7-c4c9-f708-c96d-2bb2762e10ea"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/flatly/css/bootstrap.min.css",
+              "start_line": 11,
+              "end_line": 11,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_179.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_179.RULE",
+              "matched_text": "Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)"
+            }
+          ],
+          "identifier": "mit-5f9f3372-c045-dddc-a2a0-e926bd711c42"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.05,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/journal",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/journal/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/journal/mkdocs_theme.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/journal/css",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/journal/css/base.css",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/journal/css/bootstrap.min.css",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/journal/css/bootstrap.min.css",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_172.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_172.RULE",
+              "matched_text": "Licensed under MIT"
+            }
+          ],
+          "identifier": "mit-450cebd7-c4c9-f708-c96d-2bb2762e10ea"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/journal/css/bootstrap.min.css",
+              "start_line": 11,
+              "end_line": 11,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_179.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_179.RULE",
+              "matched_text": "Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)"
+            }
+          ],
+          "identifier": "mit-5f9f3372-c045-dddc-a2a0-e926bd711c42"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.05,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/litera",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/litera/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/litera/mkdocs_theme.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/litera/css",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/litera/css/base.css",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/litera/css/bootstrap.min.css",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/litera/css/bootstrap.min.css",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_172.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_172.RULE",
+              "matched_text": "Licensed under MIT"
+            }
+          ],
+          "identifier": "mit-450cebd7-c4c9-f708-c96d-2bb2762e10ea"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/litera/css/bootstrap.min.css",
+              "start_line": 11,
+              "end_line": 11,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_179.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_179.RULE",
+              "matched_text": "Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)"
+            }
+          ],
+          "identifier": "mit-5f9f3372-c045-dddc-a2a0-e926bd711c42"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.05,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/lumen",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/lumen/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/lumen/mkdocs_theme.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/lumen/css",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/lumen/css/base.css",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/lumen/css/bootstrap.min.css",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/lumen/css/bootstrap.min.css",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_172.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_172.RULE",
+              "matched_text": "Licensed under MIT"
+            }
+          ],
+          "identifier": "mit-450cebd7-c4c9-f708-c96d-2bb2762e10ea"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/lumen/css/bootstrap.min.css",
+              "start_line": 11,
+              "end_line": 11,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_179.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_179.RULE",
+              "matched_text": "Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)"
+            }
+          ],
+          "identifier": "mit-5f9f3372-c045-dddc-a2a0-e926bd711c42"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.05,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/lux",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/lux/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/lux/mkdocs_theme.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/lux/css",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/lux/css/base.css",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/lux/css/bootstrap.min.css",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/lux/css/bootstrap.min.css",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_172.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_172.RULE",
+              "matched_text": "Licensed under MIT"
+            }
+          ],
+          "identifier": "mit-450cebd7-c4c9-f708-c96d-2bb2762e10ea"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/lux/css/bootstrap.min.css",
+              "start_line": 11,
+              "end_line": 11,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_179.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_179.RULE",
+              "matched_text": "Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)"
+            }
+          ],
+          "identifier": "mit-5f9f3372-c045-dddc-a2a0-e926bd711c42"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.05,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/materia",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/materia/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/materia/mkdocs_theme.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/materia/css",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/materia/css/base.css",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/materia/css/bootstrap.min.css",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/materia/css/bootstrap.min.css",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_172.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_172.RULE",
+              "matched_text": "Licensed under MIT"
+            }
+          ],
+          "identifier": "mit-450cebd7-c4c9-f708-c96d-2bb2762e10ea"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/materia/css/bootstrap.min.css",
+              "start_line": 11,
+              "end_line": 11,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_179.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_179.RULE",
+              "matched_text": "Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)"
+            }
+          ],
+          "identifier": "mit-5f9f3372-c045-dddc-a2a0-e926bd711c42"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.04,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/minty",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/minty/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/minty/mkdocs_theme.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/minty/css",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/minty/css/base.css",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/minty/css/bootstrap.min.css",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/minty/css/bootstrap.min.css",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_172.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_172.RULE",
+              "matched_text": "Licensed under MIT"
+            }
+          ],
+          "identifier": "mit-450cebd7-c4c9-f708-c96d-2bb2762e10ea"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/minty/css/bootstrap.min.css",
+              "start_line": 11,
+              "end_line": 11,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_179.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_179.RULE",
+              "matched_text": "Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)"
+            }
+          ],
+          "identifier": "mit-5f9f3372-c045-dddc-a2a0-e926bd711c42"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.05,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/pulse",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/pulse/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/pulse/mkdocs_theme.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/pulse/css",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/pulse/css/base.css",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/pulse/css/bootstrap.min.css",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/pulse/css/bootstrap.min.css",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_172.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_172.RULE",
+              "matched_text": "Licensed under MIT"
+            }
+          ],
+          "identifier": "mit-450cebd7-c4c9-f708-c96d-2bb2762e10ea"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/pulse/css/bootstrap.min.css",
+              "start_line": 11,
+              "end_line": 11,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_179.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_179.RULE",
+              "matched_text": "Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)"
+            }
+          ],
+          "identifier": "mit-5f9f3372-c045-dddc-a2a0-e926bd711c42"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.05,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/sandstone",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/sandstone/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/sandstone/mkdocs_theme.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/sandstone/css",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/sandstone/css/base.css",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/sandstone/css/bootstrap.min.css",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/sandstone/css/bootstrap.min.css",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_172.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_172.RULE",
+              "matched_text": "Licensed under MIT"
+            }
+          ],
+          "identifier": "mit-450cebd7-c4c9-f708-c96d-2bb2762e10ea"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/sandstone/css/bootstrap.min.css",
+              "start_line": 11,
+              "end_line": 11,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_179.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_179.RULE",
+              "matched_text": "Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)"
+            }
+          ],
+          "identifier": "mit-5f9f3372-c045-dddc-a2a0-e926bd711c42"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.05,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/simplex",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/simplex/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/simplex/mkdocs_theme.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/simplex/css",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/simplex/css/base.css",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/simplex/css/bootstrap.min.css",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/simplex/css/bootstrap.min.css",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_172.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_172.RULE",
+              "matched_text": "Licensed under MIT"
+            }
+          ],
+          "identifier": "mit-450cebd7-c4c9-f708-c96d-2bb2762e10ea"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/simplex/css/bootstrap.min.css",
+              "start_line": 11,
+              "end_line": 11,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_179.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_179.RULE",
+              "matched_text": "Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)"
+            }
+          ],
+          "identifier": "mit-5f9f3372-c045-dddc-a2a0-e926bd711c42"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.05,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/slate",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/slate/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/slate/mkdocs_theme.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/slate/css",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/slate/css/base.css",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/slate/css/bootstrap.min.css",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/slate/css/bootstrap.min.css",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_172.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_172.RULE",
+              "matched_text": "Licensed under MIT"
+            }
+          ],
+          "identifier": "mit-450cebd7-c4c9-f708-c96d-2bb2762e10ea"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/slate/css/bootstrap.min.css",
+              "start_line": 11,
+              "end_line": 11,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_179.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_179.RULE",
+              "matched_text": "Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)"
+            }
+          ],
+          "identifier": "mit-5f9f3372-c045-dddc-a2a0-e926bd711c42"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.04,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/solar",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/solar/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/solar/mkdocs_theme.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/solar/css",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/solar/css/base.css",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/solar/css/bootstrap.min.css",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/solar/css/bootstrap.min.css",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_172.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_172.RULE",
+              "matched_text": "Licensed under MIT"
+            }
+          ],
+          "identifier": "mit-450cebd7-c4c9-f708-c96d-2bb2762e10ea"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/solar/css/bootstrap.min.css",
+              "start_line": 11,
+              "end_line": 11,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_179.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_179.RULE",
+              "matched_text": "Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)"
+            }
+          ],
+          "identifier": "mit-5f9f3372-c045-dddc-a2a0-e926bd711c42"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.04,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/spacelab",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/spacelab/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/spacelab/mkdocs_theme.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/spacelab/css",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/spacelab/css/base.css",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/spacelab/css/bootstrap.min.css",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/spacelab/css/bootstrap.min.css",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_172.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_172.RULE",
+              "matched_text": "Licensed under MIT"
+            }
+          ],
+          "identifier": "mit-450cebd7-c4c9-f708-c96d-2bb2762e10ea"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/spacelab/css/bootstrap.min.css",
+              "start_line": 11,
+              "end_line": 11,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_179.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_179.RULE",
+              "matched_text": "Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)"
+            }
+          ],
+          "identifier": "mit-5f9f3372-c045-dddc-a2a0-e926bd711c42"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.05,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/superhero",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/superhero/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/superhero/mkdocs_theme.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/superhero/css",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/superhero/css/base.css",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/superhero/css/bootstrap.min.css",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/superhero/css/bootstrap.min.css",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_172.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_172.RULE",
+              "matched_text": "Licensed under MIT"
+            }
+          ],
+          "identifier": "mit-450cebd7-c4c9-f708-c96d-2bb2762e10ea"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/superhero/css/bootstrap.min.css",
+              "start_line": 11,
+              "end_line": 11,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_179.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_179.RULE",
+              "matched_text": "Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)"
+            }
+          ],
+          "identifier": "mit-5f9f3372-c045-dddc-a2a0-e926bd711c42"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.05,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/united",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/united/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/united/mkdocs_theme.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/united/css",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/united/css/base.css",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/united/css/bootstrap.min.css",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/united/css/bootstrap.min.css",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_172.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_172.RULE",
+              "matched_text": "Licensed under MIT"
+            }
+          ],
+          "identifier": "mit-450cebd7-c4c9-f708-c96d-2bb2762e10ea"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/united/css/bootstrap.min.css",
+              "start_line": 11,
+              "end_line": 11,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_179.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_179.RULE",
+              "matched_text": "Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)"
+            }
+          ],
+          "identifier": "mit-5f9f3372-c045-dddc-a2a0-e926bd711c42"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.05,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/yeti",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/yeti/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/yeti/mkdocs_theme.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/yeti/css",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/yeti/css/base.css",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/yeti/css/bootstrap.min.css",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/yeti/css/bootstrap.min.css",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_172.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_172.RULE",
+              "matched_text": "Licensed under MIT"
+            }
+          ],
+          "identifier": "mit-450cebd7-c4c9-f708-c96d-2bb2762e10ea"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch/yeti/css/bootstrap.min.css",
+              "start_line": 11,
+              "end_line": 11,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_179.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_179.RULE",
+              "matched_text": "Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)"
+            }
+          ],
+          "identifier": "mit-5f9f3372-c045-dddc-a2a0-e926bd711c42"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.05,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch.egg-info",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch.egg-info/dependency_links.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch.egg-info/entry_points.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch.egg-info/not-zip-safe",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch.egg-info/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": "bsd-new",
+      "detected_license_expression_spdx": "BSD-3-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "mkdocs-bootswatch-1.1/mkdocs_bootswatch.egg-info/PKG-INFO",
+              "start_line": 8,
+              "end_line": 8,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "bsd-new_89.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_89.RULE",
+              "matched_text": "License: BSD"
+            }
+          ],
+          "identifier": "bsd_new-261898a0-0118-87c4-7092-14e4ff134882"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 5.13,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch.egg-info/requires.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch.egg-info/SOURCES.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mkdocs-bootswatch-1.1/mkdocs_bootswatch.egg-info/top_level.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    }
+  ]
+}

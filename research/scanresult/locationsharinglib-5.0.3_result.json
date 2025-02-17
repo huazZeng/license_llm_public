@@ -1,0 +1,1144 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "32.3.0",
+      "options": {
+        "input": [
+          "pypi_source\\locationsharinglib-5.0.3"
+        ],
+        "--json-pp": "scanresult/locationsharinglib-5.0.3_result.json",
+        "--license": true,
+        "--license-text": true
+      },
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2025-02-07T103921.970544",
+      "end_timestamp": "2025-02-07T103937.887987",
+      "output_format_version": "4.0.0",
+      "duration": 15.91744351387024,
+      "message": null,
+      "errors": [],
+      "warnings": [],
+      "extra_data": {
+        "system_environment": {
+          "operating_system": "win",
+          "cpu_architecture": "64",
+          "platform": "Windows-10-10.0.22631-SP0",
+          "platform_version": "10.0.22631",
+          "python_version": "3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)]"
+        },
+        "spdx_license_list_version": "3.25",
+        "files_count": 46
+      }
+    }
+  ],
+  "license_detections": [
+    {
+      "identifier": "mit-cacd5c0c-204a-85c2-affc-e4c125b2492a",
+      "license_expression": "mit",
+      "license_expression_spdx": "MIT",
+      "detection_count": 7,
+      "reference_matches": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "from_file": "locationsharinglib-5.0.3/LICENSE",
+          "start_line": 4,
+          "end_line": 19,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 161,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "mit.LICENSE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "matched_text": "Permission is hereby granted, free of charge, to any person obtaining a copy of\n this software and associated documentation files (the \"Software\"), to deal in\n the Software without restriction, including without limitation the rights to\n use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\n of the Software, and to permit persons to whom the Software is furnished to do\n so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\n copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\nCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }
+      ]
+    },
+    {
+      "identifier": "mit-3fce6ea2-8abd-6c6b-3ede-a37af7c6efee",
+      "license_expression": "mit",
+      "license_expression_spdx": "MIT",
+      "detection_count": 6,
+      "reference_matches": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "from_file": "locationsharinglib-5.0.3/setup.py",
+          "start_line": 41,
+          "end_line": 41,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 2,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "mit_30.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_30.RULE",
+          "matched_text": "    license='MIT',"
+        }
+      ]
+    },
+    {
+      "identifier": "mit-b4c29326-7500-6b76-7465-407742a106d8",
+      "license_expression": "mit",
+      "license_expression_spdx": "MIT",
+      "detection_count": 2,
+      "reference_matches": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "from_file": "locationsharinglib-5.0.3/PKG-INFO",
+          "start_line": 8,
+          "end_line": 8,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 2,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "mit_30.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_30.RULE",
+          "matched_text": "License: MIT"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "from_file": "locationsharinglib-5.0.3/PKG-INFO",
+          "start_line": 12,
+          "end_line": 12,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 5,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "pypi_mit_license.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_mit_license.RULE",
+          "matched_text": "Classifier: License :: OSI Approved :: MIT License"
+        },
+        {
+          "license_expression": "unknown-license-reference",
+          "license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+          "from_file": "locationsharinglib-5.0.3/PKG-INFO",
+          "start_line": 15,
+          "end_line": 15,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 3,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "unknown-license-reference_see_license_at_manifest_1.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/unknown-license-reference_see_license_at_manifest_1.RULE",
+          "matched_text": "License-File: LICENSE"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "from_file": "locationsharinglib-5.0.3/LICENSE",
+          "start_line": 4,
+          "end_line": 19,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 161,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "mit.LICENSE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+          "matched_text": "Permission is hereby granted, free of charge, to any person obtaining a copy of\n this software and associated documentation files (the \"Software\"), to deal in\n the Software without restriction, including without limitation the rights to\n use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\n of the Software, and to permit persons to whom the Software is furnished to do\n so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\n copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\nCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }
+      ]
+    },
+    {
+      "identifier": "mit-24a5293c-14d7-5403-efac-1a8b7532c0e8",
+      "license_expression": "mit",
+      "license_expression_spdx": "MIT",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "from_file": "locationsharinglib-5.0.3/setup.py",
+          "start_line": 47,
+          "end_line": 47,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 5,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "pypi_mit_license.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_mit_license.RULE",
+          "matched_text": "        'License :: OSI Approved :: MIT License',"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "locationsharinglib-5.0.3",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/.VERSION",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/AUTHORS.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/CONTRIBUTING.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/dev-requirements.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/HISTORY.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/LICENSE",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "locationsharinglib-5.0.3/LICENSE",
+              "start_line": 4,
+              "end_line": 19,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 161,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+              "matched_text": "Permission is hereby granted, free of charge, to any person obtaining a copy of\n this software and associated documentation files (the \"Software\"), to deal in\n the Software without restriction, including without limitation the rights to\n use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\n of the Software, and to permit persons to whom the Software is furnished to do\n so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\n copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\nCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+            }
+          ],
+          "identifier": "mit-cacd5c0c-204a-85c2-affc-e4c125b2492a"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 97.58,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/MANIFEST.in",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/Pipfile",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/Pipfile.lock",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "locationsharinglib-5.0.3/PKG-INFO",
+              "start_line": 8,
+              "end_line": 8,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_30.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_30.RULE",
+              "matched_text": "License: MIT"
+            },
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "locationsharinglib-5.0.3/PKG-INFO",
+              "start_line": 12,
+              "end_line": 12,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "pypi_mit_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_mit_license.RULE",
+              "matched_text": "Classifier: License :: OSI Approved :: MIT License"
+            },
+            {
+              "license_expression": "unknown-license-reference",
+              "license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+              "from_file": "locationsharinglib-5.0.3/PKG-INFO",
+              "start_line": 15,
+              "end_line": 15,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "unknown-license-reference_see_license_at_manifest_1.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/unknown-license-reference_see_license_at_manifest_1.RULE",
+              "matched_text": "License-File: LICENSE"
+            },
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "locationsharinglib-5.0.3/LICENSE",
+              "start_line": 4,
+              "end_line": 19,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 161,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+              "matched_text": "Permission is hereby granted, free of charge, to any person obtaining a copy of\n this software and associated documentation files (the \"Software\"), to deal in\n the Software without restriction, including without limitation the rights to\n use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\n of the Software, and to permit persons to whom the Software is furnished to do\n so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\n copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\nCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+            }
+          ],
+          "identifier": "mit-b4c29326-7500-6b76-7465-407742a106d8",
+          "detection_log": [
+            "unknown-reference-to-local-file"
+          ]
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 1.13,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/README.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/requirements.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/setup.cfg",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/setup.py",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "locationsharinglib-5.0.3/setup.py",
+              "start_line": 41,
+              "end_line": 41,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_30.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_30.RULE",
+              "matched_text": "    license='MIT',"
+            }
+          ],
+          "identifier": "mit-3fce6ea2-8abd-6c6b-3ede-a37af7c6efee"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "locationsharinglib-5.0.3/setup.py",
+              "start_line": 47,
+              "end_line": 47,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "pypi_mit_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_mit_license.RULE",
+              "matched_text": "        'License :: OSI Approved :: MIT License',"
+            }
+          ],
+          "identifier": "mit-24a5293c-14d7-5403-efac-1a8b7532c0e8"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 3.18,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/USAGE.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/docs",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/docs/authors.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/docs/conf.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/docs/contributing.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/docs/history.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/docs/index.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/docs/installation.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/docs/Makefile",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/docs/readme.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/docs/usage.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib/.VERSION",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib/__init__.py",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "locationsharinglib-5.0.3/locationsharinglib/__init__.py",
+              "start_line": 7,
+              "end_line": 23,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 161,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+              "matched_text": "# Permission is hereby granted, free of charge, to any person obtaining a copy\n#  of this software and associated documentation files (the \"Software\"), to\n#  deal in the Software without restriction, including without limitation the\n#  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or\n#  sell copies of the Software, and to permit persons to whom the Software is\n#  furnished to do so, subject to the following conditions:\n#\n# The above copyright notice and this permission notice shall be included in\n#  all copies or substantial portions of the Software.\n#\n# THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n#  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n#  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n#  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n#  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\n#  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER\n#  DEALINGS IN THE SOFTWARE."
+            }
+          ],
+          "identifier": "mit-cacd5c0c-204a-85c2-affc-e4c125b2492a"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "locationsharinglib-5.0.3/locationsharinglib/__init__.py",
+              "start_line": 42,
+              "end_line": 42,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_30.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_30.RULE",
+              "matched_text": "__license__ = '''MIT'''"
+            }
+          ],
+          "identifier": "mit-3fce6ea2-8abd-6c6b-3ede-a37af7c6efee"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 61.05,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib/_version.py",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "locationsharinglib-5.0.3/locationsharinglib/_version.py",
+              "start_line": 7,
+              "end_line": 23,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 161,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+              "matched_text": "# Permission is hereby granted, free of charge, to any person obtaining a copy\n#  of this software and associated documentation files (the \"Software\"), to\n#  deal in the Software without restriction, including without limitation the\n#  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or\n#  sell copies of the Software, and to permit persons to whom the Software is\n#  furnished to do so, subject to the following conditions:\n#\n# The above copyright notice and this permission notice shall be included in\n#  all copies or substantial portions of the Software.\n#\n# THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n#  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n#  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n#  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n#  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\n#  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER\n#  DEALINGS IN THE SOFTWARE."
+            }
+          ],
+          "identifier": "mit-cacd5c0c-204a-85c2-affc-e4c125b2492a"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "locationsharinglib-5.0.3/locationsharinglib/_version.py",
+              "start_line": 40,
+              "end_line": 40,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_30.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_30.RULE",
+              "matched_text": "__license__ = '''MIT'''"
+            }
+          ],
+          "identifier": "mit-3fce6ea2-8abd-6c6b-3ede-a37af7c6efee"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 56.99,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib/AUTHORS.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib/CONTRIBUTING.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib/dev-requirements.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib/HISTORY.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib/LICENSE",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "locationsharinglib-5.0.3/locationsharinglib/LICENSE",
+              "start_line": 4,
+              "end_line": 19,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 161,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+              "matched_text": "Permission is hereby granted, free of charge, to any person obtaining a copy of\n this software and associated documentation files (the \"Software\"), to deal in\n the Software without restriction, including without limitation the rights to\n use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\n of the Software, and to permit persons to whom the Software is furnished to do\n so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\n copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\nCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+            }
+          ],
+          "identifier": "mit-cacd5c0c-204a-85c2-affc-e4c125b2492a"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 97.58,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib/locationsharinglib.py",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "locationsharinglib-5.0.3/locationsharinglib/locationsharinglib.py",
+              "start_line": 7,
+              "end_line": 23,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 161,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+              "matched_text": "# Permission is hereby granted, free of charge, to any person obtaining a copy\n#  of this software and associated documentation files (the \"Software\"), to\n#  deal in the Software without restriction, including without limitation the\n#  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or\n#  sell copies of the Software, and to permit persons to whom the Software is\n#  furnished to do so, subject to the following conditions:\n#\n# The above copyright notice and this permission notice shall be included in\n#  all copies or substantial portions of the Software.\n#\n# THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n#  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n#  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n#  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n#  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\n#  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER\n#  DEALINGS IN THE SOFTWARE."
+            }
+          ],
+          "identifier": "mit-cacd5c0c-204a-85c2-affc-e4c125b2492a"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "locationsharinglib-5.0.3/locationsharinglib/locationsharinglib.py",
+              "start_line": 54,
+              "end_line": 54,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_30.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_30.RULE",
+              "matched_text": "__license__ = '''MIT'''"
+            }
+          ],
+          "identifier": "mit-3fce6ea2-8abd-6c6b-3ede-a37af7c6efee"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 9.36,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib/locationsharinglibexceptions.py",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "locationsharinglib-5.0.3/locationsharinglib/locationsharinglibexceptions.py",
+              "start_line": 7,
+              "end_line": 23,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 161,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+              "matched_text": "# Permission is hereby granted, free of charge, to any person obtaining a copy\n#  of this software and associated documentation files (the \"Software\"), to\n#  deal in the Software without restriction, including without limitation the\n#  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or\n#  sell copies of the Software, and to permit persons to whom the Software is\n#  furnished to do so, subject to the following conditions:\n#\n# The above copyright notice and this permission notice shall be included in\n#  all copies or substantial portions of the Software.\n#\n# THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n#  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n#  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n#  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n#  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\n#  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER\n#  DEALINGS IN THE SOFTWARE."
+            }
+          ],
+          "identifier": "mit-cacd5c0c-204a-85c2-affc-e4c125b2492a"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "locationsharinglib-5.0.3/locationsharinglib/locationsharinglibexceptions.py",
+              "start_line": 39,
+              "end_line": 39,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_30.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_30.RULE",
+              "matched_text": "__license__ = '''MIT'''"
+            }
+          ],
+          "identifier": "mit-3fce6ea2-8abd-6c6b-3ede-a37af7c6efee"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 62.21,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib/Pipfile",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib/Pipfile.lock",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib/README.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib/requirements.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib/USAGE.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib.egg-info",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib.egg-info/dependency_links.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib.egg-info/not-zip-safe",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib.egg-info/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "locationsharinglib-5.0.3/locationsharinglib.egg-info/PKG-INFO",
+              "start_line": 8,
+              "end_line": 8,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_30.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_30.RULE",
+              "matched_text": "License: MIT"
+            },
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "locationsharinglib-5.0.3/locationsharinglib.egg-info/PKG-INFO",
+              "start_line": 12,
+              "end_line": 12,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "pypi_mit_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_mit_license.RULE",
+              "matched_text": "Classifier: License :: OSI Approved :: MIT License"
+            },
+            {
+              "license_expression": "unknown-license-reference",
+              "license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+              "from_file": "locationsharinglib-5.0.3/locationsharinglib.egg-info/PKG-INFO",
+              "start_line": 15,
+              "end_line": 15,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "unknown-license-reference_see_license_at_manifest_1.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/unknown-license-reference_see_license_at_manifest_1.RULE",
+              "matched_text": "License-File: LICENSE"
+            },
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "locationsharinglib-5.0.3/LICENSE",
+              "start_line": 4,
+              "end_line": 19,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 161,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+              "matched_text": "Permission is hereby granted, free of charge, to any person obtaining a copy of\n this software and associated documentation files (the \"Software\"), to deal in\n the Software without restriction, including without limitation the rights to\n use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\n of the Software, and to permit persons to whom the Software is furnished to do\n so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\n copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\nCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+            }
+          ],
+          "identifier": "mit-b4c29326-7500-6b76-7465-407742a106d8",
+          "detection_log": [
+            "unknown-reference-to-local-file"
+          ]
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 1.13,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib.egg-info/requires.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib.egg-info/SOURCES.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/locationsharinglib.egg-info/top_level.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/tests",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "locationsharinglib-5.0.3/tests/test_locationsharinglib.py",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "locationsharinglib-5.0.3/tests/test_locationsharinglib.py",
+              "start_line": 7,
+              "end_line": 23,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 161,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/mit.LICENSE",
+              "matched_text": "# Permission is hereby granted, free of charge, to any person obtaining a copy\n#  of this software and associated documentation files (the \"Software\"), to\n#  deal in the Software without restriction, including without limitation the\n#  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or\n#  sell copies of the Software, and to permit persons to whom the Software is\n#  furnished to do so, subject to the following conditions:\n#\n# The above copyright notice and this permission notice shall be included in\n#  all copies or substantial portions of the Software.\n#\n# THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n#  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n#  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n#  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n#  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\n#  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER\n#  DEALINGS IN THE SOFTWARE."
+            }
+          ],
+          "identifier": "mit-cacd5c0c-204a-85c2-affc-e4c125b2492a"
+        },
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "locationsharinglib-5.0.3/tests/test_locationsharinglib.py",
+              "start_line": 43,
+              "end_line": 43,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "mit_30.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_30.RULE",
+              "matched_text": "__license__ = '''MIT'''"
+            }
+          ],
+          "identifier": "mit-3fce6ea2-8abd-6c6b-3ede-a37af7c6efee"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 55.82,
+      "scan_errors": []
+    }
+  ]
+}

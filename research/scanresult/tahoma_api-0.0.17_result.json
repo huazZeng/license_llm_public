@@ -1,0 +1,271 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "32.3.0",
+      "options": {
+        "input": [
+          "pypi_source\\tahoma_api-0.0.17"
+        ],
+        "--json-pp": "scanresult/tahoma_api-0.0.17_result.json",
+        "--license": true,
+        "--license-text": true
+      },
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2025-02-07T105641.534215",
+      "end_timestamp": "2025-02-07T105650.391172",
+      "output_format_version": "4.0.0",
+      "duration": 8.856956481933594,
+      "message": null,
+      "errors": [],
+      "warnings": [],
+      "extra_data": {
+        "system_environment": {
+          "operating_system": "win",
+          "cpu_architecture": "64",
+          "platform": "Windows-10-10.0.22631-SP0",
+          "platform_version": "10.0.22631",
+          "python_version": "3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)]"
+        },
+        "spdx_license_list_version": "3.25",
+        "files_count": 11
+      }
+    }
+  ],
+  "license_detections": [
+    {
+      "identifier": "apache_2_0-b61e521f-8056-676d-d623-119feca87b8c",
+      "license_expression": "apache-2.0",
+      "license_expression_spdx": "Apache-2.0",
+      "detection_count": 3,
+      "reference_matches": [
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "from_file": "tahoma_api-0.0.17/PKG-INFO",
+          "start_line": 8,
+          "end_line": 8,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 3,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "apache-2.0_292.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_292.RULE",
+          "matched_text": "License: Apache Software License"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "tahoma_api-0.0.17",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "tahoma_api-0.0.17/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": "apache-2.0",
+      "detected_license_expression_spdx": "Apache-2.0",
+      "license_detections": [
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "matches": [
+            {
+              "license_expression": "apache-2.0",
+              "license_expression_spdx": "Apache-2.0",
+              "from_file": "tahoma_api-0.0.17/PKG-INFO",
+              "start_line": 8,
+              "end_line": 8,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "apache-2.0_292.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_292.RULE",
+              "matched_text": "License: Apache Software License"
+            }
+          ],
+          "identifier": "apache_2_0-b61e521f-8056-676d-d623-119feca87b8c"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 4.76,
+      "scan_errors": []
+    },
+    {
+      "path": "tahoma_api-0.0.17/README.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "tahoma_api-0.0.17/setup.cfg",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "tahoma_api-0.0.17/setup.py",
+      "type": "file",
+      "detected_license_expression": "apache-2.0",
+      "detected_license_expression_spdx": "Apache-2.0",
+      "license_detections": [
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "matches": [
+            {
+              "license_expression": "apache-2.0",
+              "license_expression_spdx": "Apache-2.0",
+              "from_file": "tahoma_api-0.0.17/setup.py",
+              "start_line": 29,
+              "end_line": 29,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "apache-2.0_292.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_292.RULE",
+              "matched_text": "    license='Apache Software License',"
+            }
+          ],
+          "identifier": "apache_2_0-b61e521f-8056-676d-d623-119feca87b8c"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 1.91,
+      "scan_errors": []
+    },
+    {
+      "path": "tahoma_api-0.0.17/tahoma_api",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "tahoma_api-0.0.17/tahoma_api/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "tahoma_api-0.0.17/tahoma_api/tahoma_api.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "tahoma_api-0.0.17/tahoma_api.egg-info",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "tahoma_api-0.0.17/tahoma_api.egg-info/dependency_links.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "tahoma_api-0.0.17/tahoma_api.egg-info/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": "apache-2.0",
+      "detected_license_expression_spdx": "Apache-2.0",
+      "license_detections": [
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "matches": [
+            {
+              "license_expression": "apache-2.0",
+              "license_expression_spdx": "Apache-2.0",
+              "from_file": "tahoma_api-0.0.17/tahoma_api.egg-info/PKG-INFO",
+              "start_line": 8,
+              "end_line": 8,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "apache-2.0_292.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_292.RULE",
+              "matched_text": "License: Apache Software License"
+            }
+          ],
+          "identifier": "apache_2_0-b61e521f-8056-676d-d623-119feca87b8c"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 4.76,
+      "scan_errors": []
+    },
+    {
+      "path": "tahoma_api-0.0.17/tahoma_api.egg-info/requires.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "tahoma_api-0.0.17/tahoma_api.egg-info/SOURCES.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "tahoma_api-0.0.17/tahoma_api.egg-info/top_level.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    }
+  ]
+}

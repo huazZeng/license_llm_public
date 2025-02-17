@@ -1,0 +1,1409 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "32.3.0",
+      "options": {
+        "input": [
+          "pypi_source\\text-unidecode-1.3"
+        ],
+        "--json-pp": "scanresult/text-unidecode-1.3_result.json",
+        "--license": true,
+        "--license-text": true
+      },
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2025-02-07T105750.439646",
+      "end_timestamp": "2025-02-07T105804.010679",
+      "output_format_version": "4.0.0",
+      "duration": 13.571033477783203,
+      "message": null,
+      "errors": [],
+      "warnings": [],
+      "extra_data": {
+        "system_environment": {
+          "operating_system": "win",
+          "cpu_architecture": "64",
+          "platform": "Windows-10-10.0.22631-SP0",
+          "platform_version": "10.0.22631",
+          "python_version": "3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)]"
+        },
+        "spdx_license_list_version": "3.25",
+        "files_count": 14
+      }
+    }
+  ],
+  "license_detections": [
+    {
+      "identifier": "artistic_2_0_and_free_unknown-e8e410a2-832e-607a-73be-4a91cd28b82f",
+      "license_expression": "artistic-2.0 AND free-unknown",
+      "license_expression_spdx": "Artistic-2.0 AND LicenseRef-scancode-free-unknown",
+      "detection_count": 3,
+      "reference_matches": [
+        {
+          "license_expression": "artistic-2.0",
+          "license_expression_spdx": "Artistic-2.0",
+          "from_file": "text-unidecode-1.3/PKG-INFO",
+          "start_line": 36,
+          "end_line": 36,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 2,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "artistic-2.0_18.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/artistic-2.0_18.RULE",
+          "matched_text": "        .. _Artistic License: https://opensource.org/licenses/Artistic-Perl-1.0"
+        },
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "from_file": "text-unidecode-1.3/PKG-INFO",
+          "start_line": 36,
+          "end_line": 36,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 4,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "free-unknown_95.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown_95.RULE",
+          "matched_text": "        .. _Artistic License: https://opensource.org/licenses/Artistic-Perl-1.0"
+        }
+      ]
+    },
+    {
+      "identifier": "artistic_2_0_and_gpl_1_0_plus_and_gpl_2_0_plus-a54834a1-9adc-aa17-c698-ff692c8e2876",
+      "license_expression": "artistic-2.0 AND gpl-1.0-plus AND gpl-2.0-plus",
+      "license_expression_spdx": "Artistic-2.0 AND GPL-1.0-or-later AND GPL-2.0-or-later",
+      "detection_count": 3,
+      "reference_matches": [
+        {
+          "license_expression": "artistic-2.0",
+          "license_expression_spdx": "Artistic-2.0",
+          "from_file": "text-unidecode-1.3/PKG-INFO",
+          "start_line": 57,
+          "end_line": 57,
+          "matcher": "2-aho",
+          "score": 90.0,
+          "matched_length": 5,
+          "match_coverage": 100.0,
+          "rule_relevance": 90,
+          "rule_identifier": "pypi_artistic_license.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_artistic_license.RULE",
+          "matched_text": "Classifier: License :: OSI Approved :: Artistic License"
+        },
+        {
+          "license_expression": "gpl-1.0-plus",
+          "license_expression_spdx": "GPL-1.0-or-later",
+          "from_file": "text-unidecode-1.3/PKG-INFO",
+          "start_line": 58,
+          "end_line": 58,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 8,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "pypi_gnu_general_public_license.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_gnu_general_public_license.RULE",
+          "matched_text": "Classifier: License :: OSI Approved :: GNU General Public License (GPL)"
+        },
+        {
+          "license_expression": "gpl-2.0-plus",
+          "license_expression_spdx": "GPL-2.0-or-later",
+          "from_file": "text-unidecode-1.3/PKG-INFO",
+          "start_line": 59,
+          "end_line": 59,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 11,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "pypi_gnu_general_public_license_v2_or_later.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_gnu_general_public_license_v2_or_later.RULE",
+          "matched_text": "Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)"
+        }
+      ]
+    },
+    {
+      "identifier": "artistic_2_0_and_gpl_1_0_plus_and_gpl_2_0_plus-0514ccef-ebe5-38f8-f53b-b9a73f4663f6",
+      "license_expression": "artistic-2.0 AND gpl-1.0-plus AND gpl-2.0-plus",
+      "license_expression_spdx": "Artistic-2.0 AND GPL-1.0-or-later AND GPL-2.0-or-later",
+      "detection_count": 2,
+      "reference_matches": [
+        {
+          "license_expression": "artistic-2.0",
+          "license_expression_spdx": "Artistic-2.0",
+          "from_file": "text-unidecode-1.3/PKG-INFO",
+          "start_line": 26,
+          "end_line": 26,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 2,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "artistic-2.0_18.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/artistic-2.0_18.RULE",
+          "matched_text": "        * `Artistic License`_, or"
+        },
+        {
+          "license_expression": "gpl-1.0-plus",
+          "license_expression_spdx": "GPL-1.0-or-later",
+          "from_file": "text-unidecode-1.3/PKG-INFO",
+          "start_line": 27,
+          "end_line": 27,
+          "matcher": "2-aho",
+          "score": 50.0,
+          "matched_length": 1,
+          "match_coverage": 100.0,
+          "rule_relevance": 50,
+          "rule_identifier": "gpl_bare_word_only.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl_bare_word_only.RULE",
+          "matched_text": "        * GPL or GPLv2+"
+        },
+        {
+          "license_expression": "gpl-2.0-plus",
+          "license_expression_spdx": "GPL-2.0-or-later",
+          "from_file": "text-unidecode-1.3/PKG-INFO",
+          "start_line": 27,
+          "end_line": 27,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 1,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "gpl-2.0-plus_bare_single_word.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl-2.0-plus_bare_single_word.RULE",
+          "matched_text": "        * GPL or GPLv2+"
+        },
+        {
+          "license_expression": "gpl-1.0-plus",
+          "license_expression_spdx": "GPL-1.0-or-later",
+          "from_file": "text-unidecode-1.3/PKG-INFO",
+          "start_line": 29,
+          "end_line": 29,
+          "matcher": "2-aho",
+          "score": 50.0,
+          "matched_length": 1,
+          "match_coverage": 100.0,
+          "rule_relevance": 50,
+          "rule_identifier": "gpl_bare_word_only.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl_bare_word_only.RULE",
+          "matched_text": "        If you're OK with GPL-only, use unidecode_ (it has better memory usage and"
+        }
+      ]
+    },
+    {
+      "identifier": "artistic_perl_1_0_and_artistic_2_0-b2078450-d4e2-3cf4-478c-02a86af69303",
+      "license_expression": "artistic-perl-1.0 AND artistic-2.0",
+      "license_expression_spdx": "Artistic-1.0-Perl AND Artistic-2.0",
+      "detection_count": 3,
+      "reference_matches": [
+        {
+          "license_expression": "artistic-perl-1.0",
+          "license_expression_spdx": "Artistic-1.0-Perl",
+          "from_file": "text-unidecode-1.3/PKG-INFO",
+          "start_line": 8,
+          "end_line": 8,
+          "matcher": "2-aho",
+          "score": 99.0,
+          "matched_length": 2,
+          "match_coverage": 100.0,
+          "rule_relevance": 99,
+          "rule_identifier": "artistic-perl-1.0_26.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/artistic-perl-1.0_26.RULE",
+          "matched_text": "License: Artistic License"
+        },
+        {
+          "license_expression": "artistic-2.0",
+          "license_expression_spdx": "Artistic-2.0",
+          "from_file": "text-unidecode-1.3/PKG-INFO",
+          "start_line": 8,
+          "end_line": 8,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 2,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "artistic-2.0_18.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/artistic-2.0_18.RULE",
+          "matched_text": "License: Artistic License"
+        }
+      ]
+    },
+    {
+      "identifier": "gpl_1_0_plus-473308ff-72ce-7e72-b3a9-5b1cc6680abb",
+      "license_expression": "gpl-1.0-plus",
+      "license_expression_spdx": "GPL-1.0-or-later",
+      "detection_count": 2,
+      "reference_matches": [
+        {
+          "license_expression": "gpl-1.0-plus",
+          "license_expression_spdx": "GPL-1.0-or-later",
+          "from_file": "text-unidecode-1.3/PKG-INFO",
+          "start_line": 21,
+          "end_line": 21,
+          "matcher": "2-aho",
+          "score": 50.0,
+          "matched_length": 1,
+          "match_coverage": 100.0,
+          "rule_relevance": 50,
+          "rule_identifier": "gpl_bare_word_only.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl_bare_word_only.RULE",
+          "matched_text": "        and isounidecode_). unidecode_ is GPL; isounidecode_ uses too much memory,"
+        }
+      ]
+    },
+    {
+      "identifier": "gpl_1_0_plus_and__gpl_1_0_plus_or_gpl_2_0_plus_or_artistic_1_0__and_artistic_perl_1_0-c21ea27a-1b8d-3115-6c89-f6e5469afd4f",
+      "license_expression": "gpl-1.0-plus AND (gpl-1.0-plus OR gpl-2.0-plus OR artistic-1.0) AND artistic-perl-1.0",
+      "license_expression_spdx": "GPL-1.0-or-later AND (GPL-1.0-or-later OR GPL-2.0-or-later OR Artistic-1.0) AND Artistic-1.0-Perl",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "gpl-1.0-plus",
+          "license_expression_spdx": "GPL-1.0-or-later",
+          "from_file": "text-unidecode-1.3/LICENSE",
+          "start_line": 1,
+          "end_line": 4,
+          "matcher": "3-seq",
+          "score": 85.0,
+          "matched_length": 17,
+          "match_coverage": 85.0,
+          "rule_relevance": 100,
+          "rule_identifier": "gpl_226.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl_226.RULE",
+          "matched_text": "text-unidecode is a free software; you can redistribute\nit and/or modify it under the terms of either:\n\n* GPL or GPLv2+ (see https://www.gnu.org/licenses/license-list.html#GNUGPL), or"
+        },
+        {
+          "license_expression": "gpl-1.0-plus OR gpl-2.0-plus OR artistic-1.0",
+          "license_expression_spdx": "GPL-1.0-or-later OR GPL-2.0-or-later OR Artistic-1.0",
+          "from_file": "text-unidecode-1.3/LICENSE",
+          "start_line": 4,
+          "end_line": 5,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 18,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "gpl-1.0-plus_or_gpl-2.0-plus_or_artistic-1.0_1.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl-1.0-plus_or_gpl-2.0-plus_or_artistic-1.0_1.RULE",
+          "matched_text": "* GPL or GPLv2+ (see https://www.gnu.org/licenses/license-list.html#GNUGPL), or\n* Artistic License - see below:"
+        },
+        {
+          "license_expression": "artistic-perl-1.0",
+          "license_expression_spdx": "Artistic-1.0-Perl",
+          "from_file": "text-unidecode-1.3/LICENSE",
+          "start_line": 8,
+          "end_line": 134,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 960,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "artistic-perl-1.0.LICENSE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/artistic-perl-1.0.LICENSE",
+          "matched_text": "                         The \"Artistic License\"\n\n                                Preamble\n\nThe intent of this document is to state the conditions under which a\nPackage may be copied, such that the Copyright Holder maintains some\nsemblance of artistic control over the development of the package,\nwhile giving the users of the package the right to use and distribute\nthe Package in a more-or-less customary fashion, plus the right to make\nreasonable modifications.\n\nDefinitions:\n\n        \"Package\" refers to the collection of files distributed by the\n        Copyright Holder, and derivatives of that collection of files\n        created through textual modification.\n\n        \"Standard Version\" refers to such a Package if it has not been\n        modified, or has been modified in accordance with the wishes\n        of the Copyright Holder as specified below.\n\n        \"Copyright Holder\" is whoever is named in the copyright or\n        copyrights for the package.\n\n        \"You\" is you, if you're thinking about copying or distributing\n        this Package.\n\n        \"Reasonable copying fee\" is whatever you can justify on the\n        basis of media cost, duplication charges, time of people involved,\n        and so on.  (You will not be required to justify it to the\n        Copyright Holder, but only to the computing community at large\n        as a market that must bear the fee.)\n\n        \"Freely Available\" means that no fee is charged for the item\n        itself, though there may be fees involved in handling the item.\n        It also means that recipients of the item may redistribute it\n        under the same conditions they received it.\n\n1. You may make and give away verbatim copies of the source form of the\nStandard Version of this Package without restriction, provided that you\nduplicate all of the original copyright notices and associated disclaimers.\n\n2. You may apply bug fixes, portability fixes and other modifications\nderived from the Public Domain or from the Copyright Holder.  A Package\nmodified in such a way shall still be considered the Standard Version.\n\n3. You may otherwise modify your copy of this Package in any way, provided\nthat you insert a prominent notice in each changed file stating how and\nwhen you changed that file, and provided that you do at least ONE of the\nfollowing:\n\n    a) place your modifications in the Public Domain or otherwise make them\n    Freely Available, such as by posting said modifications to Usenet or\n    an equivalent medium, or placing the modifications on a major archive\n    site such as uunet.uu.net, or by allowing the Copyright Holder to include\n    your modifications in the Standard Version of the Package.\n\n    b) use the modified Package only within your corporation or organization.\n\n    c) rename any non-standard executables so the names do not conflict\n    with standard executables, which must also be provided, and provide\n    a separate manual page for each non-standard executable that clearly\n    documents how it differs from the Standard Version.\n\n    d) make other distribution arrangements with the Copyright Holder.\n\n4. You may distribute the programs of this Package in object code or\nexecutable form, provided that you do at least ONE of the following:\n\n    a) distribute a Standard Version of the executables and library files,\n    together with instructions (in the manual page or equivalent) on where\n    to get the Standard Version.\n\n    b) accompany the distribution with the machine-readable source of\n    the Package with your modifications.\n\n    c) give non-standard executables non-standard names, and clearly\n    document the differences in manual pages (or equivalent), together\n    with instructions on where to get the Standard Version.\n\n    d) make other distribution arrangements with the Copyright Holder.\n\n5. You may charge a reasonable copying fee for any distribution of this\nPackage.  You may charge any fee you choose for support of this\nPackage.  You may not charge a fee for this Package itself.  However,\nyou may distribute this Package in aggregate with other (possibly\ncommercial) programs as part of a larger (possibly commercial) software\ndistribution provided that you do not advertise this Package as a\nproduct of your own.  You may embed this Package's interpreter within\nan executable of yours (by linking); this shall be construed as a mere\nform of aggregation, provided that the complete Standard Version of the\ninterpreter is so embedded.\n\n6. The scripts and library files supplied as input to or produced as\noutput from the programs of this Package do not automatically fall\nunder the copyright of this Package, but belong to whoever generated\nthem, and may be sold commercially, and may be aggregated with this\nPackage.  If such scripts or library files are aggregated with this\nPackage via the so-called \"undump\" or \"unexec\" methods of producing a\nbinary executable image, then distribution of such an image shall\nneither be construed as a distribution of this Package nor shall it\nfall under the restrictions of Paragraphs 3 and 4, provided that you do\nnot represent such an executable image as a Standard Version of this\nPackage.\n\n7. C subroutines (or comparably compiled subroutines in other\nlanguages) supplied by you and linked into this Package in order to\nemulate subroutines and variables of the language defined by this\nPackage shall not be considered part of this Package, but are the\nequivalent of input as in Paragraph 6, provided these subroutines do\nnot change the language in any way that would cause it to fail the\nregression tests for the language.\n\n8. Aggregation of this Package with a commercial distribution is always\npermitted provided that the use of this Package is embedded; that is,\nwhen no overt attempt is made to make this Package's interfaces visible\nto the end user of the commercial distribution.  Such use shall not be\nconstrued as a distribution of this Package.\n\n9. The name of the Copyright Holder may not be used to endorse or promote\nproducts derived from this software without specific prior written permission.\n\n10. THIS PACKAGE IS PROVIDED \"AS IS\" AND WITHOUT ANY EXPRESS OR\nIMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED\nWARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.\n\n                                The End"
+        }
+      ]
+    },
+    {
+      "identifier": "gpl_1_0_plus_and__gpl_1_0_plus_or_gpl_2_0_plus_or_artistic_1_0__and_artistic_perl_1_0-dba1b8ac-b9a5-0660-4158-e91e6affa1ca",
+      "license_expression": "gpl-1.0-plus AND (gpl-1.0-plus OR gpl-2.0-plus OR artistic-1.0) AND artistic-perl-1.0",
+      "license_expression_spdx": "GPL-1.0-or-later AND (GPL-1.0-or-later OR GPL-2.0-or-later OR Artistic-1.0) AND Artistic-1.0-Perl",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "unknown-license-reference",
+          "license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+          "from_file": "text-unidecode-1.3/setup.cfg",
+          "start_line": 5,
+          "end_line": 5,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 3,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "unknown-license-reference_see_license_at_manifest_1.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/unknown-license-reference_see_license_at_manifest_1.RULE",
+          "matched_text": "license_file = LICENSE"
+        },
+        {
+          "license_expression": "gpl-1.0-plus",
+          "license_expression_spdx": "GPL-1.0-or-later",
+          "from_file": "text-unidecode-1.3/LICENSE",
+          "start_line": 1,
+          "end_line": 4,
+          "matcher": "3-seq",
+          "score": 85.0,
+          "matched_length": 17,
+          "match_coverage": 85.0,
+          "rule_relevance": 100,
+          "rule_identifier": "gpl_226.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl_226.RULE",
+          "matched_text": "text-unidecode is a free software; you can redistribute\nit and/or modify it under the terms of either:\n\n* GPL or GPLv2+ (see https://www.gnu.org/licenses/license-list.html#GNUGPL), or"
+        },
+        {
+          "license_expression": "gpl-1.0-plus OR gpl-2.0-plus OR artistic-1.0",
+          "license_expression_spdx": "GPL-1.0-or-later OR GPL-2.0-or-later OR Artistic-1.0",
+          "from_file": "text-unidecode-1.3/LICENSE",
+          "start_line": 4,
+          "end_line": 5,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 18,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "gpl-1.0-plus_or_gpl-2.0-plus_or_artistic-1.0_1.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl-1.0-plus_or_gpl-2.0-plus_or_artistic-1.0_1.RULE",
+          "matched_text": "* GPL or GPLv2+ (see https://www.gnu.org/licenses/license-list.html#GNUGPL), or\n* Artistic License - see below:"
+        },
+        {
+          "license_expression": "artistic-perl-1.0",
+          "license_expression_spdx": "Artistic-1.0-Perl",
+          "from_file": "text-unidecode-1.3/LICENSE",
+          "start_line": 8,
+          "end_line": 134,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 960,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "artistic-perl-1.0.LICENSE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/artistic-perl-1.0.LICENSE",
+          "matched_text": "                         The \"Artistic License\"\n\n                                Preamble\n\nThe intent of this document is to state the conditions under which a\nPackage may be copied, such that the Copyright Holder maintains some\nsemblance of artistic control over the development of the package,\nwhile giving the users of the package the right to use and distribute\nthe Package in a more-or-less customary fashion, plus the right to make\nreasonable modifications.\n\nDefinitions:\n\n        \"Package\" refers to the collection of files distributed by the\n        Copyright Holder, and derivatives of that collection of files\n        created through textual modification.\n\n        \"Standard Version\" refers to such a Package if it has not been\n        modified, or has been modified in accordance with the wishes\n        of the Copyright Holder as specified below.\n\n        \"Copyright Holder\" is whoever is named in the copyright or\n        copyrights for the package.\n\n        \"You\" is you, if you're thinking about copying or distributing\n        this Package.\n\n        \"Reasonable copying fee\" is whatever you can justify on the\n        basis of media cost, duplication charges, time of people involved,\n        and so on.  (You will not be required to justify it to the\n        Copyright Holder, but only to the computing community at large\n        as a market that must bear the fee.)\n\n        \"Freely Available\" means that no fee is charged for the item\n        itself, though there may be fees involved in handling the item.\n        It also means that recipients of the item may redistribute it\n        under the same conditions they received it.\n\n1. You may make and give away verbatim copies of the source form of the\nStandard Version of this Package without restriction, provided that you\nduplicate all of the original copyright notices and associated disclaimers.\n\n2. You may apply bug fixes, portability fixes and other modifications\nderived from the Public Domain or from the Copyright Holder.  A Package\nmodified in such a way shall still be considered the Standard Version.\n\n3. You may otherwise modify your copy of this Package in any way, provided\nthat you insert a prominent notice in each changed file stating how and\nwhen you changed that file, and provided that you do at least ONE of the\nfollowing:\n\n    a) place your modifications in the Public Domain or otherwise make them\n    Freely Available, such as by posting said modifications to Usenet or\n    an equivalent medium, or placing the modifications on a major archive\n    site such as uunet.uu.net, or by allowing the Copyright Holder to include\n    your modifications in the Standard Version of the Package.\n\n    b) use the modified Package only within your corporation or organization.\n\n    c) rename any non-standard executables so the names do not conflict\n    with standard executables, which must also be provided, and provide\n    a separate manual page for each non-standard executable that clearly\n    documents how it differs from the Standard Version.\n\n    d) make other distribution arrangements with the Copyright Holder.\n\n4. You may distribute the programs of this Package in object code or\nexecutable form, provided that you do at least ONE of the following:\n\n    a) distribute a Standard Version of the executables and library files,\n    together with instructions (in the manual page or equivalent) on where\n    to get the Standard Version.\n\n    b) accompany the distribution with the machine-readable source of\n    the Package with your modifications.\n\n    c) give non-standard executables non-standard names, and clearly\n    document the differences in manual pages (or equivalent), together\n    with instructions on where to get the Standard Version.\n\n    d) make other distribution arrangements with the Copyright Holder.\n\n5. You may charge a reasonable copying fee for any distribution of this\nPackage.  You may charge any fee you choose for support of this\nPackage.  You may not charge a fee for this Package itself.  However,\nyou may distribute this Package in aggregate with other (possibly\ncommercial) programs as part of a larger (possibly commercial) software\ndistribution provided that you do not advertise this Package as a\nproduct of your own.  You may embed this Package's interpreter within\nan executable of yours (by linking); this shall be construed as a mere\nform of aggregation, provided that the complete Standard Version of the\ninterpreter is so embedded.\n\n6. The scripts and library files supplied as input to or produced as\noutput from the programs of this Package do not automatically fall\nunder the copyright of this Package, but belong to whoever generated\nthem, and may be sold commercially, and may be aggregated with this\nPackage.  If such scripts or library files are aggregated with this\nPackage via the so-called \"undump\" or \"unexec\" methods of producing a\nbinary executable image, then distribution of such an image shall\nneither be construed as a distribution of this Package nor shall it\nfall under the restrictions of Paragraphs 3 and 4, provided that you do\nnot represent such an executable image as a Standard Version of this\nPackage.\n\n7. C subroutines (or comparably compiled subroutines in other\nlanguages) supplied by you and linked into this Package in order to\nemulate subroutines and variables of the language defined by this\nPackage shall not be considered part of this Package, but are the\nequivalent of input as in Paragraph 6, provided these subroutines do\nnot change the language in any way that would cause it to fail the\nregression tests for the language.\n\n8. Aggregation of this Package with a commercial distribution is always\npermitted provided that the use of this Package is embedded; that is,\nwhen no overt attempt is made to make this Package's interfaces visible\nto the end user of the commercial distribution.  Such use shall not be\nconstrued as a distribution of this Package.\n\n9. The name of the Copyright Holder may not be used to endorse or promote\nproducts derived from this software without specific prior written permission.\n\n10. THIS PACKAGE IS PROVIDED \"AS IS\" AND WITHOUT ANY EXPRESS OR\nIMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED\nWARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.\n\n                                The End"
+        }
+      ]
+    },
+    {
+      "identifier": "gpl_1_0_plus_and_frontier_1_0_and_gpl_2_0_plus-096cdec6-9d29-1df2-3eae-12756d5b7a0f",
+      "license_expression": "gpl-1.0-plus AND frontier-1.0 AND gpl-2.0-plus",
+      "license_expression_spdx": "GPL-1.0-or-later AND LicenseRef-scancode-frontier-1.0 AND GPL-2.0-or-later",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "gpl-1.0-plus",
+          "license_expression_spdx": "GPL-1.0-or-later",
+          "from_file": "text-unidecode-1.3/README.rst",
+          "start_line": 13,
+          "end_line": 13,
+          "matcher": "2-aho",
+          "score": 50.0,
+          "matched_length": 1,
+          "match_coverage": 100.0,
+          "rule_relevance": 50,
+          "rule_identifier": "gpl_bare_word_only.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl_bare_word_only.RULE",
+          "matched_text": "and isounidecode_). unidecode_ is GPL; isounidecode_ uses too much memory,"
+        },
+        {
+          "license_expression": "frontier-1.0",
+          "license_expression_spdx": "LicenseRef-scancode-frontier-1.0",
+          "from_file": "text-unidecode-1.3/README.rst",
+          "start_line": 16,
+          "end_line": 18,
+          "matcher": "3-seq",
+          "score": 56.25,
+          "matched_length": 9,
+          "match_coverage": 56.25,
+          "rule_relevance": 100,
+          "rule_identifier": "frontier-1.0_7.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/frontier-1.0_7.RULE",
+          "matched_text": "You can redistribute it and/or modify this port under the terms of either:\n\n* `Artistic License`_, or"
+        },
+        {
+          "license_expression": "gpl-1.0-plus",
+          "license_expression_spdx": "GPL-1.0-or-later",
+          "from_file": "text-unidecode-1.3/README.rst",
+          "start_line": 19,
+          "end_line": 19,
+          "matcher": "2-aho",
+          "score": 50.0,
+          "matched_length": 1,
+          "match_coverage": 100.0,
+          "rule_relevance": 50,
+          "rule_identifier": "gpl_bare_word_only.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl_bare_word_only.RULE",
+          "matched_text": "* GPL or GPLv2+"
+        },
+        {
+          "license_expression": "gpl-2.0-plus",
+          "license_expression_spdx": "GPL-2.0-or-later",
+          "from_file": "text-unidecode-1.3/README.rst",
+          "start_line": 19,
+          "end_line": 19,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 1,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "gpl-2.0-plus_bare_single_word.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl-2.0-plus_bare_single_word.RULE",
+          "matched_text": "* GPL or GPLv2+"
+        },
+        {
+          "license_expression": "gpl-1.0-plus",
+          "license_expression_spdx": "GPL-1.0-or-later",
+          "from_file": "text-unidecode-1.3/README.rst",
+          "start_line": 21,
+          "end_line": 21,
+          "matcher": "2-aho",
+          "score": 50.0,
+          "matched_length": 1,
+          "match_coverage": 100.0,
+          "rule_relevance": 50,
+          "rule_identifier": "gpl_bare_word_only.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl_bare_word_only.RULE",
+          "matched_text": "If you're OK with GPL-only, use unidecode_ (it has better memory usage and"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "text-unidecode-1.3",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "text-unidecode-1.3/_dump.pl",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "text-unidecode-1.3/LICENSE",
+      "type": "file",
+      "detected_license_expression": "gpl-1.0-plus AND (gpl-1.0-plus OR gpl-2.0-plus OR artistic-1.0) AND artistic-perl-1.0",
+      "detected_license_expression_spdx": "GPL-1.0-or-later AND (GPL-1.0-or-later OR GPL-2.0-or-later OR Artistic-1.0) AND Artistic-1.0-Perl",
+      "license_detections": [
+        {
+          "license_expression": "gpl-1.0-plus AND (gpl-1.0-plus OR gpl-2.0-plus OR artistic-1.0) AND artistic-perl-1.0",
+          "license_expression_spdx": "GPL-1.0-or-later AND (GPL-1.0-or-later OR GPL-2.0-or-later OR Artistic-1.0) AND Artistic-1.0-Perl",
+          "matches": [
+            {
+              "license_expression": "gpl-1.0-plus",
+              "license_expression_spdx": "GPL-1.0-or-later",
+              "from_file": "text-unidecode-1.3/LICENSE",
+              "start_line": 1,
+              "end_line": 4,
+              "matcher": "3-seq",
+              "score": 85.0,
+              "matched_length": 17,
+              "match_coverage": 85.0,
+              "rule_relevance": 100,
+              "rule_identifier": "gpl_226.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl_226.RULE",
+              "matched_text": "text-unidecode is a free software; you can redistribute\nit and/or modify it under the terms of either:\n\n* GPL or GPLv2+ (see https://www.gnu.org/licenses/license-list.html#GNUGPL), or"
+            },
+            {
+              "license_expression": "gpl-1.0-plus OR gpl-2.0-plus OR artistic-1.0",
+              "license_expression_spdx": "GPL-1.0-or-later OR GPL-2.0-or-later OR Artistic-1.0",
+              "from_file": "text-unidecode-1.3/LICENSE",
+              "start_line": 4,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 18,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "gpl-1.0-plus_or_gpl-2.0-plus_or_artistic-1.0_1.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl-1.0-plus_or_gpl-2.0-plus_or_artistic-1.0_1.RULE",
+              "matched_text": "* GPL or GPLv2+ (see https://www.gnu.org/licenses/license-list.html#GNUGPL), or\n* Artistic License - see below:"
+            },
+            {
+              "license_expression": "artistic-perl-1.0",
+              "license_expression_spdx": "Artistic-1.0-Perl",
+              "from_file": "text-unidecode-1.3/LICENSE",
+              "start_line": 8,
+              "end_line": 134,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 960,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "artistic-perl-1.0.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/artistic-perl-1.0.LICENSE",
+              "matched_text": "                         The \"Artistic License\"\n\n                                Preamble\n\nThe intent of this document is to state the conditions under which a\nPackage may be copied, such that the Copyright Holder maintains some\nsemblance of artistic control over the development of the package,\nwhile giving the users of the package the right to use and distribute\nthe Package in a more-or-less customary fashion, plus the right to make\nreasonable modifications.\n\nDefinitions:\n\n        \"Package\" refers to the collection of files distributed by the\n        Copyright Holder, and derivatives of that collection of files\n        created through textual modification.\n\n        \"Standard Version\" refers to such a Package if it has not been\n        modified, or has been modified in accordance with the wishes\n        of the Copyright Holder as specified below.\n\n        \"Copyright Holder\" is whoever is named in the copyright or\n        copyrights for the package.\n\n        \"You\" is you, if you're thinking about copying or distributing\n        this Package.\n\n        \"Reasonable copying fee\" is whatever you can justify on the\n        basis of media cost, duplication charges, time of people involved,\n        and so on.  (You will not be required to justify it to the\n        Copyright Holder, but only to the computing community at large\n        as a market that must bear the fee.)\n\n        \"Freely Available\" means that no fee is charged for the item\n        itself, though there may be fees involved in handling the item.\n        It also means that recipients of the item may redistribute it\n        under the same conditions they received it.\n\n1. You may make and give away verbatim copies of the source form of the\nStandard Version of this Package without restriction, provided that you\nduplicate all of the original copyright notices and associated disclaimers.\n\n2. You may apply bug fixes, portability fixes and other modifications\nderived from the Public Domain or from the Copyright Holder.  A Package\nmodified in such a way shall still be considered the Standard Version.\n\n3. You may otherwise modify your copy of this Package in any way, provided\nthat you insert a prominent notice in each changed file stating how and\nwhen you changed that file, and provided that you do at least ONE of the\nfollowing:\n\n    a) place your modifications in the Public Domain or otherwise make them\n    Freely Available, such as by posting said modifications to Usenet or\n    an equivalent medium, or placing the modifications on a major archive\n    site such as uunet.uu.net, or by allowing the Copyright Holder to include\n    your modifications in the Standard Version of the Package.\n\n    b) use the modified Package only within your corporation or organization.\n\n    c) rename any non-standard executables so the names do not conflict\n    with standard executables, which must also be provided, and provide\n    a separate manual page for each non-standard executable that clearly\n    documents how it differs from the Standard Version.\n\n    d) make other distribution arrangements with the Copyright Holder.\n\n4. You may distribute the programs of this Package in object code or\nexecutable form, provided that you do at least ONE of the following:\n\n    a) distribute a Standard Version of the executables and library files,\n    together with instructions (in the manual page or equivalent) on where\n    to get the Standard Version.\n\n    b) accompany the distribution with the machine-readable source of\n    the Package with your modifications.\n\n    c) give non-standard executables non-standard names, and clearly\n    document the differences in manual pages (or equivalent), together\n    with instructions on where to get the Standard Version.\n\n    d) make other distribution arrangements with the Copyright Holder.\n\n5. You may charge a reasonable copying fee for any distribution of this\nPackage.  You may charge any fee you choose for support of this\nPackage.  You may not charge a fee for this Package itself.  However,\nyou may distribute this Package in aggregate with other (possibly\ncommercial) programs as part of a larger (possibly commercial) software\ndistribution provided that you do not advertise this Package as a\nproduct of your own.  You may embed this Package's interpreter within\nan executable of yours (by linking); this shall be construed as a mere\nform of aggregation, provided that the complete Standard Version of the\ninterpreter is so embedded.\n\n6. The scripts and library files supplied as input to or produced as\noutput from the programs of this Package do not automatically fall\nunder the copyright of this Package, but belong to whoever generated\nthem, and may be sold commercially, and may be aggregated with this\nPackage.  If such scripts or library files are aggregated with this\nPackage via the so-called \"undump\" or \"unexec\" methods of producing a\nbinary executable image, then distribution of such an image shall\nneither be construed as a distribution of this Package nor shall it\nfall under the restrictions of Paragraphs 3 and 4, provided that you do\nnot represent such an executable image as a Standard Version of this\nPackage.\n\n7. C subroutines (or comparably compiled subroutines in other\nlanguages) supplied by you and linked into this Package in order to\nemulate subroutines and variables of the language defined by this\nPackage shall not be considered part of this Package, but are the\nequivalent of input as in Paragraph 6, provided these subroutines do\nnot change the language in any way that would cause it to fail the\nregression tests for the language.\n\n8. Aggregation of this Package with a commercial distribution is always\npermitted provided that the use of this Package is embedded; that is,\nwhen no overt attempt is made to make this Package's interfaces visible\nto the end user of the commercial distribution.  Such use shall not be\nconstrued as a distribution of this Package.\n\n9. The name of the Copyright Holder may not be used to endorse or promote\nproducts derived from this software without specific prior written permission.\n\n10. THIS PACKAGE IS PROVIDED \"AS IS\" AND WITHOUT ANY EXPRESS OR\nIMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED\nWARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.\n\n                                The End"
+            }
+          ],
+          "identifier": "gpl_1_0_plus_and__gpl_1_0_plus_or_gpl_2_0_plus_or_artistic_1_0__and_artistic_perl_1_0-c21ea27a-1b8d-3115-6c89-f6e5469afd4f"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 99.7,
+      "scan_errors": []
+    },
+    {
+      "path": "text-unidecode-1.3/MANIFEST.in",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "text-unidecode-1.3/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": "(artistic-perl-1.0 AND artistic-2.0) AND gpl-1.0-plus AND (artistic-2.0 AND gpl-1.0-plus AND gpl-2.0-plus) AND (artistic-2.0 AND free-unknown)",
+      "detected_license_expression_spdx": "(Artistic-1.0-Perl AND Artistic-2.0) AND GPL-1.0-or-later AND (Artistic-2.0 AND GPL-1.0-or-later AND GPL-2.0-or-later) AND (Artistic-2.0 AND LicenseRef-scancode-free-unknown)",
+      "license_detections": [
+        {
+          "license_expression": "artistic-perl-1.0 AND artistic-2.0",
+          "license_expression_spdx": "Artistic-1.0-Perl AND Artistic-2.0",
+          "matches": [
+            {
+              "license_expression": "artistic-perl-1.0",
+              "license_expression_spdx": "Artistic-1.0-Perl",
+              "from_file": "text-unidecode-1.3/PKG-INFO",
+              "start_line": 8,
+              "end_line": 8,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "artistic-perl-1.0_26.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/artistic-perl-1.0_26.RULE",
+              "matched_text": "License: Artistic License"
+            },
+            {
+              "license_expression": "artistic-2.0",
+              "license_expression_spdx": "Artistic-2.0",
+              "from_file": "text-unidecode-1.3/PKG-INFO",
+              "start_line": 8,
+              "end_line": 8,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "artistic-2.0_18.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/artistic-2.0_18.RULE",
+              "matched_text": "License: Artistic License"
+            }
+          ],
+          "identifier": "artistic_perl_1_0_and_artistic_2_0-b2078450-d4e2-3cf4-478c-02a86af69303"
+        },
+        {
+          "license_expression": "gpl-1.0-plus",
+          "license_expression_spdx": "GPL-1.0-or-later",
+          "matches": [
+            {
+              "license_expression": "gpl-1.0-plus",
+              "license_expression_spdx": "GPL-1.0-or-later",
+              "from_file": "text-unidecode-1.3/PKG-INFO",
+              "start_line": 21,
+              "end_line": 21,
+              "matcher": "2-aho",
+              "score": 50.0,
+              "matched_length": 1,
+              "match_coverage": 100.0,
+              "rule_relevance": 50,
+              "rule_identifier": "gpl_bare_word_only.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl_bare_word_only.RULE",
+              "matched_text": "        and isounidecode_). unidecode_ is GPL; isounidecode_ uses too much memory,"
+            }
+          ],
+          "identifier": "gpl_1_0_plus-473308ff-72ce-7e72-b3a9-5b1cc6680abb"
+        },
+        {
+          "license_expression": "artistic-2.0 AND gpl-1.0-plus AND gpl-2.0-plus",
+          "license_expression_spdx": "Artistic-2.0 AND GPL-1.0-or-later AND GPL-2.0-or-later",
+          "matches": [
+            {
+              "license_expression": "artistic-2.0",
+              "license_expression_spdx": "Artistic-2.0",
+              "from_file": "text-unidecode-1.3/PKG-INFO",
+              "start_line": 26,
+              "end_line": 26,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "artistic-2.0_18.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/artistic-2.0_18.RULE",
+              "matched_text": "        * `Artistic License`_, or"
+            },
+            {
+              "license_expression": "gpl-1.0-plus",
+              "license_expression_spdx": "GPL-1.0-or-later",
+              "from_file": "text-unidecode-1.3/PKG-INFO",
+              "start_line": 27,
+              "end_line": 27,
+              "matcher": "2-aho",
+              "score": 50.0,
+              "matched_length": 1,
+              "match_coverage": 100.0,
+              "rule_relevance": 50,
+              "rule_identifier": "gpl_bare_word_only.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl_bare_word_only.RULE",
+              "matched_text": "        * GPL or GPLv2+"
+            },
+            {
+              "license_expression": "gpl-2.0-plus",
+              "license_expression_spdx": "GPL-2.0-or-later",
+              "from_file": "text-unidecode-1.3/PKG-INFO",
+              "start_line": 27,
+              "end_line": 27,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 1,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "gpl-2.0-plus_bare_single_word.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl-2.0-plus_bare_single_word.RULE",
+              "matched_text": "        * GPL or GPLv2+"
+            },
+            {
+              "license_expression": "gpl-1.0-plus",
+              "license_expression_spdx": "GPL-1.0-or-later",
+              "from_file": "text-unidecode-1.3/PKG-INFO",
+              "start_line": 29,
+              "end_line": 29,
+              "matcher": "2-aho",
+              "score": 50.0,
+              "matched_length": 1,
+              "match_coverage": 100.0,
+              "rule_relevance": 50,
+              "rule_identifier": "gpl_bare_word_only.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl_bare_word_only.RULE",
+              "matched_text": "        If you're OK with GPL-only, use unidecode_ (it has better memory usage and"
+            }
+          ],
+          "identifier": "artistic_2_0_and_gpl_1_0_plus_and_gpl_2_0_plus-0514ccef-ebe5-38f8-f53b-b9a73f4663f6"
+        },
+        {
+          "license_expression": "artistic-2.0 AND free-unknown",
+          "license_expression_spdx": "Artistic-2.0 AND LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "artistic-2.0",
+              "license_expression_spdx": "Artistic-2.0",
+              "from_file": "text-unidecode-1.3/PKG-INFO",
+              "start_line": 36,
+              "end_line": 36,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "artistic-2.0_18.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/artistic-2.0_18.RULE",
+              "matched_text": "        .. _Artistic License: https://opensource.org/licenses/Artistic-Perl-1.0"
+            },
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "text-unidecode-1.3/PKG-INFO",
+              "start_line": 36,
+              "end_line": 36,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 4,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown_95.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown_95.RULE",
+              "matched_text": "        .. _Artistic License: https://opensource.org/licenses/Artistic-Perl-1.0"
+            }
+          ],
+          "identifier": "artistic_2_0_and_free_unknown-e8e410a2-832e-607a-73be-4a91cd28b82f"
+        },
+        {
+          "license_expression": "artistic-2.0 AND gpl-1.0-plus AND gpl-2.0-plus",
+          "license_expression_spdx": "Artistic-2.0 AND GPL-1.0-or-later AND GPL-2.0-or-later",
+          "matches": [
+            {
+              "license_expression": "artistic-2.0",
+              "license_expression_spdx": "Artistic-2.0",
+              "from_file": "text-unidecode-1.3/PKG-INFO",
+              "start_line": 57,
+              "end_line": 57,
+              "matcher": "2-aho",
+              "score": 90.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 90,
+              "rule_identifier": "pypi_artistic_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_artistic_license.RULE",
+              "matched_text": "Classifier: License :: OSI Approved :: Artistic License"
+            },
+            {
+              "license_expression": "gpl-1.0-plus",
+              "license_expression_spdx": "GPL-1.0-or-later",
+              "from_file": "text-unidecode-1.3/PKG-INFO",
+              "start_line": 58,
+              "end_line": 58,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 8,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "pypi_gnu_general_public_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_gnu_general_public_license.RULE",
+              "matched_text": "Classifier: License :: OSI Approved :: GNU General Public License (GPL)"
+            },
+            {
+              "license_expression": "gpl-2.0-plus",
+              "license_expression_spdx": "GPL-2.0-or-later",
+              "from_file": "text-unidecode-1.3/PKG-INFO",
+              "start_line": 59,
+              "end_line": 59,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "pypi_gnu_general_public_license_v2_or_later.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_gnu_general_public_license_v2_or_later.RULE",
+              "matched_text": "Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)"
+            }
+          ],
+          "identifier": "artistic_2_0_and_gpl_1_0_plus_and_gpl_2_0_plus-a54834a1-9adc-aa17-c698-ff692c8e2876"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 12.42,
+      "scan_errors": []
+    },
+    {
+      "path": "text-unidecode-1.3/README.rst",
+      "type": "file",
+      "detected_license_expression": "(gpl-1.0-plus AND frontier-1.0 AND gpl-2.0-plus) AND (artistic-2.0 AND free-unknown)",
+      "detected_license_expression_spdx": "(GPL-1.0-or-later AND LicenseRef-scancode-frontier-1.0 AND GPL-2.0-or-later) AND (Artistic-2.0 AND LicenseRef-scancode-free-unknown)",
+      "license_detections": [
+        {
+          "license_expression": "gpl-1.0-plus AND frontier-1.0 AND gpl-2.0-plus",
+          "license_expression_spdx": "GPL-1.0-or-later AND LicenseRef-scancode-frontier-1.0 AND GPL-2.0-or-later",
+          "matches": [
+            {
+              "license_expression": "gpl-1.0-plus",
+              "license_expression_spdx": "GPL-1.0-or-later",
+              "from_file": "text-unidecode-1.3/README.rst",
+              "start_line": 13,
+              "end_line": 13,
+              "matcher": "2-aho",
+              "score": 50.0,
+              "matched_length": 1,
+              "match_coverage": 100.0,
+              "rule_relevance": 50,
+              "rule_identifier": "gpl_bare_word_only.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl_bare_word_only.RULE",
+              "matched_text": "and isounidecode_). unidecode_ is GPL; isounidecode_ uses too much memory,"
+            },
+            {
+              "license_expression": "frontier-1.0",
+              "license_expression_spdx": "LicenseRef-scancode-frontier-1.0",
+              "from_file": "text-unidecode-1.3/README.rst",
+              "start_line": 16,
+              "end_line": 18,
+              "matcher": "3-seq",
+              "score": 56.25,
+              "matched_length": 9,
+              "match_coverage": 56.25,
+              "rule_relevance": 100,
+              "rule_identifier": "frontier-1.0_7.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/frontier-1.0_7.RULE",
+              "matched_text": "You can redistribute it and/or modify this port under the terms of either:\n\n* `Artistic License`_, or"
+            },
+            {
+              "license_expression": "gpl-1.0-plus",
+              "license_expression_spdx": "GPL-1.0-or-later",
+              "from_file": "text-unidecode-1.3/README.rst",
+              "start_line": 19,
+              "end_line": 19,
+              "matcher": "2-aho",
+              "score": 50.0,
+              "matched_length": 1,
+              "match_coverage": 100.0,
+              "rule_relevance": 50,
+              "rule_identifier": "gpl_bare_word_only.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl_bare_word_only.RULE",
+              "matched_text": "* GPL or GPLv2+"
+            },
+            {
+              "license_expression": "gpl-2.0-plus",
+              "license_expression_spdx": "GPL-2.0-or-later",
+              "from_file": "text-unidecode-1.3/README.rst",
+              "start_line": 19,
+              "end_line": 19,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 1,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "gpl-2.0-plus_bare_single_word.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl-2.0-plus_bare_single_word.RULE",
+              "matched_text": "* GPL or GPLv2+"
+            },
+            {
+              "license_expression": "gpl-1.0-plus",
+              "license_expression_spdx": "GPL-1.0-or-later",
+              "from_file": "text-unidecode-1.3/README.rst",
+              "start_line": 21,
+              "end_line": 21,
+              "matcher": "2-aho",
+              "score": 50.0,
+              "matched_length": 1,
+              "match_coverage": 100.0,
+              "rule_relevance": 50,
+              "rule_identifier": "gpl_bare_word_only.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl_bare_word_only.RULE",
+              "matched_text": "If you're OK with GPL-only, use unidecode_ (it has better memory usage and"
+            }
+          ],
+          "identifier": "gpl_1_0_plus_and_frontier_1_0_and_gpl_2_0_plus-096cdec6-9d29-1df2-3eae-12756d5b7a0f"
+        },
+        {
+          "license_expression": "artistic-2.0 AND free-unknown",
+          "license_expression_spdx": "Artistic-2.0 AND LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "artistic-2.0",
+              "license_expression_spdx": "Artistic-2.0",
+              "from_file": "text-unidecode-1.3/README.rst",
+              "start_line": 28,
+              "end_line": 28,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "artistic-2.0_18.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/artistic-2.0_18.RULE",
+              "matched_text": ".. _Artistic License: https://opensource.org/licenses/Artistic-Perl-1.0"
+            },
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "text-unidecode-1.3/README.rst",
+              "start_line": 28,
+              "end_line": 28,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 4,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown_95.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown_95.RULE",
+              "matched_text": ".. _Artistic License: https://opensource.org/licenses/Artistic-Perl-1.0"
+            }
+          ],
+          "identifier": "artistic_2_0_and_free_unknown-e8e410a2-832e-607a-73be-4a91cd28b82f"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 11.18,
+      "scan_errors": []
+    },
+    {
+      "path": "text-unidecode-1.3/setup.cfg",
+      "type": "file",
+      "detected_license_expression": "gpl-1.0-plus AND (gpl-1.0-plus OR gpl-2.0-plus OR artistic-1.0) AND artistic-perl-1.0",
+      "detected_license_expression_spdx": "GPL-1.0-or-later AND (GPL-1.0-or-later OR GPL-2.0-or-later OR Artistic-1.0) AND Artistic-1.0-Perl",
+      "license_detections": [
+        {
+          "license_expression": "gpl-1.0-plus AND (gpl-1.0-plus OR gpl-2.0-plus OR artistic-1.0) AND artistic-perl-1.0",
+          "license_expression_spdx": "GPL-1.0-or-later AND (GPL-1.0-or-later OR GPL-2.0-or-later OR Artistic-1.0) AND Artistic-1.0-Perl",
+          "matches": [
+            {
+              "license_expression": "unknown-license-reference",
+              "license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+              "from_file": "text-unidecode-1.3/setup.cfg",
+              "start_line": 5,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "unknown-license-reference_see_license_at_manifest_1.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/unknown-license-reference_see_license_at_manifest_1.RULE",
+              "matched_text": "license_file = LICENSE"
+            },
+            {
+              "license_expression": "gpl-1.0-plus",
+              "license_expression_spdx": "GPL-1.0-or-later",
+              "from_file": "text-unidecode-1.3/LICENSE",
+              "start_line": 1,
+              "end_line": 4,
+              "matcher": "3-seq",
+              "score": 85.0,
+              "matched_length": 17,
+              "match_coverage": 85.0,
+              "rule_relevance": 100,
+              "rule_identifier": "gpl_226.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl_226.RULE",
+              "matched_text": "text-unidecode is a free software; you can redistribute\nit and/or modify it under the terms of either:\n\n* GPL or GPLv2+ (see https://www.gnu.org/licenses/license-list.html#GNUGPL), or"
+            },
+            {
+              "license_expression": "gpl-1.0-plus OR gpl-2.0-plus OR artistic-1.0",
+              "license_expression_spdx": "GPL-1.0-or-later OR GPL-2.0-or-later OR Artistic-1.0",
+              "from_file": "text-unidecode-1.3/LICENSE",
+              "start_line": 4,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 18,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "gpl-1.0-plus_or_gpl-2.0-plus_or_artistic-1.0_1.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl-1.0-plus_or_gpl-2.0-plus_or_artistic-1.0_1.RULE",
+              "matched_text": "* GPL or GPLv2+ (see https://www.gnu.org/licenses/license-list.html#GNUGPL), or\n* Artistic License - see below:"
+            },
+            {
+              "license_expression": "artistic-perl-1.0",
+              "license_expression_spdx": "Artistic-1.0-Perl",
+              "from_file": "text-unidecode-1.3/LICENSE",
+              "start_line": 8,
+              "end_line": 134,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 960,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "artistic-perl-1.0.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/artistic-perl-1.0.LICENSE",
+              "matched_text": "                         The \"Artistic License\"\n\n                                Preamble\n\nThe intent of this document is to state the conditions under which a\nPackage may be copied, such that the Copyright Holder maintains some\nsemblance of artistic control over the development of the package,\nwhile giving the users of the package the right to use and distribute\nthe Package in a more-or-less customary fashion, plus the right to make\nreasonable modifications.\n\nDefinitions:\n\n        \"Package\" refers to the collection of files distributed by the\n        Copyright Holder, and derivatives of that collection of files\n        created through textual modification.\n\n        \"Standard Version\" refers to such a Package if it has not been\n        modified, or has been modified in accordance with the wishes\n        of the Copyright Holder as specified below.\n\n        \"Copyright Holder\" is whoever is named in the copyright or\n        copyrights for the package.\n\n        \"You\" is you, if you're thinking about copying or distributing\n        this Package.\n\n        \"Reasonable copying fee\" is whatever you can justify on the\n        basis of media cost, duplication charges, time of people involved,\n        and so on.  (You will not be required to justify it to the\n        Copyright Holder, but only to the computing community at large\n        as a market that must bear the fee.)\n\n        \"Freely Available\" means that no fee is charged for the item\n        itself, though there may be fees involved in handling the item.\n        It also means that recipients of the item may redistribute it\n        under the same conditions they received it.\n\n1. You may make and give away verbatim copies of the source form of the\nStandard Version of this Package without restriction, provided that you\nduplicate all of the original copyright notices and associated disclaimers.\n\n2. You may apply bug fixes, portability fixes and other modifications\nderived from the Public Domain or from the Copyright Holder.  A Package\nmodified in such a way shall still be considered the Standard Version.\n\n3. You may otherwise modify your copy of this Package in any way, provided\nthat you insert a prominent notice in each changed file stating how and\nwhen you changed that file, and provided that you do at least ONE of the\nfollowing:\n\n    a) place your modifications in the Public Domain or otherwise make them\n    Freely Available, such as by posting said modifications to Usenet or\n    an equivalent medium, or placing the modifications on a major archive\n    site such as uunet.uu.net, or by allowing the Copyright Holder to include\n    your modifications in the Standard Version of the Package.\n\n    b) use the modified Package only within your corporation or organization.\n\n    c) rename any non-standard executables so the names do not conflict\n    with standard executables, which must also be provided, and provide\n    a separate manual page for each non-standard executable that clearly\n    documents how it differs from the Standard Version.\n\n    d) make other distribution arrangements with the Copyright Holder.\n\n4. You may distribute the programs of this Package in object code or\nexecutable form, provided that you do at least ONE of the following:\n\n    a) distribute a Standard Version of the executables and library files,\n    together with instructions (in the manual page or equivalent) on where\n    to get the Standard Version.\n\n    b) accompany the distribution with the machine-readable source of\n    the Package with your modifications.\n\n    c) give non-standard executables non-standard names, and clearly\n    document the differences in manual pages (or equivalent), together\n    with instructions on where to get the Standard Version.\n\n    d) make other distribution arrangements with the Copyright Holder.\n\n5. You may charge a reasonable copying fee for any distribution of this\nPackage.  You may charge any fee you choose for support of this\nPackage.  You may not charge a fee for this Package itself.  However,\nyou may distribute this Package in aggregate with other (possibly\ncommercial) programs as part of a larger (possibly commercial) software\ndistribution provided that you do not advertise this Package as a\nproduct of your own.  You may embed this Package's interpreter within\nan executable of yours (by linking); this shall be construed as a mere\nform of aggregation, provided that the complete Standard Version of the\ninterpreter is so embedded.\n\n6. The scripts and library files supplied as input to or produced as\noutput from the programs of this Package do not automatically fall\nunder the copyright of this Package, but belong to whoever generated\nthem, and may be sold commercially, and may be aggregated with this\nPackage.  If such scripts or library files are aggregated with this\nPackage via the so-called \"undump\" or \"unexec\" methods of producing a\nbinary executable image, then distribution of such an image shall\nneither be construed as a distribution of this Package nor shall it\nfall under the restrictions of Paragraphs 3 and 4, provided that you do\nnot represent such an executable image as a Standard Version of this\nPackage.\n\n7. C subroutines (or comparably compiled subroutines in other\nlanguages) supplied by you and linked into this Package in order to\nemulate subroutines and variables of the language defined by this\nPackage shall not be considered part of this Package, but are the\nequivalent of input as in Paragraph 6, provided these subroutines do\nnot change the language in any way that would cause it to fail the\nregression tests for the language.\n\n8. Aggregation of this Package with a commercial distribution is always\npermitted provided that the use of this Package is embedded; that is,\nwhen no overt attempt is made to make this Package's interfaces visible\nto the end user of the commercial distribution.  Such use shall not be\nconstrued as a distribution of this Package.\n\n9. The name of the Copyright Holder may not be used to endorse or promote\nproducts derived from this software without specific prior written permission.\n\n10. THIS PACKAGE IS PROVIDED \"AS IS\" AND WITHOUT ANY EXPRESS OR\nIMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED\nWARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.\n\n                                The End"
+            }
+          ],
+          "identifier": "gpl_1_0_plus_and__gpl_1_0_plus_or_gpl_2_0_plus_or_artistic_1_0__and_artistic_perl_1_0-dba1b8ac-b9a5-0660-4158-e91e6affa1ca",
+          "detection_log": [
+            "unknown-reference-to-local-file"
+          ]
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 20.0,
+      "scan_errors": []
+    },
+    {
+      "path": "text-unidecode-1.3/setup.py",
+      "type": "file",
+      "detected_license_expression": "(artistic-perl-1.0 AND artistic-2.0) AND (artistic-2.0 AND gpl-1.0-plus AND gpl-2.0-plus)",
+      "detected_license_expression_spdx": "(Artistic-1.0-Perl AND Artistic-2.0) AND (Artistic-2.0 AND GPL-1.0-or-later AND GPL-2.0-or-later)",
+      "license_detections": [
+        {
+          "license_expression": "artistic-perl-1.0 AND artistic-2.0",
+          "license_expression_spdx": "Artistic-1.0-Perl AND Artistic-2.0",
+          "matches": [
+            {
+              "license_expression": "artistic-perl-1.0",
+              "license_expression_spdx": "Artistic-1.0-Perl",
+              "from_file": "text-unidecode-1.3/setup.py",
+              "start_line": 21,
+              "end_line": 21,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "artistic-perl-1.0_26.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/artistic-perl-1.0_26.RULE",
+              "matched_text": "    license='Artistic License',"
+            },
+            {
+              "license_expression": "artistic-2.0",
+              "license_expression_spdx": "Artistic-2.0",
+              "from_file": "text-unidecode-1.3/setup.py",
+              "start_line": 21,
+              "end_line": 21,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "artistic-2.0_18.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/artistic-2.0_18.RULE",
+              "matched_text": "    license='Artistic License',"
+            }
+          ],
+          "identifier": "artistic_perl_1_0_and_artistic_2_0-b2078450-d4e2-3cf4-478c-02a86af69303"
+        },
+        {
+          "license_expression": "artistic-2.0 AND gpl-1.0-plus AND gpl-2.0-plus",
+          "license_expression_spdx": "Artistic-2.0 AND GPL-1.0-or-later AND GPL-2.0-or-later",
+          "matches": [
+            {
+              "license_expression": "artistic-2.0",
+              "license_expression_spdx": "Artistic-2.0",
+              "from_file": "text-unidecode-1.3/setup.py",
+              "start_line": 34,
+              "end_line": 34,
+              "matcher": "2-aho",
+              "score": 90.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 90,
+              "rule_identifier": "pypi_artistic_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_artistic_license.RULE",
+              "matched_text": "        'License :: OSI Approved :: Artistic License',"
+            },
+            {
+              "license_expression": "gpl-1.0-plus",
+              "license_expression_spdx": "GPL-1.0-or-later",
+              "from_file": "text-unidecode-1.3/setup.py",
+              "start_line": 35,
+              "end_line": 35,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 8,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "pypi_gnu_general_public_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_gnu_general_public_license.RULE",
+              "matched_text": "        'License :: OSI Approved :: GNU General Public License (GPL)',"
+            },
+            {
+              "license_expression": "gpl-2.0-plus",
+              "license_expression_spdx": "GPL-2.0-or-later",
+              "from_file": "text-unidecode-1.3/setup.py",
+              "start_line": 36,
+              "end_line": 36,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "pypi_gnu_general_public_license_v2_or_later.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_gnu_general_public_license_v2_or_later.RULE",
+              "matched_text": "        'License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)',"
+            }
+          ],
+          "identifier": "artistic_2_0_and_gpl_1_0_plus_and_gpl_2_0_plus-a54834a1-9adc-aa17-c698-ff692c8e2876"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 15.0,
+      "scan_errors": []
+    },
+    {
+      "path": "text-unidecode-1.3/test_unidecode.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "text-unidecode-1.3/src",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "text-unidecode-1.3/src/text_unidecode",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "text-unidecode-1.3/src/text_unidecode/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "text-unidecode-1.3/src/text_unidecode/data.bin",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "text-unidecode-1.3/src/text_unidecode.egg-info",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "text-unidecode-1.3/src/text_unidecode.egg-info/dependency_links.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "text-unidecode-1.3/src/text_unidecode.egg-info/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": "(artistic-perl-1.0 AND artistic-2.0) AND gpl-1.0-plus AND (artistic-2.0 AND gpl-1.0-plus AND gpl-2.0-plus) AND (artistic-2.0 AND free-unknown)",
+      "detected_license_expression_spdx": "(Artistic-1.0-Perl AND Artistic-2.0) AND GPL-1.0-or-later AND (Artistic-2.0 AND GPL-1.0-or-later AND GPL-2.0-or-later) AND (Artistic-2.0 AND LicenseRef-scancode-free-unknown)",
+      "license_detections": [
+        {
+          "license_expression": "artistic-perl-1.0 AND artistic-2.0",
+          "license_expression_spdx": "Artistic-1.0-Perl AND Artistic-2.0",
+          "matches": [
+            {
+              "license_expression": "artistic-perl-1.0",
+              "license_expression_spdx": "Artistic-1.0-Perl",
+              "from_file": "text-unidecode-1.3/src/text_unidecode.egg-info/PKG-INFO",
+              "start_line": 8,
+              "end_line": 8,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "artistic-perl-1.0_26.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/artistic-perl-1.0_26.RULE",
+              "matched_text": "License: Artistic License"
+            },
+            {
+              "license_expression": "artistic-2.0",
+              "license_expression_spdx": "Artistic-2.0",
+              "from_file": "text-unidecode-1.3/src/text_unidecode.egg-info/PKG-INFO",
+              "start_line": 8,
+              "end_line": 8,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "artistic-2.0_18.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/artistic-2.0_18.RULE",
+              "matched_text": "License: Artistic License"
+            }
+          ],
+          "identifier": "artistic_perl_1_0_and_artistic_2_0-b2078450-d4e2-3cf4-478c-02a86af69303"
+        },
+        {
+          "license_expression": "gpl-1.0-plus",
+          "license_expression_spdx": "GPL-1.0-or-later",
+          "matches": [
+            {
+              "license_expression": "gpl-1.0-plus",
+              "license_expression_spdx": "GPL-1.0-or-later",
+              "from_file": "text-unidecode-1.3/src/text_unidecode.egg-info/PKG-INFO",
+              "start_line": 21,
+              "end_line": 21,
+              "matcher": "2-aho",
+              "score": 50.0,
+              "matched_length": 1,
+              "match_coverage": 100.0,
+              "rule_relevance": 50,
+              "rule_identifier": "gpl_bare_word_only.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl_bare_word_only.RULE",
+              "matched_text": "        and isounidecode_). unidecode_ is GPL; isounidecode_ uses too much memory,"
+            }
+          ],
+          "identifier": "gpl_1_0_plus-473308ff-72ce-7e72-b3a9-5b1cc6680abb"
+        },
+        {
+          "license_expression": "artistic-2.0 AND gpl-1.0-plus AND gpl-2.0-plus",
+          "license_expression_spdx": "Artistic-2.0 AND GPL-1.0-or-later AND GPL-2.0-or-later",
+          "matches": [
+            {
+              "license_expression": "artistic-2.0",
+              "license_expression_spdx": "Artistic-2.0",
+              "from_file": "text-unidecode-1.3/src/text_unidecode.egg-info/PKG-INFO",
+              "start_line": 26,
+              "end_line": 26,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "artistic-2.0_18.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/artistic-2.0_18.RULE",
+              "matched_text": "        * `Artistic License`_, or"
+            },
+            {
+              "license_expression": "gpl-1.0-plus",
+              "license_expression_spdx": "GPL-1.0-or-later",
+              "from_file": "text-unidecode-1.3/src/text_unidecode.egg-info/PKG-INFO",
+              "start_line": 27,
+              "end_line": 27,
+              "matcher": "2-aho",
+              "score": 50.0,
+              "matched_length": 1,
+              "match_coverage": 100.0,
+              "rule_relevance": 50,
+              "rule_identifier": "gpl_bare_word_only.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl_bare_word_only.RULE",
+              "matched_text": "        * GPL or GPLv2+"
+            },
+            {
+              "license_expression": "gpl-2.0-plus",
+              "license_expression_spdx": "GPL-2.0-or-later",
+              "from_file": "text-unidecode-1.3/src/text_unidecode.egg-info/PKG-INFO",
+              "start_line": 27,
+              "end_line": 27,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 1,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "gpl-2.0-plus_bare_single_word.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl-2.0-plus_bare_single_word.RULE",
+              "matched_text": "        * GPL or GPLv2+"
+            },
+            {
+              "license_expression": "gpl-1.0-plus",
+              "license_expression_spdx": "GPL-1.0-or-later",
+              "from_file": "text-unidecode-1.3/src/text_unidecode.egg-info/PKG-INFO",
+              "start_line": 29,
+              "end_line": 29,
+              "matcher": "2-aho",
+              "score": 50.0,
+              "matched_length": 1,
+              "match_coverage": 100.0,
+              "rule_relevance": 50,
+              "rule_identifier": "gpl_bare_word_only.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl_bare_word_only.RULE",
+              "matched_text": "        If you're OK with GPL-only, use unidecode_ (it has better memory usage and"
+            }
+          ],
+          "identifier": "artistic_2_0_and_gpl_1_0_plus_and_gpl_2_0_plus-0514ccef-ebe5-38f8-f53b-b9a73f4663f6"
+        },
+        {
+          "license_expression": "artistic-2.0 AND free-unknown",
+          "license_expression_spdx": "Artistic-2.0 AND LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "artistic-2.0",
+              "license_expression_spdx": "Artistic-2.0",
+              "from_file": "text-unidecode-1.3/src/text_unidecode.egg-info/PKG-INFO",
+              "start_line": 36,
+              "end_line": 36,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "artistic-2.0_18.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/artistic-2.0_18.RULE",
+              "matched_text": "        .. _Artistic License: https://opensource.org/licenses/Artistic-Perl-1.0"
+            },
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "text-unidecode-1.3/src/text_unidecode.egg-info/PKG-INFO",
+              "start_line": 36,
+              "end_line": 36,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 4,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown_95.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown_95.RULE",
+              "matched_text": "        .. _Artistic License: https://opensource.org/licenses/Artistic-Perl-1.0"
+            }
+          ],
+          "identifier": "artistic_2_0_and_free_unknown-e8e410a2-832e-607a-73be-4a91cd28b82f"
+        },
+        {
+          "license_expression": "artistic-2.0 AND gpl-1.0-plus AND gpl-2.0-plus",
+          "license_expression_spdx": "Artistic-2.0 AND GPL-1.0-or-later AND GPL-2.0-or-later",
+          "matches": [
+            {
+              "license_expression": "artistic-2.0",
+              "license_expression_spdx": "Artistic-2.0",
+              "from_file": "text-unidecode-1.3/src/text_unidecode.egg-info/PKG-INFO",
+              "start_line": 57,
+              "end_line": 57,
+              "matcher": "2-aho",
+              "score": 90.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 90,
+              "rule_identifier": "pypi_artistic_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_artistic_license.RULE",
+              "matched_text": "Classifier: License :: OSI Approved :: Artistic License"
+            },
+            {
+              "license_expression": "gpl-1.0-plus",
+              "license_expression_spdx": "GPL-1.0-or-later",
+              "from_file": "text-unidecode-1.3/src/text_unidecode.egg-info/PKG-INFO",
+              "start_line": 58,
+              "end_line": 58,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 8,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "pypi_gnu_general_public_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_gnu_general_public_license.RULE",
+              "matched_text": "Classifier: License :: OSI Approved :: GNU General Public License (GPL)"
+            },
+            {
+              "license_expression": "gpl-2.0-plus",
+              "license_expression_spdx": "GPL-2.0-or-later",
+              "from_file": "text-unidecode-1.3/src/text_unidecode.egg-info/PKG-INFO",
+              "start_line": 59,
+              "end_line": 59,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "pypi_gnu_general_public_license_v2_or_later.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_gnu_general_public_license_v2_or_later.RULE",
+              "matched_text": "Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)"
+            }
+          ],
+          "identifier": "artistic_2_0_and_gpl_1_0_plus_and_gpl_2_0_plus-a54834a1-9adc-aa17-c698-ff692c8e2876"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 12.42,
+      "scan_errors": []
+    },
+    {
+      "path": "text-unidecode-1.3/src/text_unidecode.egg-info/SOURCES.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "text-unidecode-1.3/src/text_unidecode.egg-info/top_level.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    }
+  ]
+}

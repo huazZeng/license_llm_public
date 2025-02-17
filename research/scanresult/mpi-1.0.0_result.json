@@ -1,0 +1,351 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "32.3.0",
+      "options": {
+        "input": [
+          "pypi_source\\mpi-1.0.0"
+        ],
+        "--json-pp": "scanresult/mpi-1.0.0_result.json",
+        "--license": true,
+        "--license-text": true
+      },
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2025-02-07T104232.772252",
+      "end_timestamp": "2025-02-07T104244.416259",
+      "output_format_version": "4.0.0",
+      "duration": 11.644006967544556,
+      "message": null,
+      "errors": [],
+      "warnings": [],
+      "extra_data": {
+        "system_environment": {
+          "operating_system": "win",
+          "cpu_architecture": "64",
+          "platform": "Windows-10-10.0.22631-SP0",
+          "platform_version": "10.0.22631",
+          "python_version": "3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)]"
+        },
+        "spdx_license_list_version": "3.25",
+        "files_count": 19
+      }
+    }
+  ],
+  "license_detections": [
+    {
+      "identifier": "mit-24a5293c-14d7-5403-efac-1a8b7532c0e8",
+      "license_expression": "mit",
+      "license_expression_spdx": "MIT",
+      "detection_count": 3,
+      "reference_matches": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "from_file": "mpi-1.0.0/PKG-INFO",
+          "start_line": 66,
+          "end_line": 66,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 5,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "pypi_mit_license.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_mit_license.RULE",
+          "matched_text": "Classifier: License :: OSI Approved :: MIT License"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "mpi-1.0.0",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mpi-1.0.0/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mpi-1.0.0/PKG-INFO",
+              "start_line": 66,
+              "end_line": 66,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "pypi_mit_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_mit_license.RULE",
+              "matched_text": "Classifier: License :: OSI Approved :: MIT License"
+            }
+          ],
+          "identifier": "mit-24a5293c-14d7-5403-efac-1a8b7532c0e8"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 1.5,
+      "scan_errors": []
+    },
+    {
+      "path": "mpi-1.0.0/README.md",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mpi-1.0.0/setup.cfg",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mpi-1.0.0/setup.py",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mpi-1.0.0/setup.py",
+              "start_line": 18,
+              "end_line": 18,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "pypi_mit_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_mit_license.RULE",
+              "matched_text": "        \"License :: OSI Approved :: MIT License\","
+            }
+          ],
+          "identifier": "mit-24a5293c-14d7-5403-efac-1a8b7532c0e8"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 6.33,
+      "scan_errors": []
+    },
+    {
+      "path": "mpi-1.0.0/mpi",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mpi-1.0.0/mpi/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mpi-1.0.0/mpi/block.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mpi-1.0.0/mpi/connection.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mpi-1.0.0/mpi/entity.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mpi-1.0.0/mpi/event.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mpi-1.0.0/mpi/fonts.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mpi-1.0.0/mpi/minecraft.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mpi-1.0.0/mpi/minecraftstuff.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mpi-1.0.0/mpi/text.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mpi-1.0.0/mpi/util.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mpi-1.0.0/mpi/vec3.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mpi-1.0.0/mpi.egg-info",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mpi-1.0.0/mpi.egg-info/dependency_links.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mpi-1.0.0/mpi.egg-info/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "license_expression_spdx": "MIT",
+              "from_file": "mpi-1.0.0/mpi.egg-info/PKG-INFO",
+              "start_line": 66,
+              "end_line": 66,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "pypi_mit_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_mit_license.RULE",
+              "matched_text": "Classifier: License :: OSI Approved :: MIT License"
+            }
+          ],
+          "identifier": "mit-24a5293c-14d7-5403-efac-1a8b7532c0e8"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 1.5,
+      "scan_errors": []
+    },
+    {
+      "path": "mpi-1.0.0/mpi.egg-info/SOURCES.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "mpi-1.0.0/mpi.egg-info/top_level.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    }
+  ]
+}

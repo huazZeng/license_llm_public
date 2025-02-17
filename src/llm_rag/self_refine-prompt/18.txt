@@ -1,0 +1,11 @@
+you must retain this notice and the following text and disclaimers in all such redistributions of the Apple Software. Neither the name, trademarks, service marks or logos of Apple Computer, Inc. may be used to endorse or promote products derived from the Apple Software without specific prior written permission from Apple.
+Although this sentence mentions "retain this notice," it does not actually refer to the true author of the software. Therefore, the behavior in the query is not explicitly mentioned. Thus, the attitude is "nomentioned."
+
+...provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty
+Although this sentence mentions "publish on each copy an appropriate copyright notice," a copyright notice is not equivalent to explicitly giving credit to the author. Therefore, the attitude is "nomentioned."
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimers. 
+Although this sentence mentions "must retain the above copyright notice," a copyright notice is not equivalent to giving explicit credit to the author. Therefore, the attitude is "nmentioned."
+
+If you distribute any portion of the software, you must retain all copyright, patent, trademark, and attribution notices that are present in the software.
+Although the sentence mentions "must retain all copyright, patent, trademark, and attribution notices," attribution notices are not equivalent to "give explicit credit to the author." Therefore, the attitude is "nomentioned."

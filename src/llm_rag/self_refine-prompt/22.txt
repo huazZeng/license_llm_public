@@ -1,0 +1,11 @@
+IN NO EVENT SHALL APPLE BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)……
+Although this sentence mentions "IN NO EVENT SHALL APPLE BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES," it refers to the licensor/contributor having no obligation to provide compensation, rather than the licensee having no obligation to compensate the licensor. Therefore, the answer is "nomentioned".
+
+IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES……
+Although this sentence mentions "IN NO EVENT...BE LIABLE TO YOU FOR DAMAGES," it refers to the licensor/contributor having no obligation to compensate, rather than the licensee having no obligation to compensate the licensor. Therefore, the answer is "nomentioned".
+
+Under this section, the Commercial Contributor would have to defend claims against the other Contributors related to those performance claims and warranties, and if a court requires any other Contributor to pay any damages as a result, the Commercial Contributor must pay those damages.
+Although this sentence mentions "the Commercial Contributor must pay those damages," it refers to the contributor/licensor being required to compensate the licensee, rather than the licensee being required to compensate for their own damages. Therefore, the answer is "nomentioned".
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND……
+Although this sentence mentions "WITHOUT WARRANTY", it refers to the contributor/licensor being required to compensate the licensee, rather than the licensee being required to compensate for their own damages. Therefore, the answer is "nomentioned".

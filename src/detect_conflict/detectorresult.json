@@ -1,0 +1,142 @@
+[
+    {
+        "parentname": "Data/repo/LocateTerms",
+        "childname": "Data/repo/LocateTerms/train.py",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/data",
+        "childname": "Data/repo/LocateTerms/data/tags.txt",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/data",
+        "childname": "Data/repo/LocateTerms/data/glove.6B.200d.trimmed.npz",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/data",
+        "childname": "Data/repo/LocateTerms/data/words.txt",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/data",
+        "childname": "Data/repo/LocateTerms/data/chars.txt",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/__pycache__",
+        "childname": "Data/repo/LocateTerms/__pycache__/ner_predict.cpython-37.pyc",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/results/test/model.weights",
+        "childname": "Data/repo/LocateTerms/results/test/model.weights/.data-00000-of-00001",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/results/test/model.weights",
+        "childname": "Data/repo/LocateTerms/results/test/model.weights/.meta",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/results/test/model.weights",
+        "childname": "Data/repo/LocateTerms/results/test/model.weights/checkpoint",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/results/test/model.weights",
+        "childname": "Data/repo/LocateTerms/results/test/model.weights/.index",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/results/test",
+        "childname": "Data/repo/LocateTerms/results/test/events.out.tfevents.1667556680.dell-PowerEdge-R940xa",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms",
+        "childname": "Data/repo/LocateTerms/ner_predict.py",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms",
+        "childname": "Data/repo/LocateTerms/build_data.py",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/nermodel",
+        "childname": "Data/repo/LocateTerms/nermodel/base_model.py",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/nermodel",
+        "childname": "Data/repo/LocateTerms/nermodel/general_utils.py",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/nermodel/__pycache__",
+        "childname": "Data/repo/LocateTerms/nermodel/__pycache__/config.cpython-36.pyc",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/nermodel/__pycache__",
+        "childname": "Data/repo/LocateTerms/nermodel/__pycache__/data_utils.cpython-36.pyc",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/nermodel/__pycache__",
+        "childname": "Data/repo/LocateTerms/nermodel/__pycache__/config.cpython-37.pyc",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/nermodel/__pycache__",
+        "childname": "Data/repo/LocateTerms/nermodel/__pycache__/base_model.cpython-37.pyc",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/nermodel/__pycache__",
+        "childname": "Data/repo/LocateTerms/nermodel/__pycache__/data_utils.cpython-37.pyc",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/nermodel/__pycache__",
+        "childname": "Data/repo/LocateTerms/nermodel/__pycache__/ner_model.cpython-37.pyc",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/nermodel/__pycache__",
+        "childname": "Data/repo/LocateTerms/nermodel/__pycache__/general_utils.cpython-37.pyc",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/nermodel/__pycache__",
+        "childname": "Data/repo/LocateTerms/nermodel/__pycache__/base_model.cpython-36.pyc",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/nermodel/__pycache__",
+        "childname": "Data/repo/LocateTerms/nermodel/__pycache__/ner_model.cpython-36.pyc",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/nermodel/__pycache__",
+        "childname": "Data/repo/LocateTerms/nermodel/__pycache__/general_utils.cpython-36.pyc",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/nermodel",
+        "childname": "Data/repo/LocateTerms/nermodel/ner_model.py",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/nermodel",
+        "childname": "Data/repo/LocateTerms/nermodel/config.py",
+        "result": ""
+    },
+    {
+        "parentname": "Data/repo/LocateTerms/nermodel",
+        "childname": "Data/repo/LocateTerms/nermodel/data_utils.py",
+        "result": ""
+    }
+]

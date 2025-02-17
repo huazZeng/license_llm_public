@@ -1,0 +1,348 @@
+{
+    "name": "/home/zhz/repo/hackingtool",
+    "children": [
+        {
+            "name": "/home/zhz/repo/hackingtool/core.py",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/LICENSE",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/install.sh",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/docker-compose.yml",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/update.sh",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/hackingtool.py",
+            "dependencys": [
+                "core",
+                "tools"
+            ],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/README.md",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/images",
+            "children": [
+                {
+                    "name": "/home/zhz/repo/hackingtool/images/A2.png",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/images/A0.png",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/images/A1.png",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/images/demo",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/images/A4.png",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/images/A00.png",
+                    "dependencys": [],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/.github",
+            "children": [
+                {
+                    "name": "/home/zhz/repo/hackingtool/.github/ISSUE_TEMPLATE",
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/hackingtool/.github/ISSUE_TEMPLATE/bug_report.md",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/.github/ISSUE_TEMPLATE/feature_request.md",
+                            "dependencys": [],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/.github/workflows",
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/hackingtool/.github/workflows/lint_python.yml",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/.github/workflows/test_install.yml",
+                            "dependencys": [],
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/tools",
+            "children": [
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/other_tools.py",
+                    "dependencys": [
+                        "core",
+                        "tools"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/anonsurf.py",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/tool_manager.py",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/ddos.py",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/reverse_engineering.py",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/xss_attack.py",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/wireless_attack_tools.py",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/webattack.py",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/wordlist_generator.py",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/information_gathering_tools.py",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/phising_attack.py",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/forensic_tools.py",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/others",
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/hackingtool/tools/others/homograph_attacks.py",
+                            "dependencys": [
+                                "core"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/tools/others/wifi_jamming.py",
+                            "dependencys": [
+                                "core"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/tools/others/web_crawling.py",
+                            "dependencys": [
+                                "core"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/tools/others/socialmedia_finder.py",
+                            "dependencys": [
+                                "core"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/tools/others/android_attack.py",
+                            "dependencys": [
+                                "core"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/tools/others/socialmedia.py",
+                            "dependencys": [
+                                "core"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/tools/others/mix_tools.py",
+                            "dependencys": [
+                                "core"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/tools/others/payload_injection.py",
+                            "dependencys": [
+                                "core"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/tools/others/email_verifier.py",
+                            "dependencys": [
+                                "core"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/hackingtool/tools/others/hash_crack.py",
+                            "dependencys": [
+                                "core"
+                            ],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/remote_administration.py",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/payload_creator.py",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/post_exploitation.py",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/sql_tools.py",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/steganography.py",
+                    "dependencys": [
+                        "core"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/hackingtool/tools/exploit_frameworks.py",
+                    "dependencys": [
+                        "core",
+                        "tools"
+                    ],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/.gitignore",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/requirements.txt",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/README_template.md",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/generate_readme.py",
+            "dependencys": [
+                "core"
+            ],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/hackingtool/Dockerfile",
+            "dependencys": [],
+            "children": []
+        }
+    ]
+}

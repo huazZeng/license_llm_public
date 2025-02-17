@@ -1,0 +1,517 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "32.3.0",
+      "options": {
+        "input": [
+          "pypi_source\\Flask-Bcrypt-1.0.1"
+        ],
+        "--json-pp": "scanresult/Flask-Bcrypt-1.0.1_result.json",
+        "--license": true,
+        "--license-text": true
+      },
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2025-02-07T102432.207089",
+      "end_timestamp": "2025-02-07T102440.080220",
+      "output_format_version": "4.0.0",
+      "duration": 7.873131036758423,
+      "message": null,
+      "errors": [],
+      "warnings": [],
+      "extra_data": {
+        "system_environment": {
+          "operating_system": "win",
+          "cpu_architecture": "64",
+          "platform": "Windows-10-10.0.22631-SP0",
+          "platform_version": "10.0.22631",
+          "python_version": "3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)]"
+        },
+        "spdx_license_list_version": "3.25",
+        "files_count": 13
+      }
+    }
+  ],
+  "license_detections": [
+    {
+      "identifier": "bsd_new-261898a0-0118-87c4-7092-14e4ff134882",
+      "license_expression": "bsd-new",
+      "license_expression_spdx": "BSD-3-Clause",
+      "detection_count": 4,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "from_file": "Flask-Bcrypt-1.0.1/flask_bcrypt.py",
+          "start_line": 17,
+          "end_line": 17,
+          "matcher": "2-aho",
+          "score": 99.0,
+          "matched_length": 2,
+          "match_coverage": 100.0,
+          "rule_relevance": 99,
+          "rule_identifier": "bsd-new_89.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_89.RULE",
+          "matched_text": "__license__ = 'BSD'"
+        }
+      ]
+    },
+    {
+      "identifier": "bsd_new-f4e99f86-00ab-18d9-a65d-a3a12767dcf5",
+      "license_expression": "bsd-new",
+      "license_expression_spdx": "BSD-3-Clause",
+      "detection_count": 3,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "from_file": "Flask-Bcrypt-1.0.1/PKG-INFO",
+          "start_line": 61,
+          "end_line": 61,
+          "matcher": "2-aho",
+          "score": 99.0,
+          "matched_length": 5,
+          "match_coverage": 100.0,
+          "rule_relevance": 99,
+          "rule_identifier": "pypi_bsd_license.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_bsd_license.RULE",
+          "matched_text": "Classifier: License :: OSI Approved :: BSD License"
+        }
+      ]
+    },
+    {
+      "identifier": "bsd_new-a1ba852f-feca-81ba-6773-87e432e66b90",
+      "license_expression": "bsd-new",
+      "license_expression_spdx": "BSD-3-Clause",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "from_file": "Flask-Bcrypt-1.0.1/flask_bcrypt.py",
+          "start_line": 8,
+          "end_line": 8,
+          "matcher": "2-aho",
+          "score": 90.0,
+          "matched_length": 7,
+          "match_coverage": 100.0,
+          "rule_relevance": 90,
+          "rule_identifier": "bsd-new_603.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_603.RULE",
+          "matched_text": "    :license: BSD, see LICENSE for more details."
+        },
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "from_file": "Flask-Bcrypt-1.0.1/LICENSE",
+          "start_line": 5,
+          "end_line": 31,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 206,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "bsd-new_75.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_75.RULE",
+          "matched_text": "Redistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are\nmet:\n\n* Redistributions of source code must retain the above copyright\n  notice, this list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above\n  copyright notice, this list of conditions and the following\n  disclaimer in the documentation and/or other materials provided\n  with the distribution.\n\n* The names of the contributors may not be used to endorse or\n  promote products derived from this software without specific\n  prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n\"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\nLIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\nA PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\nOWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\nSPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\nLIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\nDATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\nTHEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+        }
+      ]
+    },
+    {
+      "identifier": "bsd_new-f9d144ba-42ac-0acb-a389-2825be9798bf",
+      "license_expression": "bsd-new",
+      "license_expression_spdx": "BSD-3-Clause",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "from_file": "Flask-Bcrypt-1.0.1/LICENSE",
+          "start_line": 5,
+          "end_line": 31,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 206,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "bsd-new_75.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_75.RULE",
+          "matched_text": "Redistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are\nmet:\n\n* Redistributions of source code must retain the above copyright\n  notice, this list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above\n  copyright notice, this list of conditions and the following\n  disclaimer in the documentation and/or other materials provided\n  with the distribution.\n\n* The names of the contributors may not be used to endorse or\n  promote products derived from this software without specific\n  prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n\"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\nLIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\nA PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\nOWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\nSPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\nLIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\nDATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\nTHEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "Flask-Bcrypt-1.0.1",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "Flask-Bcrypt-1.0.1/flask_bcrypt.py",
+      "type": "file",
+      "detected_license_expression": "bsd-new",
+      "detected_license_expression_spdx": "BSD-3-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "Flask-Bcrypt-1.0.1/flask_bcrypt.py",
+              "start_line": 8,
+              "end_line": 8,
+              "matcher": "2-aho",
+              "score": 90.0,
+              "matched_length": 7,
+              "match_coverage": 100.0,
+              "rule_relevance": 90,
+              "rule_identifier": "bsd-new_603.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_603.RULE",
+              "matched_text": "    :license: BSD, see LICENSE for more details."
+            },
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "Flask-Bcrypt-1.0.1/LICENSE",
+              "start_line": 5,
+              "end_line": 31,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 206,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-new_75.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_75.RULE",
+              "matched_text": "Redistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are\nmet:\n\n* Redistributions of source code must retain the above copyright\n  notice, this list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above\n  copyright notice, this list of conditions and the following\n  disclaimer in the documentation and/or other materials provided\n  with the distribution.\n\n* The names of the contributors may not be used to endorse or\n  promote products derived from this software without specific\n  prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n\"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\nLIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\nA PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\nOWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\nSPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\nLIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\nDATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\nTHEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+            }
+          ],
+          "identifier": "bsd_new-a1ba852f-feca-81ba-6773-87e432e66b90",
+          "detection_log": [
+            "unknown-reference-to-local-file"
+          ]
+        },
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "Flask-Bcrypt-1.0.1/flask_bcrypt.py",
+              "start_line": 17,
+              "end_line": 17,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "bsd-new_89.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_89.RULE",
+              "matched_text": "__license__ = 'BSD'"
+            }
+          ],
+          "identifier": "bsd_new-261898a0-0118-87c4-7092-14e4ff134882"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.76,
+      "scan_errors": []
+    },
+    {
+      "path": "Flask-Bcrypt-1.0.1/LICENSE",
+      "type": "file",
+      "detected_license_expression": "bsd-new",
+      "detected_license_expression_spdx": "BSD-3-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "Flask-Bcrypt-1.0.1/LICENSE",
+              "start_line": 5,
+              "end_line": 31,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 206,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-new_75.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_75.RULE",
+              "matched_text": "Redistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are\nmet:\n\n* Redistributions of source code must retain the above copyright\n  notice, this list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above\n  copyright notice, this list of conditions and the following\n  disclaimer in the documentation and/or other materials provided\n  with the distribution.\n\n* The names of the contributors may not be used to endorse or\n  promote products derived from this software without specific\n  prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n\"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\nLIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\nA PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\nOWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\nSPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\nLIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\nDATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\nTHEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+            }
+          ],
+          "identifier": "bsd_new-f9d144ba-42ac-0acb-a389-2825be9798bf"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 95.81,
+      "scan_errors": []
+    },
+    {
+      "path": "Flask-Bcrypt-1.0.1/MANIFEST.in",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "Flask-Bcrypt-1.0.1/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": "bsd-new",
+      "detected_license_expression_spdx": "BSD-3-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "Flask-Bcrypt-1.0.1/PKG-INFO",
+              "start_line": 8,
+              "end_line": 8,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "bsd-new_89.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_89.RULE",
+              "matched_text": "License: BSD"
+            }
+          ],
+          "identifier": "bsd_new-261898a0-0118-87c4-7092-14e4ff134882"
+        },
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "Flask-Bcrypt-1.0.1/PKG-INFO",
+              "start_line": 61,
+              "end_line": 61,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "pypi_bsd_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_bsd_license.RULE",
+              "matched_text": "Classifier: License :: OSI Approved :: BSD License"
+            }
+          ],
+          "identifier": "bsd_new-f4e99f86-00ab-18d9-a65d-a3a12767dcf5"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 1.97,
+      "scan_errors": []
+    },
+    {
+      "path": "Flask-Bcrypt-1.0.1/README.markdown",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "Flask-Bcrypt-1.0.1/setup.cfg",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "Flask-Bcrypt-1.0.1/setup.py",
+      "type": "file",
+      "detected_license_expression": "bsd-new",
+      "detected_license_expression_spdx": "BSD-3-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "Flask-Bcrypt-1.0.1/setup.py",
+              "start_line": 18,
+              "end_line": 18,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "bsd-new_89.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_89.RULE",
+              "matched_text": "    license='BSD',"
+            }
+          ],
+          "identifier": "bsd_new-261898a0-0118-87c4-7092-14e4ff134882"
+        },
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "Flask-Bcrypt-1.0.1/setup.py",
+              "start_line": 31,
+              "end_line": 31,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "pypi_bsd_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_bsd_license.RULE",
+              "matched_text": "        'License :: OSI Approved :: BSD License',"
+            }
+          ],
+          "identifier": "bsd_new-f4e99f86-00ab-18d9-a65d-a3a12767dcf5"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 4.14,
+      "scan_errors": []
+    },
+    {
+      "path": "Flask-Bcrypt-1.0.1/Flask_Bcrypt.egg-info",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "Flask-Bcrypt-1.0.1/Flask_Bcrypt.egg-info/dependency_links.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "Flask-Bcrypt-1.0.1/Flask_Bcrypt.egg-info/not-zip-safe",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "Flask-Bcrypt-1.0.1/Flask_Bcrypt.egg-info/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": "bsd-new",
+      "detected_license_expression_spdx": "BSD-3-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "Flask-Bcrypt-1.0.1/Flask_Bcrypt.egg-info/PKG-INFO",
+              "start_line": 8,
+              "end_line": 8,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "bsd-new_89.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_89.RULE",
+              "matched_text": "License: BSD"
+            }
+          ],
+          "identifier": "bsd_new-261898a0-0118-87c4-7092-14e4ff134882"
+        },
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "Flask-Bcrypt-1.0.1/Flask_Bcrypt.egg-info/PKG-INFO",
+              "start_line": 61,
+              "end_line": 61,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "pypi_bsd_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_bsd_license.RULE",
+              "matched_text": "Classifier: License :: OSI Approved :: BSD License"
+            }
+          ],
+          "identifier": "bsd_new-f4e99f86-00ab-18d9-a65d-a3a12767dcf5"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 1.97,
+      "scan_errors": []
+    },
+    {
+      "path": "Flask-Bcrypt-1.0.1/Flask_Bcrypt.egg-info/requires.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "Flask-Bcrypt-1.0.1/Flask_Bcrypt.egg-info/SOURCES.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "Flask-Bcrypt-1.0.1/Flask_Bcrypt.egg-info/top_level.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    }
+  ]
+}

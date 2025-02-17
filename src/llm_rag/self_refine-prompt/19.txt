@@ -1,0 +1,5 @@
+ Neither the name nor any trademark of the Author may be used to endorse or promote products derived from this software without specific prior written permission.
+ Although this sentence mentions "Neither the name nor any trademark of the Author may be used," it refers to the author's name, not the name of the work. Additionally, it states that the original name cannot be used, rather than prohibiting changing the name. Therefore, it does not explicitly mention "changing the name," and the attitude is "nomentioned."
+
+ The name of a Distributor may not be used by any other Distributor to endorse or promote the Licensed Work or products derived from the Licensed Work, without prior written permission.
+ Although this sentence mentions "The name of a Distributor may not be used," it refers to the distributor's name, not the software's name. Therefore, it does not explicitly mention "change software name," and the attitude is "not mentioned."

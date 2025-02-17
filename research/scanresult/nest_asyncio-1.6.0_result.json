@@ -1,0 +1,901 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "32.3.0",
+      "options": {
+        "input": [
+          "pypi_source\\nest_asyncio-1.6.0"
+        ],
+        "--json-pp": "scanresult/nest_asyncio-1.6.0_result.json",
+        "--license": true,
+        "--license-text": true
+      },
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2025-02-07T104334.901367",
+      "end_timestamp": "2025-02-07T104343.329339",
+      "output_format_version": "4.0.0",
+      "duration": 8.427972793579102,
+      "message": null,
+      "errors": [],
+      "warnings": [],
+      "extra_data": {
+        "system_environment": {
+          "operating_system": "win",
+          "cpu_architecture": "64",
+          "platform": "Windows-10-10.0.22631-SP0",
+          "platform_version": "10.0.22631",
+          "python_version": "3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)]"
+        },
+        "spdx_license_list_version": "3.25",
+        "files_count": 17
+      }
+    }
+  ],
+  "license_detections": [
+    {
+      "identifier": "bsd_new-261898a0-0118-87c4-7092-14e4ff134882",
+      "license_expression": "bsd-new",
+      "license_expression_spdx": "BSD-3-Clause",
+      "detection_count": 3,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "from_file": "nest_asyncio-1.6.0/PKG-INFO",
+          "start_line": 81,
+          "end_line": 81,
+          "matcher": "2-aho",
+          "score": 99.0,
+          "matched_length": 2,
+          "match_coverage": 100.0,
+          "rule_relevance": 99,
+          "rule_identifier": "bsd-new_89.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_89.RULE",
+          "matched_text": ".. |License| image:: https://img.shields.io/badge/license-BSD-blue.svg"
+        }
+      ]
+    },
+    {
+      "identifier": "bsd_new-efc15271-9c87-ef8d-a458-2e6a58ea3697",
+      "license_expression": "bsd-new",
+      "license_expression_spdx": "BSD-3-Clause",
+      "detection_count": 2,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "from_file": "nest_asyncio-1.6.0/PKG-INFO",
+          "start_line": 8,
+          "end_line": 8,
+          "matcher": "2-aho",
+          "score": 99.0,
+          "matched_length": 2,
+          "match_coverage": 100.0,
+          "rule_relevance": 99,
+          "rule_identifier": "bsd-new_89.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_89.RULE",
+          "matched_text": "License: BSD"
+        },
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "from_file": "nest_asyncio-1.6.0/PKG-INFO",
+          "start_line": 12,
+          "end_line": 12,
+          "matcher": "2-aho",
+          "score": 99.0,
+          "matched_length": 5,
+          "match_coverage": 100.0,
+          "rule_relevance": 99,
+          "rule_identifier": "pypi_bsd_license.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_bsd_license.RULE",
+          "matched_text": "Classifier: License :: OSI Approved :: BSD License"
+        }
+      ]
+    },
+    {
+      "identifier": "bsd_new-f4e99f86-00ab-18d9-a65d-a3a12767dcf5",
+      "license_expression": "bsd-new",
+      "license_expression_spdx": "BSD-3-Clause",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "from_file": "nest_asyncio-1.6.0/setup.cfg",
+          "start_line": 16,
+          "end_line": 16,
+          "matcher": "2-aho",
+          "score": 99.0,
+          "matched_length": 5,
+          "match_coverage": 100.0,
+          "rule_relevance": 99,
+          "rule_identifier": "pypi_bsd_license.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_bsd_license.RULE",
+          "matched_text": "\tLicense :: OSI Approved :: BSD License"
+        }
+      ]
+    },
+    {
+      "identifier": "bsd_new_and_bsd_simplified-adb87018-d99f-dc0c-181a-70e0eed72f69",
+      "license_expression": "bsd-new AND bsd-simplified",
+      "license_expression_spdx": "BSD-3-Clause AND BSD-2-Clause",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "from_file": "nest_asyncio-1.6.0/setup.cfg",
+          "start_line": 6,
+          "end_line": 7,
+          "matcher": "2-aho",
+          "score": 99.0,
+          "matched_length": 3,
+          "match_coverage": 100.0,
+          "rule_relevance": 99,
+          "rule_identifier": "bsd-new_172.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_172.RULE",
+          "matched_text": "license = BSD\nlicense_files = LICENSE"
+        },
+        {
+          "license_expression": "unknown-license-reference",
+          "license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+          "from_file": "nest_asyncio-1.6.0/setup.cfg",
+          "start_line": 7,
+          "end_line": 7,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 3,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "unknown-license-reference_386.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/unknown-license-reference_386.RULE",
+          "matched_text": "license_files = LICENSE"
+        },
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "from_file": "nest_asyncio-1.6.0/LICENSE",
+          "start_line": 1,
+          "end_line": 1,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 4,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "bsd-simplified_83.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_83.RULE",
+          "matched_text": "BSD 2-Clause License"
+        },
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "from_file": "nest_asyncio-1.6.0/LICENSE",
+          "start_line": 6,
+          "end_line": 25,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 183,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "bsd-simplified.LICENSE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/bsd-simplified.LICENSE",
+          "matched_text": "Redistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+        }
+      ]
+    },
+    {
+      "identifier": "bsd_simplified-7b63d083-8fb4-b4a8-76a3-a680df00f586",
+      "license_expression": "bsd-simplified",
+      "license_expression_spdx": "BSD-2-Clause",
+      "detection_count": 2,
+      "reference_matches": [
+        {
+          "license_expression": "unknown-license-reference",
+          "license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+          "from_file": "nest_asyncio-1.6.0/PKG-INFO",
+          "start_line": 25,
+          "end_line": 25,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 3,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "unknown-license-reference_see_license_at_manifest_1.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/unknown-license-reference_see_license_at_manifest_1.RULE",
+          "matched_text": "License-File: LICENSE"
+        },
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "from_file": "nest_asyncio-1.6.0/LICENSE",
+          "start_line": 1,
+          "end_line": 1,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 4,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "bsd-simplified_83.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_83.RULE",
+          "matched_text": "BSD 2-Clause License"
+        },
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "from_file": "nest_asyncio-1.6.0/LICENSE",
+          "start_line": 6,
+          "end_line": 25,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 183,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "bsd-simplified.LICENSE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/bsd-simplified.LICENSE",
+          "matched_text": "Redistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+        }
+      ]
+    },
+    {
+      "identifier": "bsd_simplified-4463d679-d0bd-e3b2-e8f2-724c22aefa10",
+      "license_expression": "bsd-simplified",
+      "license_expression_spdx": "BSD-2-Clause",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "from_file": "nest_asyncio-1.6.0/LICENSE",
+          "start_line": 1,
+          "end_line": 1,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 4,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "bsd-simplified_83.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_83.RULE",
+          "matched_text": "BSD 2-Clause License"
+        }
+      ]
+    },
+    {
+      "identifier": "bsd_simplified-a1deb97f-56cd-71ea-a95f-82477d400503",
+      "license_expression": "bsd-simplified",
+      "license_expression_spdx": "BSD-2-Clause",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "from_file": "nest_asyncio-1.6.0/LICENSE",
+          "start_line": 6,
+          "end_line": 25,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 183,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "bsd-simplified.LICENSE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/bsd-simplified.LICENSE",
+          "matched_text": "Redistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "nest_asyncio-1.6.0",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "nest_asyncio-1.6.0/dist.sh",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "nest_asyncio-1.6.0/LICENSE",
+      "type": "file",
+      "detected_license_expression": "bsd-simplified",
+      "detected_license_expression_spdx": "BSD-2-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-simplified",
+              "license_expression_spdx": "BSD-2-Clause",
+              "from_file": "nest_asyncio-1.6.0/LICENSE",
+              "start_line": 1,
+              "end_line": 1,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 4,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified_83.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_83.RULE",
+              "matched_text": "BSD 2-Clause License"
+            }
+          ],
+          "identifier": "bsd_simplified-4463d679-d0bd-e3b2-e8f2-724c22aefa10"
+        },
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-simplified",
+              "license_expression_spdx": "BSD-2-Clause",
+              "from_file": "nest_asyncio-1.6.0/LICENSE",
+              "start_line": 6,
+              "end_line": 25,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 183,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/bsd-simplified.LICENSE",
+              "matched_text": "Redistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+            }
+          ],
+          "identifier": "bsd_simplified-a1deb97f-56cd-71ea-a95f-82477d400503"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 94.92,
+      "scan_errors": []
+    },
+    {
+      "path": "nest_asyncio-1.6.0/MANIFEST.in",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "nest_asyncio-1.6.0/nest_asyncio.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "nest_asyncio-1.6.0/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": "bsd-new AND bsd-simplified",
+      "detected_license_expression_spdx": "BSD-3-Clause AND BSD-2-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "nest_asyncio-1.6.0/PKG-INFO",
+              "start_line": 8,
+              "end_line": 8,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "bsd-new_89.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_89.RULE",
+              "matched_text": "License: BSD"
+            },
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "nest_asyncio-1.6.0/PKG-INFO",
+              "start_line": 12,
+              "end_line": 12,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "pypi_bsd_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_bsd_license.RULE",
+              "matched_text": "Classifier: License :: OSI Approved :: BSD License"
+            }
+          ],
+          "identifier": "bsd_new-efc15271-9c87-ef8d-a458-2e6a58ea3697"
+        },
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "matches": [
+            {
+              "license_expression": "unknown-license-reference",
+              "license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+              "from_file": "nest_asyncio-1.6.0/PKG-INFO",
+              "start_line": 25,
+              "end_line": 25,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "unknown-license-reference_see_license_at_manifest_1.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/unknown-license-reference_see_license_at_manifest_1.RULE",
+              "matched_text": "License-File: LICENSE"
+            },
+            {
+              "license_expression": "bsd-simplified",
+              "license_expression_spdx": "BSD-2-Clause",
+              "from_file": "nest_asyncio-1.6.0/LICENSE",
+              "start_line": 1,
+              "end_line": 1,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 4,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified_83.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_83.RULE",
+              "matched_text": "BSD 2-Clause License"
+            },
+            {
+              "license_expression": "bsd-simplified",
+              "license_expression_spdx": "BSD-2-Clause",
+              "from_file": "nest_asyncio-1.6.0/LICENSE",
+              "start_line": 6,
+              "end_line": 25,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 183,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/bsd-simplified.LICENSE",
+              "matched_text": "Redistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+            }
+          ],
+          "identifier": "bsd_simplified-7b63d083-8fb4-b4a8-76a3-a680df00f586",
+          "detection_log": [
+            "unknown-reference-to-local-file"
+          ]
+        },
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "nest_asyncio-1.6.0/PKG-INFO",
+              "start_line": 81,
+              "end_line": 81,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "bsd-new_89.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_89.RULE",
+              "matched_text": ".. |License| image:: https://img.shields.io/badge/license-BSD-blue.svg"
+            }
+          ],
+          "identifier": "bsd_new-261898a0-0118-87c4-7092-14e4ff134882"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 3.05,
+      "scan_errors": []
+    },
+    {
+      "path": "nest_asyncio-1.6.0/pyproject.toml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "nest_asyncio-1.6.0/README.rst",
+      "type": "file",
+      "detected_license_expression": "bsd-new",
+      "detected_license_expression_spdx": "BSD-3-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "nest_asyncio-1.6.0/README.rst",
+              "start_line": 55,
+              "end_line": 55,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "bsd-new_89.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_89.RULE",
+              "matched_text": ".. |License| image:: https://img.shields.io/badge/license-BSD-blue.svg"
+            }
+          ],
+          "identifier": "bsd_new-261898a0-0118-87c4-7092-14e4ff134882"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.76,
+      "scan_errors": []
+    },
+    {
+      "path": "nest_asyncio-1.6.0/setup.cfg",
+      "type": "file",
+      "detected_license_expression": "(bsd-new AND bsd-simplified) AND bsd-new",
+      "detected_license_expression_spdx": "(BSD-3-Clause AND BSD-2-Clause) AND BSD-3-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-new AND bsd-simplified",
+          "license_expression_spdx": "BSD-3-Clause AND BSD-2-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "nest_asyncio-1.6.0/setup.cfg",
+              "start_line": 6,
+              "end_line": 7,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "bsd-new_172.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_172.RULE",
+              "matched_text": "license = BSD\nlicense_files = LICENSE"
+            },
+            {
+              "license_expression": "unknown-license-reference",
+              "license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+              "from_file": "nest_asyncio-1.6.0/setup.cfg",
+              "start_line": 7,
+              "end_line": 7,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "unknown-license-reference_386.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/unknown-license-reference_386.RULE",
+              "matched_text": "license_files = LICENSE"
+            },
+            {
+              "license_expression": "bsd-simplified",
+              "license_expression_spdx": "BSD-2-Clause",
+              "from_file": "nest_asyncio-1.6.0/LICENSE",
+              "start_line": 1,
+              "end_line": 1,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 4,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified_83.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_83.RULE",
+              "matched_text": "BSD 2-Clause License"
+            },
+            {
+              "license_expression": "bsd-simplified",
+              "license_expression_spdx": "BSD-2-Clause",
+              "from_file": "nest_asyncio-1.6.0/LICENSE",
+              "start_line": 6,
+              "end_line": 25,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 183,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/bsd-simplified.LICENSE",
+              "matched_text": "Redistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+            }
+          ],
+          "identifier": "bsd_new_and_bsd_simplified-adb87018-d99f-dc0c-181a-70e0eed72f69",
+          "detection_log": [
+            "unknown-reference-to-local-file"
+          ]
+        },
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "nest_asyncio-1.6.0/setup.cfg",
+              "start_line": 16,
+              "end_line": 16,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "pypi_bsd_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_bsd_license.RULE",
+              "matched_text": "\tLicense :: OSI Approved :: BSD License"
+            }
+          ],
+          "identifier": "bsd_new-f4e99f86-00ab-18d9-a65d-a3a12767dcf5"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.25,
+      "scan_errors": []
+    },
+    {
+      "path": "nest_asyncio-1.6.0/setup.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "nest_asyncio-1.6.0/.github",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "nest_asyncio-1.6.0/.github/FUNDING.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "nest_asyncio-1.6.0/.github/workflows",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "nest_asyncio-1.6.0/.github/workflows/test.yml",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "nest_asyncio-1.6.0/nest_asyncio.egg-info",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "nest_asyncio-1.6.0/nest_asyncio.egg-info/dependency_links.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "nest_asyncio-1.6.0/nest_asyncio.egg-info/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": "bsd-new AND bsd-simplified",
+      "detected_license_expression_spdx": "BSD-3-Clause AND BSD-2-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "nest_asyncio-1.6.0/nest_asyncio.egg-info/PKG-INFO",
+              "start_line": 8,
+              "end_line": 8,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "bsd-new_89.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_89.RULE",
+              "matched_text": "License: BSD"
+            },
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "nest_asyncio-1.6.0/nest_asyncio.egg-info/PKG-INFO",
+              "start_line": 12,
+              "end_line": 12,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "pypi_bsd_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_bsd_license.RULE",
+              "matched_text": "Classifier: License :: OSI Approved :: BSD License"
+            }
+          ],
+          "identifier": "bsd_new-efc15271-9c87-ef8d-a458-2e6a58ea3697"
+        },
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "matches": [
+            {
+              "license_expression": "unknown-license-reference",
+              "license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+              "from_file": "nest_asyncio-1.6.0/nest_asyncio.egg-info/PKG-INFO",
+              "start_line": 25,
+              "end_line": 25,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "unknown-license-reference_see_license_at_manifest_1.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/unknown-license-reference_see_license_at_manifest_1.RULE",
+              "matched_text": "License-File: LICENSE"
+            },
+            {
+              "license_expression": "bsd-simplified",
+              "license_expression_spdx": "BSD-2-Clause",
+              "from_file": "nest_asyncio-1.6.0/LICENSE",
+              "start_line": 1,
+              "end_line": 1,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 4,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified_83.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_83.RULE",
+              "matched_text": "BSD 2-Clause License"
+            },
+            {
+              "license_expression": "bsd-simplified",
+              "license_expression_spdx": "BSD-2-Clause",
+              "from_file": "nest_asyncio-1.6.0/LICENSE",
+              "start_line": 6,
+              "end_line": 25,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 183,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/bsd-simplified.LICENSE",
+              "matched_text": "Redistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+            }
+          ],
+          "identifier": "bsd_simplified-7b63d083-8fb4-b4a8-76a3-a680df00f586",
+          "detection_log": [
+            "unknown-reference-to-local-file"
+          ]
+        },
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "nest_asyncio-1.6.0/nest_asyncio.egg-info/PKG-INFO",
+              "start_line": 81,
+              "end_line": 81,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "bsd-new_89.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_89.RULE",
+              "matched_text": ".. |License| image:: https://img.shields.io/badge/license-BSD-blue.svg"
+            }
+          ],
+          "identifier": "bsd_new-261898a0-0118-87c4-7092-14e4ff134882"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 3.05,
+      "scan_errors": []
+    },
+    {
+      "path": "nest_asyncio-1.6.0/nest_asyncio.egg-info/SOURCES.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "nest_asyncio-1.6.0/nest_asyncio.egg-info/top_level.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "nest_asyncio-1.6.0/tests",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "nest_asyncio-1.6.0/tests/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "nest_asyncio-1.6.0/tests/nest_test.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+include the installation information necessary to modify and reinstall the software

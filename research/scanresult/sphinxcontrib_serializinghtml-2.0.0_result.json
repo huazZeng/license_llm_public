@@ -1,0 +1,3877 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "32.3.0",
+      "options": {
+        "input": [
+          "pypi_source\\sphinxcontrib_serializinghtml-2.0.0"
+        ],
+        "--json-pp": "scanresult/sphinxcontrib_serializinghtml-2.0.0_result.json",
+        "--license": true,
+        "--license-text": true
+      },
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2025-02-07T105613.533097",
+      "end_timestamp": "2025-02-07T105638.588373",
+      "output_format_version": "4.0.0",
+      "duration": 25.0552761554718,
+      "message": null,
+      "errors": [],
+      "warnings": [],
+      "extra_data": {
+        "system_environment": {
+          "operating_system": "win",
+          "cpu_architecture": "64",
+          "platform": "Windows-10-10.0.22631-SP0",
+          "platform_version": "10.0.22631",
+          "python_version": "3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)]"
+        },
+        "spdx_license_list_version": "3.25",
+        "files_count": 123
+      }
+    }
+  ],
+  "license_detections": [
+    {
+      "identifier": "bsd_new-f4e99f86-00ab-18d9-a65d-a3a12767dcf5",
+      "license_expression": "bsd-new",
+      "license_expression_spdx": "BSD-3-Clause",
+      "detection_count": 2,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "from_file": "sphinxcontrib_serializinghtml-2.0.0/PKG-INFO",
+          "start_line": 13,
+          "end_line": 13,
+          "matcher": "2-aho",
+          "score": 99.0,
+          "matched_length": 5,
+          "match_coverage": 100.0,
+          "rule_relevance": 99,
+          "rule_identifier": "pypi_bsd_license.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_bsd_license.RULE",
+          "matched_text": "Classifier: License :: OSI Approved :: BSD License"
+        }
+      ]
+    },
+    {
+      "identifier": "bsd_simplified-30781707-822b-728d-6346-b9a3873c38db",
+      "license_expression": "bsd-simplified",
+      "license_expression_spdx": "BSD-2-Clause",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "from_file": "sphinxcontrib_serializinghtml-2.0.0/LICENCE.rst",
+          "start_line": 1,
+          "end_line": 29,
+          "matcher": "3-seq",
+          "score": 99.46,
+          "matched_length": 184,
+          "match_coverage": 99.46,
+          "rule_relevance": 100,
+          "rule_identifier": "bsd-simplified_43.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_43.RULE",
+          "matched_text": "License for sphinxcontrib-serializinghtml\n=========================================\n\nCopyright (c) 2007-2019 by the Sphinx team\n(see https://github.com/sphinx-doc/sphinx/blob/master/AUTHORS).\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are\nmet:\n\n* Redistributions of source code must retain the above copyright\n  notice, this list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright\n  notice, this list of conditions and the following disclaimer in the\n  documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n\"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\nLIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\nA PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\nOWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\nSPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\nLIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\nDATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\nTHEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+        }
+      ]
+    },
+    {
+      "identifier": "bsd_simplified-7cacd81a-0bdb-1c32-cf2d-2250f633f213",
+      "license_expression": "bsd-simplified",
+      "license_expression_spdx": "BSD-2-Clause",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "from_file": "sphinxcontrib_serializinghtml-2.0.0/pyproject.toml",
+          "start_line": 16,
+          "end_line": 16,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 3,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "spdx_license_id_bsd-2-clause_for_bsd-simplified.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_bsd-2-clause_for_bsd-simplified.RULE",
+          "matched_text": "license.text = \"BSD-2-Clause\""
+        }
+      ]
+    },
+    {
+      "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335",
+      "license_expression": "free-unknown",
+      "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "detection_count": 55,
+      "reference_matches": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sphinxcontrib.serializinghtml.pot",
+          "start_line": 3,
+          "end_line": 3,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 10,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "free-unknown-package_4.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+          "matched_text": "# This file is distributed under the same license as the"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/CHANGES.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/LICENCE.rst",
+      "type": "file",
+      "detected_license_expression": "bsd-simplified",
+      "detected_license_expression_spdx": "BSD-2-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-simplified",
+              "license_expression_spdx": "BSD-2-Clause",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/LICENCE.rst",
+              "start_line": 1,
+              "end_line": 29,
+              "matcher": "3-seq",
+              "score": 99.46,
+              "matched_length": 184,
+              "match_coverage": 99.46,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified_43.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_43.RULE",
+              "matched_text": "License for sphinxcontrib-serializinghtml\n=========================================\n\nCopyright (c) 2007-2019 by the Sphinx team\n(see https://github.com/sphinx-doc/sphinx/blob/master/AUTHORS).\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are\nmet:\n\n* Redistributions of source code must retain the above copyright\n  notice, this list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright\n  notice, this list of conditions and the following disclaimer in the\n  documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n\"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\nLIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\nA PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\nOWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\nSPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\nLIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\nDATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\nTHEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+            }
+          ],
+          "identifier": "bsd_simplified-30781707-822b-728d-6346-b9a3873c38db"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 88.46,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": "bsd-new",
+      "detected_license_expression_spdx": "BSD-3-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/PKG-INFO",
+              "start_line": 13,
+              "end_line": 13,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "pypi_bsd_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_bsd_license.RULE",
+              "matched_text": "Classifier: License :: OSI Approved :: BSD License"
+            }
+          ],
+          "identifier": "bsd_new-f4e99f86-00ab-18d9-a65d-a3a12767dcf5"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 1.79,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/pyproject.toml",
+      "type": "file",
+      "detected_license_expression": "bsd-simplified AND bsd-new",
+      "detected_license_expression_spdx": "BSD-2-Clause AND BSD-3-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-simplified",
+          "license_expression_spdx": "BSD-2-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-simplified",
+              "license_expression_spdx": "BSD-2-Clause",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/pyproject.toml",
+              "start_line": 16,
+              "end_line": 16,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "spdx_license_id_bsd-2-clause_for_bsd-simplified.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_bsd-2-clause_for_bsd-simplified.RULE",
+              "matched_text": "license.text = \"BSD-2-Clause\""
+            }
+          ],
+          "identifier": "bsd_simplified-7cacd81a-0bdb-1c32-cf2d-2250f633f213"
+        },
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/pyproject.toml",
+              "start_line": 26,
+              "end_line": 26,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "pypi_bsd_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_bsd_license.RULE",
+              "matched_text": "    \"License :: OSI Approved :: BSD License\","
+            }
+          ],
+          "identifier": "bsd_new-f4e99f86-00ab-18d9-a65d-a3a12767dcf5"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 2.56,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/README.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/tox.ini",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/jsonimpl.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/py.typed",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sphinxcontrib.serializinghtml.pot",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sphinxcontrib.serializinghtml.pot",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.14,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/.tx",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/.tx/config",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ar",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ar/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ar/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ar/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ar/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 5.15,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/bg",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/bg/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/bg/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/bg/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/bg/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.14,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/bn",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/bn/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/bn/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/bn/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/bn/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.14,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ca",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ca/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ca/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ca/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ca/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.14,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/cak",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/cak/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/cak/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/cak/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/cak/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.14,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/cs",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/cs/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/cs/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/cs/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/cs/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 6.37,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/cy",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/cy/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/cy/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/cy/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/cy/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 6.67,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/da",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/da/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/da/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/da/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/da/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 5.78,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/de",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/de/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/de/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/de/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/de/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.14,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/el",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/el/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/el/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/el/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/el/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 5.71,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/eo",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/eo/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/eo/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/eo/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/eo/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.14,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/es",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/es/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/es/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/es/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/es/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 5.41,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/et",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/et/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/et/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/et/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/et/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 6.02,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/eu",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/eu/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/eu/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/eu/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/eu/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.14,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/fa",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/fa/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/fa/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/fa/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/fa/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 5.15,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/fi",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/fi/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/fi/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/fi/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/fi/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.14,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/fr",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/fr/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/fr/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/fr/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/fr/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 5.49,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/he",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/he/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/he/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/he/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/he/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 6.25,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/hi",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/hi/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/hi/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/hi/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/hi/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 5.24,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/hi_IN",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/hi_IN/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/hi_IN/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/hi_IN/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/hi_IN/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 6.99,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/hr",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/hr/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/hr/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/hr/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/hr/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 6.37,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/hu",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/hu/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/hu/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/hu/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/hu/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 5.92,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/id",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/id/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/id/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/id/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/id/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 6.02,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/it",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/it/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/it/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/it/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/it/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.14,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ja",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ja/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ja/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ja/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ja/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 6.33,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ko",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ko/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ko/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ko/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ko/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 5.88,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/lt",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/lt/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/lt/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/lt/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/lt/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 6.1,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/lv",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/lv/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/lv/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/lv/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/lv/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 6.71,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/mk",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/mk/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/mk/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/mk/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/mk/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 6.85,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/nb_NO",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/nb_NO/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/nb_NO/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/nb_NO/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/nb_NO/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 6.94,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ne",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ne/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ne/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ne/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ne/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.14,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/nl",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/nl/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/nl/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/nl/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/nl/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.14,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/pl",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/pl/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/pl/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/pl/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/pl/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 5.24,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/pt",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/pt/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/pt/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/pt/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/pt/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.14,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/pt_BR",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/pt_BR/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/pt_BR/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/pt_BR/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/pt_BR/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 5.78,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/pt_PT",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/pt_PT/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/pt_PT/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/pt_PT/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/pt_PT/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 6.99,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ro",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ro/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ro/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ro/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ro/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 6.62,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ru",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ru/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ru/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ru/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ru/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 5.71,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/si",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/si/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/si/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/si/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/si/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.14,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sk",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sk/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sk/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sk/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sk/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 5.38,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sl",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sl/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sl/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sl/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sl/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 6.49,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sq",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sq/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sq/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sq/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sq/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 5.78,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sr",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sr/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sr/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sr/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sr/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 6.29,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sr@latin",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sr@latin/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sr@latin/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sr@latin/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sr@latin/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 6.17,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sr_RS",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sr_RS/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sr_RS/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sr_RS/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sr_RS/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 6.17,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sv",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sv/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sv/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sv/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/sv/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.14,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ta",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ta/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ta/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ta/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ta/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.14,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/te",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/te/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/te/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/te/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/te/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.14,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/tr",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/tr/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/tr/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/tr/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/tr/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 6.29,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/uk_UA",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/uk_UA/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/uk_UA/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/uk_UA/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/uk_UA/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 5.35,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ur",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ur/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ur/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ur/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/ur/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.14,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/vi",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/vi/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/vi/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/vi/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/vi/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.19,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/zh_CN",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/zh_CN/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/zh_CN/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/zh_CN/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/zh_CN/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 5.92,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/zh_TW",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/zh_TW/LC_MESSAGES",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/zh_TW/LC_MESSAGES/sphinxcontrib.serializinghtml.mo",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/zh_TW/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+      "type": "file",
+      "detected_license_expression": "free-unknown",
+      "detected_license_expression_spdx": "LicenseRef-scancode-free-unknown",
+      "license_detections": [
+        {
+          "license_expression": "free-unknown",
+          "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+          "matches": [
+            {
+              "license_expression": "free-unknown",
+              "license_expression_spdx": "LicenseRef-scancode-free-unknown",
+              "from_file": "sphinxcontrib_serializinghtml-2.0.0/sphinxcontrib/serializinghtml/locales/zh_TW/LC_MESSAGES/sphinxcontrib.serializinghtml.po",
+              "start_line": 3,
+              "end_line": 3,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "free-unknown-package_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/free-unknown-package_4.RULE",
+              "matched_text": "# This file is distributed under the same license as the"
+            }
+          ],
+          "identifier": "free_unknown-fddf748a-9953-bc6c-cb9d-91001840e335"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 7.04,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/tests",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/tests/conftest.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/tests/test_serializinghtml.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/tests/roots",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/tests/roots/test-basic",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/tests/roots/test-basic/conf.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "sphinxcontrib_serializinghtml-2.0.0/tests/roots/test-basic/index.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    }
+  ]
+}

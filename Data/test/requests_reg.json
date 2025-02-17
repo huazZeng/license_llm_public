@@ -1,0 +1,1020 @@
+{
+    "name": "/home/zhz/repo/requests",
+    "children": [
+        {
+            "name": "/home/zhz/repo/requests/HISTORY.md",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/requests/src",
+            "children": [
+                {
+                    "name": "/home/zhz/repo/requests/src/requests",
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/requests/src/requests/sessions.py",
+                            "dependencys": [
+                                "os",
+                                "sys",
+                                "time",
+                                "collections",
+                                "datetime",
+                                ""
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/src/requests/compat.py",
+                            "dependencys": [
+                                "importlib",
+                                "sys",
+                                "urllib3",
+                                "simplejson",
+                                "json",
+                                "collections",
+                                "http",
+                                "io",
+                                "urllib"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/src/requests/__version__.py",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/src/requests/packages.py",
+                            "dependencys": [
+                                "sys",
+                                ""
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/src/requests/structures.py",
+                            "dependencys": [
+                                "collections",
+                                ""
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/src/requests/_internal_utils.py",
+                            "dependencys": [
+                                "re",
+                                ""
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/src/requests/status_codes.py",
+                            "dependencys": [
+                                ""
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/src/requests/adapters.py",
+                            "dependencys": [
+                                "os",
+                                "socket",
+                                "typing",
+                                "warnings",
+                                "urllib3",
+                                "",
+                                "ssl"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/src/requests/models.py",
+                            "dependencys": [
+                                "datetime",
+                                "encodings",
+                                "io",
+                                "urllib3",
+                                "",
+                                "idna"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/src/requests/exceptions.py",
+                            "dependencys": [
+                                "urllib3",
+                                ""
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/src/requests/cookies.py",
+                            "dependencys": [
+                                "calendar",
+                                "copy",
+                                "time",
+                                "",
+                                "threading",
+                                "dummy_threading"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/src/requests/hooks.py",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/src/requests/auth.py",
+                            "dependencys": [
+                                "hashlib",
+                                "os",
+                                "re",
+                                "threading",
+                                "time",
+                                "warnings",
+                                "base64",
+                                ""
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/src/requests/utils.py",
+                            "dependencys": [
+                                "codecs",
+                                "contextlib",
+                                "io",
+                                "os",
+                                "re",
+                                "socket",
+                                "struct",
+                                "sys",
+                                "tempfile",
+                                "warnings",
+                                "zipfile",
+                                "collections",
+                                "urllib3",
+                                "",
+                                "winreg",
+                                "netrc"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/src/requests/__init__.py",
+                            "dependencys": [
+                                "warnings",
+                                "urllib3",
+                                "",
+                                "charset_normalizer",
+                                "chardet",
+                                "ssl",
+                                "cryptography",
+                                "logging"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/src/requests/help.py",
+                            "dependencys": [
+                                "json",
+                                "platform",
+                                "ssl",
+                                "sys",
+                                "idna",
+                                "urllib3",
+                                "",
+                                "charset_normalizer",
+                                "chardet",
+                                "cryptography",
+                                "OpenSSL"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/src/requests/api.py",
+                            "dependencys": [
+                                ""
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/src/requests/certs.py",
+                            "dependencys": [
+                                "certifi"
+                            ],
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/home/zhz/repo/requests/setup.cfg",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/requests/tests",
+            "children": [
+                {
+                    "name": "/home/zhz/repo/requests/tests/test_testserver.py",
+                    "dependencys": [
+                        "socket",
+                        "threading",
+                        "time",
+                        "pytest",
+                        "tests",
+                        "requests"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/tests/compat.py",
+                    "dependencys": [
+                        "warnings",
+                        "StringIO",
+                        "io",
+                        "cStringIO"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/tests/test_help.py",
+                    "dependencys": [
+                        "unittest",
+                        "requests"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/tests/test_utils.py",
+                    "dependencys": [
+                        "copy",
+                        "filecmp",
+                        "os",
+                        "tarfile",
+                        "zipfile",
+                        "collections",
+                        "io",
+                        "unittest",
+                        "pytest",
+                        "requests",
+                        "",
+                        "winreg"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/tests/certs",
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/requests/tests/certs/valid",
+                            "children": [
+                                {
+                                    "name": "/home/zhz/repo/requests/tests/certs/valid/server",
+                                    "children": [
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/valid/server/server.key",
+                                            "dependencys": [],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/valid/server/Makefile",
+                                            "dependencys": [],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/valid/server/server.csr",
+                                            "dependencys": [],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/valid/server/server.pem",
+                                            "dependencys": [],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/valid/server/cert.cnf",
+                                            "dependencys": [],
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "/home/zhz/repo/requests/tests/certs/valid/ca",
+                                    "children": [
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/valid/ca/ca.cnf",
+                                            "dependencys": [],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/valid/ca/ca-private.key",
+                                            "dependencys": [],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/valid/ca/ca.crt",
+                                            "dependencys": [],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/valid/ca/Makefile",
+                                            "dependencys": [],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/valid/ca/ca.srl",
+                                            "dependencys": [],
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/tests/certs/mtls",
+                            "children": [
+                                {
+                                    "name": "/home/zhz/repo/requests/tests/certs/mtls/client",
+                                    "children": [
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/mtls/client/client.key",
+                                            "dependencys": [],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/mtls/client/client.csr",
+                                            "dependencys": [],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/mtls/client/Makefile",
+                                            "dependencys": [],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/mtls/client/client.pem",
+                                            "dependencys": [],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/mtls/client/cert.cnf",
+                                            "dependencys": [],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/mtls/client/ca",
+                                            "children": [
+                                                {
+                                                    "name": "/home/zhz/repo/requests/tests/certs/mtls/client/ca/ca.cnf",
+                                                    "dependencys": [],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "/home/zhz/repo/requests/tests/certs/mtls/client/ca/ca-private.key",
+                                                    "dependencys": [],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "/home/zhz/repo/requests/tests/certs/mtls/client/ca/ca.crt",
+                                                    "dependencys": [],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "/home/zhz/repo/requests/tests/certs/mtls/client/ca/Makefile",
+                                                    "dependencys": [],
+                                                    "children": []
+                                                },
+                                                {
+                                                    "name": "/home/zhz/repo/requests/tests/certs/mtls/client/ca/ca.srl",
+                                                    "dependencys": [],
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "/home/zhz/repo/requests/tests/certs/mtls/Makefile",
+                                    "dependencys": [],
+                                    "children": []
+                                },
+                                {
+                                    "name": "/home/zhz/repo/requests/tests/certs/mtls/README.md",
+                                    "dependencys": [],
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/tests/certs/README.md",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/tests/certs/expired",
+                            "children": [
+                                {
+                                    "name": "/home/zhz/repo/requests/tests/certs/expired/server",
+                                    "children": [
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/expired/server/server.key",
+                                            "dependencys": [],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/expired/server/Makefile",
+                                            "dependencys": [],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/expired/server/server.csr",
+                                            "dependencys": [],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/expired/server/server.pem",
+                                            "dependencys": [],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/expired/server/cert.cnf",
+                                            "dependencys": [],
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "/home/zhz/repo/requests/tests/certs/expired/Makefile",
+                                    "dependencys": [],
+                                    "children": []
+                                },
+                                {
+                                    "name": "/home/zhz/repo/requests/tests/certs/expired/README.md",
+                                    "dependencys": [],
+                                    "children": []
+                                },
+                                {
+                                    "name": "/home/zhz/repo/requests/tests/certs/expired/ca",
+                                    "children": [
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/expired/ca/ca.cnf",
+                                            "dependencys": [],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/expired/ca/ca-private.key",
+                                            "dependencys": [],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/expired/ca/ca.crt",
+                                            "dependencys": [],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/expired/ca/Makefile",
+                                            "dependencys": [],
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "/home/zhz/repo/requests/tests/certs/expired/ca/ca.srl",
+                                            "dependencys": [],
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "/home/zhz/repo/requests/tests/test_requests.py",
+                    "dependencys": [
+                        "collections",
+                        "contextlib",
+                        "io",
+                        "json",
+                        "os",
+                        "pickle",
+                        "re",
+                        "threading",
+                        "warnings",
+                        "unittest",
+                        "pytest",
+                        "urllib3",
+                        "requests",
+                        "",
+                        "ssl"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/tests/test_packages.py",
+                    "dependencys": [
+                        "requests"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/tests/test_hooks.py",
+                    "dependencys": [
+                        "pytest",
+                        "requests"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/tests/conftest.py",
+                    "dependencys": [
+                        "http",
+                        "BaseHTTPServer",
+                        "SimpleHTTPServer",
+                        "ssl",
+                        "threading",
+                        "pytest",
+                        "requests",
+                        "trustme"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/tests/testserver",
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/requests/tests/testserver/server.py",
+                            "dependencys": [
+                                "select",
+                                "socket",
+                                "ssl",
+                                "threading"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/tests/testserver/__init__.py",
+                            "dependencys": [],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "/home/zhz/repo/requests/tests/test_lowlevel.py",
+                    "dependencys": [
+                        "threading",
+                        "pytest",
+                        "tests",
+                        "requests",
+                        ""
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/tests/test_structures.py",
+                    "dependencys": [
+                        "pytest",
+                        "requests"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/tests/test_adapters.py",
+                    "dependencys": [
+                        "requests"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/tests/utils.py",
+                    "dependencys": [
+                        "contextlib",
+                        "os"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/tests/__init__.py",
+                    "dependencys": [
+                        "warnings",
+                        "urllib3"
+                    ],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "/home/zhz/repo/requests/LICENSE",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/requests/tox.ini",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/requests/docs",
+            "children": [
+                {
+                    "name": "/home/zhz/repo/requests/docs/make.bat",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/docs/community",
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/requests/docs/community/out-there.rst",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/docs/community/vulnerabilities.rst",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/docs/community/support.rst",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/docs/community/recommended.rst",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/docs/community/faq.rst",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/docs/community/updates.rst",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/docs/community/release-process.rst",
+                            "dependencys": [],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "/home/zhz/repo/requests/docs/.nojekyll",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/docs/api.rst",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/docs/user",
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/requests/docs/user/quickstart.rst",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/docs/user/authentication.rst",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/docs/user/install.rst",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/docs/user/advanced.rst",
+                            "dependencys": [],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "/home/zhz/repo/requests/docs/Makefile",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/docs/_templates",
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/requests/docs/_templates/sidebarintro.html",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/docs/_templates/hacks.html",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/docs/_templates/sidebarlogo.html",
+                            "dependencys": [],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "/home/zhz/repo/requests/docs/_static",
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/requests/docs/_static/requests-sidebar.png",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/docs/_static/custom.css",
+                            "dependencys": [],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "/home/zhz/repo/requests/docs/_themes",
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/requests/docs/_themes/flask_theme_support.py",
+                            "dependencys": [
+                                "pygments"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/docs/_themes/LICENSE",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/docs/_themes/.gitignore",
+                            "dependencys": [],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "/home/zhz/repo/requests/docs/requirements.txt",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/docs/conf.py",
+                    "dependencys": [
+                        "sys",
+                        "os",
+                        "requests"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/docs/index.rst",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/docs/dev",
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/requests/docs/dev/authors.rst",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/docs/dev/contributing.rst",
+                            "dependencys": [],
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/home/zhz/repo/requests/MANIFEST.in",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/requests/Makefile",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/requests/ext",
+            "children": [
+                {
+                    "name": "/home/zhz/repo/requests/ext/ss-compressed.png",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/ext/requests-logo.svg",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/ext/requests-logo.ai",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/ext/requests-logo-compressed.png",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/ext/psf.png",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/ext/ss.png",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/ext/LICENSE",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/ext/kr.png",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/ext/requests-logo.png",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/ext/kr-compressed.png",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/ext/flower-of-life.jpg",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/ext/psf-compressed.png",
+                    "dependencys": [],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "/home/zhz/repo/requests/.readthedocs.yaml",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/requests/NOTICE",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/requests/.pre-commit-config.yaml",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/requests/README.md",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/requests/AUTHORS.rst",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/requests/.github",
+            "children": [
+                {
+                    "name": "/home/zhz/repo/requests/.github/ISSUE_TEMPLATE.md",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/.github/FUNDING.yml",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/.github/CODE_OF_CONDUCT.md",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/.github/CONTRIBUTING.md",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/.github/ISSUE_TEMPLATE",
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/requests/.github/ISSUE_TEMPLATE/Bug_report.md",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/.github/ISSUE_TEMPLATE/Custom.md",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/.github/ISSUE_TEMPLATE/Feature_request.md",
+                            "dependencys": [],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "/home/zhz/repo/requests/.github/dependabot.yml",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/requests/.github/workflows",
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/requests/.github/workflows/lock-issues.yml",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/.github/workflows/lint.yml",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/.github/workflows/codeql-analysis.yml",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/.github/workflows/run-tests.yml",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/requests/.github/workflows/close-issues.yml",
+                            "dependencys": [],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "/home/zhz/repo/requests/.github/SECURITY.md",
+                    "dependencys": [],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "/home/zhz/repo/requests/.gitignore",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/requests/pyproject.toml",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/requests/.git-blame-ignore-revs",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/requests/requirements-dev.txt",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/requests/.coveragerc",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/requests/setup.py",
+            "dependencys": [
+                "os",
+                "sys",
+                "codecs",
+                "setuptools"
+            ],
+            "children": []
+        }
+    ]
+}

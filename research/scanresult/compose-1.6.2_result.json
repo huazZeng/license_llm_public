@@ -1,0 +1,537 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "32.3.0",
+      "options": {
+        "input": [
+          "pypi_source\\compose-1.6.2"
+        ],
+        "--json-pp": "scanresult/compose-1.6.2_result.json",
+        "--license": true,
+        "--license-text": true
+      },
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2025-02-07T095215.140394",
+      "end_timestamp": "2025-02-07T095224.931914",
+      "output_format_version": "4.0.0",
+      "duration": 9.791520833969116,
+      "message": null,
+      "errors": [],
+      "warnings": [],
+      "extra_data": {
+        "system_environment": {
+          "operating_system": "win",
+          "cpu_architecture": "64",
+          "platform": "Windows-10-10.0.22631-SP0",
+          "platform_version": "10.0.22631",
+          "python_version": "3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)]"
+        },
+        "spdx_license_list_version": "3.25",
+        "files_count": 13
+      }
+    }
+  ],
+  "license_detections": [
+    {
+      "identifier": "bsd_zero-04cc059a-b2b4-8ee9-61c8-6d6a8b69ece4",
+      "license_expression": "bsd-zero",
+      "license_expression_spdx": "0BSD",
+      "detection_count": 3,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-zero",
+          "license_expression_spdx": "0BSD",
+          "from_file": "compose-1.6.2/PKG-INFO",
+          "start_line": 8,
+          "end_line": 8,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 2,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "bsd-zero_4.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-zero_4.RULE",
+          "matched_text": "License: 0BSD"
+        }
+      ]
+    },
+    {
+      "identifier": "bsd_zero-b145f9a4-e276-f27a-5618-1d868812e63d",
+      "license_expression": "bsd-zero",
+      "license_expression_spdx": "0BSD",
+      "detection_count": 3,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-zero",
+          "license_expression_spdx": "0BSD",
+          "from_file": "compose-1.6.2/no_async.py",
+          "start_line": 1,
+          "end_line": 1,
+          "matcher": "1-spdx-id",
+          "score": 100.0,
+          "matched_length": 4,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "spdx-license-identifier-bsd_zero-dcd17cd5ef300650caa6dffe063826e10928a2ca",
+          "rule_url": null,
+          "matched_text": "# SPDX-License-Identifier: 0BSD"
+        }
+      ]
+    },
+    {
+      "identifier": "bsd_zero-c45b83bf-c69a-638b-b9de-477162135d4f",
+      "license_expression": "bsd-zero",
+      "license_expression_spdx": "0BSD",
+      "detection_count": 2,
+      "reference_matches": [
+        {
+          "license_expression": "unknown-license-reference",
+          "license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+          "from_file": "compose-1.6.2/PKG-INFO",
+          "start_line": 13,
+          "end_line": 13,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 3,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "unknown-license-reference_see_license_at_manifest_1.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/unknown-license-reference_see_license_at_manifest_1.RULE",
+          "matched_text": "License-File: LICENSE"
+        },
+        {
+          "license_expression": "bsd-zero",
+          "license_expression_spdx": "0BSD",
+          "from_file": "compose-1.6.2/LICENSE",
+          "start_line": 3,
+          "end_line": 12,
+          "matcher": "3-seq",
+          "score": 98.98,
+          "matched_length": 97,
+          "match_coverage": 98.98,
+          "rule_relevance": 100,
+          "rule_identifier": "bsd-zero.LICENSE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/bsd-zero.LICENSE",
+          "matched_text": "Permission to use, copy, modify, and distribute this software for any\npurpose with or without fee is hereby granted.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\nWITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\nANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\nWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\nACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\nOR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE."
+        }
+      ]
+    },
+    {
+      "identifier": "bsd_zero-c1c044e8-aa0a-a792-9271-33e2fe81693d",
+      "license_expression": "bsd-zero",
+      "license_expression_spdx": "0BSD",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-zero",
+          "license_expression_spdx": "0BSD",
+          "from_file": "compose-1.6.2/LICENSE",
+          "start_line": 3,
+          "end_line": 12,
+          "matcher": "3-seq",
+          "score": 98.98,
+          "matched_length": 97,
+          "match_coverage": 98.98,
+          "rule_relevance": 100,
+          "rule_identifier": "bsd-zero.LICENSE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/bsd-zero.LICENSE",
+          "matched_text": "Permission to use, copy, modify, and distribute this software for any\npurpose with or without fee is hereby granted.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\nWITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\nANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\nWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\nACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\nOR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE."
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "compose-1.6.2",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "compose-1.6.2/LICENSE",
+      "type": "file",
+      "detected_license_expression": "bsd-zero",
+      "detected_license_expression_spdx": "0BSD",
+      "license_detections": [
+        {
+          "license_expression": "bsd-zero",
+          "license_expression_spdx": "0BSD",
+          "matches": [
+            {
+              "license_expression": "bsd-zero",
+              "license_expression_spdx": "0BSD",
+              "from_file": "compose-1.6.2/LICENSE",
+              "start_line": 3,
+              "end_line": 12,
+              "matcher": "3-seq",
+              "score": 98.98,
+              "matched_length": 97,
+              "match_coverage": 98.98,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-zero.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/bsd-zero.LICENSE",
+              "matched_text": "Permission to use, copy, modify, and distribute this software for any\npurpose with or without fee is hereby granted.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\nWITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\nANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\nWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\nACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\nOR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE."
+            }
+          ],
+          "identifier": "bsd_zero-c1c044e8-aa0a-a792-9271-33e2fe81693d"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 93.27,
+      "scan_errors": []
+    },
+    {
+      "path": "compose-1.6.2/MANIFEST.in",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "compose-1.6.2/no_async.py",
+      "type": "file",
+      "detected_license_expression": "bsd-zero",
+      "detected_license_expression_spdx": "0BSD",
+      "license_detections": [
+        {
+          "license_expression": "bsd-zero",
+          "license_expression_spdx": "0BSD",
+          "matches": [
+            {
+              "license_expression": "bsd-zero",
+              "license_expression_spdx": "0BSD",
+              "from_file": "compose-1.6.2/no_async.py",
+              "start_line": 1,
+              "end_line": 1,
+              "matcher": "1-spdx-id",
+              "score": 100.0,
+              "matched_length": 4,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "spdx-license-identifier-bsd_zero-06795d12e28d43d6c02b008de843f7d692d469ac",
+              "rule_url": null,
+              "matched_text": "# SPDX-License-Identifier: 0BSD"
+            }
+          ],
+          "identifier": "bsd_zero-b145f9a4-e276-f27a-5618-1d868812e63d"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 1.35,
+      "scan_errors": []
+    },
+    {
+      "path": "compose-1.6.2/no_positional_only_arguments.py",
+      "type": "file",
+      "detected_license_expression": "bsd-zero",
+      "detected_license_expression_spdx": "0BSD",
+      "license_detections": [
+        {
+          "license_expression": "bsd-zero",
+          "license_expression_spdx": "0BSD",
+          "matches": [
+            {
+              "license_expression": "bsd-zero",
+              "license_expression_spdx": "0BSD",
+              "from_file": "compose-1.6.2/no_positional_only_arguments.py",
+              "start_line": 1,
+              "end_line": 1,
+              "matcher": "1-spdx-id",
+              "score": 100.0,
+              "matched_length": 4,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "spdx-license-identifier-bsd_zero-06795d12e28d43d6c02b008de843f7d692d469ac",
+              "rule_url": null,
+              "matched_text": "# SPDX-License-Identifier: 0BSD"
+            }
+          ],
+          "identifier": "bsd_zero-b145f9a4-e276-f27a-5618-1d868812e63d"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.65,
+      "scan_errors": []
+    },
+    {
+      "path": "compose-1.6.2/normal.py",
+      "type": "file",
+      "detected_license_expression": "bsd-zero",
+      "detected_license_expression_spdx": "0BSD",
+      "license_detections": [
+        {
+          "license_expression": "bsd-zero",
+          "license_expression_spdx": "0BSD",
+          "matches": [
+            {
+              "license_expression": "bsd-zero",
+              "license_expression_spdx": "0BSD",
+              "from_file": "compose-1.6.2/normal.py",
+              "start_line": 1,
+              "end_line": 1,
+              "matcher": "1-spdx-id",
+              "score": 100.0,
+              "matched_length": 4,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "spdx-license-identifier-bsd_zero-06795d12e28d43d6c02b008de843f7d692d469ac",
+              "rule_url": null,
+              "matched_text": "# SPDX-License-Identifier: 0BSD"
+            }
+          ],
+          "identifier": "bsd_zero-b145f9a4-e276-f27a-5618-1d868812e63d"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.57,
+      "scan_errors": []
+    },
+    {
+      "path": "compose-1.6.2/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": "bsd-zero",
+      "detected_license_expression_spdx": "0BSD",
+      "license_detections": [
+        {
+          "license_expression": "bsd-zero",
+          "license_expression_spdx": "0BSD",
+          "matches": [
+            {
+              "license_expression": "bsd-zero",
+              "license_expression_spdx": "0BSD",
+              "from_file": "compose-1.6.2/PKG-INFO",
+              "start_line": 8,
+              "end_line": 8,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-zero_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-zero_4.RULE",
+              "matched_text": "License: 0BSD"
+            }
+          ],
+          "identifier": "bsd_zero-04cc059a-b2b4-8ee9-61c8-6d6a8b69ece4"
+        },
+        {
+          "license_expression": "bsd-zero",
+          "license_expression_spdx": "0BSD",
+          "matches": [
+            {
+              "license_expression": "unknown-license-reference",
+              "license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+              "from_file": "compose-1.6.2/PKG-INFO",
+              "start_line": 13,
+              "end_line": 13,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "unknown-license-reference_see_license_at_manifest_1.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/unknown-license-reference_see_license_at_manifest_1.RULE",
+              "matched_text": "License-File: LICENSE"
+            },
+            {
+              "license_expression": "bsd-zero",
+              "license_expression_spdx": "0BSD",
+              "from_file": "compose-1.6.2/LICENSE",
+              "start_line": 3,
+              "end_line": 12,
+              "matcher": "3-seq",
+              "score": 98.98,
+              "matched_length": 97,
+              "match_coverage": 98.98,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-zero.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/bsd-zero.LICENSE",
+              "matched_text": "Permission to use, copy, modify, and distribute this software for any\npurpose with or without fee is hereby granted.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\nWITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\nANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\nWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\nACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\nOR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE."
+            }
+          ],
+          "identifier": "bsd_zero-c45b83bf-c69a-638b-b9de-477162135d4f",
+          "detection_log": [
+            "unknown-reference-to-local-file"
+          ]
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.61,
+      "scan_errors": []
+    },
+    {
+      "path": "compose-1.6.2/README.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "compose-1.6.2/setup.cfg",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "compose-1.6.2/setup.py",
+      "type": "file",
+      "detected_license_expression": "bsd-zero",
+      "detected_license_expression_spdx": "0BSD",
+      "license_detections": [
+        {
+          "license_expression": "bsd-zero",
+          "license_expression_spdx": "0BSD",
+          "matches": [
+            {
+              "license_expression": "bsd-zero",
+              "license_expression_spdx": "0BSD",
+              "from_file": "compose-1.6.2/setup.py",
+              "start_line": 72,
+              "end_line": 72,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-zero_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-zero_4.RULE",
+              "matched_text": "    license='0BSD',"
+            }
+          ],
+          "identifier": "bsd_zero-04cc059a-b2b4-8ee9-61c8-6d6a8b69ece4"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.66,
+      "scan_errors": []
+    },
+    {
+      "path": "compose-1.6.2/compose.egg-info",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "compose-1.6.2/compose.egg-info/dependency_links.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "compose-1.6.2/compose.egg-info/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": "bsd-zero",
+      "detected_license_expression_spdx": "0BSD",
+      "license_detections": [
+        {
+          "license_expression": "bsd-zero",
+          "license_expression_spdx": "0BSD",
+          "matches": [
+            {
+              "license_expression": "bsd-zero",
+              "license_expression_spdx": "0BSD",
+              "from_file": "compose-1.6.2/compose.egg-info/PKG-INFO",
+              "start_line": 8,
+              "end_line": 8,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-zero_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-zero_4.RULE",
+              "matched_text": "License: 0BSD"
+            }
+          ],
+          "identifier": "bsd_zero-04cc059a-b2b4-8ee9-61c8-6d6a8b69ece4"
+        },
+        {
+          "license_expression": "bsd-zero",
+          "license_expression_spdx": "0BSD",
+          "matches": [
+            {
+              "license_expression": "unknown-license-reference",
+              "license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+              "from_file": "compose-1.6.2/compose.egg-info/PKG-INFO",
+              "start_line": 13,
+              "end_line": 13,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "unknown-license-reference_see_license_at_manifest_1.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/unknown-license-reference_see_license_at_manifest_1.RULE",
+              "matched_text": "License-File: LICENSE"
+            },
+            {
+              "license_expression": "bsd-zero",
+              "license_expression_spdx": "0BSD",
+              "from_file": "compose-1.6.2/LICENSE",
+              "start_line": 3,
+              "end_line": 12,
+              "matcher": "3-seq",
+              "score": 98.98,
+              "matched_length": 97,
+              "match_coverage": 98.98,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-zero.LICENSE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/bsd-zero.LICENSE",
+              "matched_text": "Permission to use, copy, modify, and distribute this software for any\npurpose with or without fee is hereby granted.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\nWITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\nANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\nWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\nACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\nOR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE."
+            }
+          ],
+          "identifier": "bsd_zero-c45b83bf-c69a-638b-b9de-477162135d4f",
+          "detection_log": [
+            "unknown-reference-to-local-file"
+          ]
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.61,
+      "scan_errors": []
+    },
+    {
+      "path": "compose-1.6.2/compose.egg-info/SOURCES.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "compose-1.6.2/compose.egg-info/top_level.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    }
+  ]
+}

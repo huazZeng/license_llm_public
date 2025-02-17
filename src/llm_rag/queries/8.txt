@@ -1,0 +1,1 @@
+the library being compiled into the program linked at compile time rather than runtime

@@ -1,0 +1,1 @@
+include that NOTICE when you distribute if the library has a NOTICE file with attribution notes

@@ -1,0 +1,26 @@
+Additional terms, permissive or non-permissive, may be stated in the form of a separately written license, or stated as exceptions.
+The sentence mentions that additional terms can be stated as another license, so 'add other licenses with the software' is expilicitly permitted. Therefore, the answer is 'can'.
+
+Any Distributor or Recipient may create or contribute to a Larger Work by combining any of the Licensed Work with other code not governed by the terms of this License, and may distribute the Larger Work as one or more products.
+Although the sentence mentions "may create or contribute to a Larger Work by combining any of the Licensed Work with other code not governed by the terms of this License," the other work is actually the one using another license, so it does not explicitly address "add other licenses with the software." Therefore, the attitude towards "add other licenses with the software" is "nomentioned."
+
+Contributions do not include additions to the Program which: (i) are separate modules of software distributed in conjunction with the Program under their own license agreement, and (ii) are not derivative works of the Program.
+Although the sentence mentions "are separate modules of software distributed in conjunction with the Program under their own license agreement," allowing other software modules to be distributed together with the main program, this does not imply that other licenses have been added to the main program. Therefore, the attitude towards "add other licenses with the software" is "nomentioned."
+
+You may place library facilities that are a work based on the Library side-by-side in a single library together with other library facilities not covered by this License, and distribute such a combined library, provided that the separate distribution of the work based on the Library and of the other library facilities is otherwise 
+Although the sentence mentions "place library facilities that are a work based on the Library side-by-side in a single library together with other library facilities not covered by this License," the other licenses only apply to the other library facilities, not to this work. Therefore, the attitude towards "add other licenses with the software" is "nomentioned."
+
+...including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software...
+Although this sentence allows sublicensing, it is not equivalent to relicensing. The sentence does not explicitly mention "relicense." Therefore, the attitude towards "add other licenses with the software" is "nomentioned."
+
+Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license.
+Although the sentence mentions "may be bundled, redistributed and/or sold with any software," the licenses of the other coexisting software do not apply to this work. Therefore, the attitude towards "add other licenses with the software" is "nomentioned."
+
+Compatibility clause: If the Licensee Distributes and/or Communicates Derivative Works or copies thereof based upon both the Original Work and another work licensed under a Compatible Licence, this Distribution and/or Communication can be done under the terms of this Compatible Licence.
+Although the sentence mentions "distribute another work licensed under a Compatible Licence," this still refers to derivative works, and the license does not directly apply to this work. Sublicensing is different from relicensing. Therefore, the attitude towards "add other licenses with the software" is "nomentioned."
+
+
+
+
+
+

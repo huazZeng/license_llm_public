@@ -1,0 +1,617 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "32.3.0",
+      "options": {
+        "input": [
+          "pypi_source\\powerline-shell-0.1.0a0"
+        ],
+        "--json-pp": "scanresult/powerline-shell-0.1.0a0_result.json",
+        "--license": true,
+        "--license-text": true
+      },
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2025-02-07T104629.021637",
+      "end_timestamp": "2025-02-07T104638.527253",
+      "output_format_version": "4.0.0",
+      "duration": 9.505616903305054,
+      "message": null,
+      "errors": [],
+      "warnings": [],
+      "extra_data": {
+        "system_environment": {
+          "operating_system": "win",
+          "cpu_architecture": "64",
+          "platform": "Windows-10-10.0.22631-SP0",
+          "platform_version": "10.0.22631",
+          "python_version": "3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)]"
+        },
+        "spdx_license_list_version": "3.25",
+        "files_count": 42
+      }
+    }
+  ],
+  "license_detections": [
+    {
+      "identifier": "wtfpl_2_0-b22d7a0b-3e80-5091-a0de-7e0e77c89e84",
+      "license_expression": "wtfpl-2.0",
+      "license_expression_spdx": "WTFPL",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "wtfpl-2.0",
+          "license_expression_spdx": "WTFPL",
+          "from_file": "powerline-shell-0.1.0a0/powerline_shell/colortrans.py",
+          "start_line": 24,
+          "end_line": 24,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 2,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "wtfpl-2.0_33.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/wtfpl-2.0_33.RULE",
+          "matched_text": "__license__   = 'WTFPL http://sam.zoy.org/wtfpl/'"
+        },
+        {
+          "license_expression": "wtfpl-2.0",
+          "license_expression_spdx": "WTFPL",
+          "from_file": "powerline-shell-0.1.0a0/powerline_shell/colortrans.py",
+          "start_line": 24,
+          "end_line": 24,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 6,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "wtfpl-2.0_14.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/wtfpl-2.0_14.RULE",
+          "matched_text": "__license__   = 'WTFPL http://sam.zoy.org/wtfpl/'"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "powerline-shell-0.1.0a0",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [
+        {
+          "license_expression": "unknown-license-reference",
+          "license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+          "from_file": "powerline-shell-0.1.0a0/PKG-INFO",
+          "start_line": 7,
+          "end_line": 8,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 2,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "license-clue_unknown-license-reference_4.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/license-clue_unknown-license-reference_4.RULE",
+          "matched_text": "Author-email: UNKNOWN\nLicense: UNKNOWN"
+        }
+      ],
+      "percentage_of_license_text": 5.41,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/setup.cfg",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/setup.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/color_compliment.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/colortrans.py",
+      "type": "file",
+      "detected_license_expression": "wtfpl-2.0",
+      "detected_license_expression_spdx": "WTFPL",
+      "license_detections": [
+        {
+          "license_expression": "wtfpl-2.0",
+          "license_expression_spdx": "WTFPL",
+          "matches": [
+            {
+              "license_expression": "wtfpl-2.0",
+              "license_expression_spdx": "WTFPL",
+              "from_file": "powerline-shell-0.1.0a0/powerline_shell/colortrans.py",
+              "start_line": 24,
+              "end_line": 24,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 2,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "wtfpl-2.0_33.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/wtfpl-2.0_33.RULE",
+              "matched_text": "__license__   = 'WTFPL http://sam.zoy.org/wtfpl/'"
+            },
+            {
+              "license_expression": "wtfpl-2.0",
+              "license_expression_spdx": "WTFPL",
+              "from_file": "powerline-shell-0.1.0a0/powerline_shell/colortrans.py",
+              "start_line": 24,
+              "end_line": 24,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 6,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "wtfpl-2.0_14.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/wtfpl-2.0_14.RULE",
+              "matched_text": "__license__   = 'WTFPL http://sam.zoy.org/wtfpl/'"
+            }
+          ],
+          "identifier": "wtfpl_2_0-b22d7a0b-3e80-5091-a0de-7e0e77c89e84"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 0.55,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/utils.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/cwd.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/exit_code.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/fossil.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/git.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/hg.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/hostname.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/jobs.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/newline.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/node_version.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/npm_version.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/php_version.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/rbenv.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/read_only.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/root.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/ruby_version.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/set_term_title.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/ssh.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/svn.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/time.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/uptime.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/username.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/segments/virtual_env.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/themes",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/themes/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/themes/basic.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/themes/default.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/themes/solarized_dark.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell/themes/washed.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell.egg-info",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell.egg-info/dependency_links.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell.egg-info/entry_points.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell.egg-info/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [
+        {
+          "license_expression": "unknown-license-reference",
+          "license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+          "from_file": "powerline-shell-0.1.0a0/powerline_shell.egg-info/PKG-INFO",
+          "start_line": 7,
+          "end_line": 8,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 2,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "license-clue_unknown-license-reference_4.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/license-clue_unknown-license-reference_4.RULE",
+          "matched_text": "Author-email: UNKNOWN\nLicense: UNKNOWN"
+        }
+      ],
+      "percentage_of_license_text": 5.41,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell.egg-info/requires.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell.egg-info/SOURCES.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "powerline-shell-0.1.0a0/powerline_shell.egg-info/top_level.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    }
+  ]
+}

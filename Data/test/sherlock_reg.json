@@ -1,0 +1,323 @@
+{
+    "name": "/home/zhz/repo/sherlock",
+    "children": [
+        {
+            "name": "/home/zhz/repo/sherlock/tests",
+            "children": [
+                {
+                    "name": "/home/zhz/repo/sherlock/tests/test_probes.py",
+                    "dependencys": [
+                        "pytest",
+                        "random",
+                        "string",
+                        "re",
+                        "sherlock_project"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/sherlock/tests/few_test_basic.py",
+                    "dependencys": [
+                        "sherlock_project"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/sherlock/tests/sherlock_interactives.py",
+                    "dependencys": [
+                        "os",
+                        "platform",
+                        "re",
+                        "subprocess"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/sherlock/tests/test_version.py",
+                    "dependencys": [
+                        "os",
+                        "sherlock_interactives",
+                        "sherlock_project"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/sherlock/tests/conftest.py",
+                    "dependencys": [
+                        "os",
+                        "json",
+                        "urllib",
+                        "pytest",
+                        "sherlock_project"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/sherlock/tests/test_ux.py",
+                    "dependencys": [
+                        "pytest",
+                        "sherlock_project",
+                        "sherlock_interactives"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/sherlock/tests/test_manifest.py",
+                    "dependencys": [
+                        "os",
+                        "json",
+                        "pytest",
+                        "jsonschema"
+                    ],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "/home/zhz/repo/sherlock/sherlock_project",
+            "children": [
+                {
+                    "name": "/home/zhz/repo/sherlock/sherlock_project/notify.py",
+                    "dependencys": [
+                        "sherlock_project",
+                        "colorama",
+                        "webbrowser"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/sherlock/sherlock_project/sites.py",
+                    "dependencys": [
+                        "json",
+                        "requests",
+                        "secrets"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/sherlock/sherlock_project/sherlock.py",
+                    "dependencys": [
+                        "sys",
+                        "sherlock_project",
+                        "csv",
+                        "signal",
+                        "pandas",
+                        "os",
+                        "re",
+                        "argparse",
+                        "json",
+                        "time",
+                        "requests",
+                        "requests_futures",
+                        "colorama",
+                        "torrequest"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/sherlock/sherlock_project/result.py",
+                    "dependencys": [
+                        "enum"
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/sherlock/sherlock_project/resources",
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/sherlock/sherlock_project/resources/data.schema.json",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/sherlock/sherlock_project/resources/data.json",
+                            "dependencys": [],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "/home/zhz/repo/sherlock/sherlock_project/__init__.py",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/sherlock/sherlock_project/__main__.py",
+                    "dependencys": [
+                        "sys",
+                        "sherlock_project"
+                    ],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "/home/zhz/repo/sherlock/LICENSE",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/sherlock/tox.ini",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/sherlock/docs",
+            "children": [
+                {
+                    "name": "/home/zhz/repo/sherlock/docs/CODE_OF_CONDUCT.md",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/sherlock/docs/removed-sites.md",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/sherlock/docs/README.md",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/sherlock/docs/images",
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/sherlock/docs/images/sherlock-logo.png",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/sherlock/docs/images/demo.png",
+                            "dependencys": [],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "/home/zhz/repo/sherlock/docs/pyproject",
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/sherlock/docs/pyproject/README.md",
+                            "dependencys": [],
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/home/zhz/repo/sherlock/.editorconfig",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/sherlock/.github",
+            "children": [
+                {
+                    "name": "/home/zhz/repo/sherlock/.github/FUNDING.yml",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/sherlock/.github/ISSUE_TEMPLATE",
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/sherlock/.github/ISSUE_TEMPLATE/false-negative.yml",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/sherlock/.github/ISSUE_TEMPLATE/feature-request.yml",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/sherlock/.github/ISSUE_TEMPLATE/config.yml",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/sherlock/.github/ISSUE_TEMPLATE/false-positive.yml",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/sherlock/.github/ISSUE_TEMPLATE/site-request.yml",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/sherlock/.github/ISSUE_TEMPLATE/bug-report.yml",
+                            "dependencys": [],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "/home/zhz/repo/sherlock/.github/CODEOWNERS",
+                    "dependencys": [],
+                    "children": []
+                },
+                {
+                    "name": "/home/zhz/repo/sherlock/.github/workflows",
+                    "children": [
+                        {
+                            "name": "/home/zhz/repo/sherlock/.github/workflows/update-site-list.yml",
+                            "dependencys": [],
+                            "children": []
+                        },
+                        {
+                            "name": "/home/zhz/repo/sherlock/.github/workflows/regression.yml",
+                            "dependencys": [],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "/home/zhz/repo/sherlock/.github/SECURITY.md",
+                    "dependencys": [],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "/home/zhz/repo/sherlock/.gitignore",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/sherlock/pytest.ini",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/sherlock/pyproject.toml",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/sherlock/Dockerfile",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/sherlock/.dockerignore",
+            "dependencys": [],
+            "children": []
+        },
+        {
+            "name": "/home/zhz/repo/sherlock/devel",
+            "children": [
+                {
+                    "name": "/home/zhz/repo/sherlock/devel/site-list.py",
+                    "dependencys": [
+                        "json",
+                        "os"
+                    ],
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

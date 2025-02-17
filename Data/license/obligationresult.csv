@@ -1,0 +1,133 @@
+license,Include Copyright,Include License,Include Notice,Disclose Source,State Changes,Include Original,Give Credit,Rename,Contact Author,Include Install Instructions,Compensate for Damages,Pay Above Use Threshold
+Apache License 2.0___Apache-2.0,must,must,must,can,must,can,can,can,can,can,can,can
+MIT License___MIT-license,must,must,can,can,can,can,can,can,can,can,can,can
+Microsoft Public License___MS-PL,must,must,can,can,can,can,can,can,can,can,can,can
+GNU General Public License v2.0 only___GPL-2.0-only___GPL-2.0-or-later,must,must,can,must,must,must,can,can,can,can,can,can
+GNU General Public License v3.0 only___GPL-3.0-only___GPL-3.0-or-later,must,must,can,must,must,must,can,can,can,must,can,can
+Mozilla Public License 2.0___MPL-2.0,must,must,can,must,can,must,can,can,can,can,can,can
+GNU Lesser General Public License v2.1 only___LGPL-2.1-only,must,must,must,must,must,must,can,can,can,can,can,can
+BSD-2-Clause,must,must,can,can,can,can,can,can,can,can,can,can
+BSD-3-Clause,must,must,can,can,can,can,can,can,can,can,can,can
+zlib License___Zlib-license___Libpng-license,must,can,can,can,can,can,can,must,can,can,can,can
+Common Development and Distribution License___CDDL-1.0,must,must,can,must,can,can,can,can,can,can,can,can
+Beer Recipe License___BRL,must,must,can,can,can,must,can,can,can,can,can,can
+psfrag License___psfrag-license,can,can,must,can,can,can,can,can,can,can,can,can
+Creative Commons Attribution 3.0 Unported___CC-BY___CC-BY-3.0,must,can,can,can,can,can,can,can,can,can,can,can
+Creative Commons Attribution NoDerivs___CC-ND,must,can,can,can,can,can,can,can,can,can,can,can
+Creative Commons Attribution NonCommercial___CC-BY-NC-4.0,must,can,can,can,must,can,must,can,can,can,can,can
+Creative Commons Attribution Share Alike___CC-SA,must,can,can,can,can,can,can,can,can,can,can,can
+Creative Commons Attribution NonCommercial ShareAlike___CC-NC-SA,must,can,can,can,can,can,can,can,can,can,can,can
+Creative Commons Attribution NonCommercial NoDerivs___CC-NC-ND,must,can,can,can,can,can,can,can,can,can,can,can
+Academic Free License___AFL,must,can,can,must,can,must,can,can,can,can,can,can
+Artistic License 2.0___Artistic-2.0,can,can,can,can,must,must,can,must,can,must,can,can
+PHP License 3.0,must,must,can,can,can,can,can,can,can,can,can,can
+Simple Public License 2.0___SPL-2.0,can,must,can,must,must,can,can,can,can,can,can,can
+Eclipse Public License 1.0___EPL-1.0,must,must,can,must,can,must,can,can,can,must,must,can
+IBM Public License___IPL,can,must,can,must,can,can,can,can,can,can,can,can
+Apple Public Source License___APSL,must,must,can,must,must,can,can,can,can,can,can,can
+University of Illinois - NCSA Open Source___NCSA,can,must,can,can,can,can,can,can,can,can,can,can
+Do What The Fuck You Want To Public License___WTFPL-license,can,can,can,can,can,can,can,can,can,can,can,can
+ISC License___ISC-license,must,must,can,can,can,can,can,can,can,can,can,can
+Beerware License___Beerware-license,must,can,can,can,can,can,can,can,can,can,can,can
+Microsoft Reciprocal License___Ms-RL,must,must,can,must,can,can,can,can,can,can,can,can
+Python Software Foundation License 2.0___PSF-2.0,must,must,can,can,must,can,can,can,can,can,can,can
+GNU Affero General Public License v3.0 only___AGPL-3.0-only,must,must,can,must,must,can,can,can,can,must,can,can
+SIL Open Font License v1.1___OFL-1.1,can,must,can,can,can,can,can,must,can,can,can,can
+TÃ³ca Operating System General___TOSG-2.00,can,can,can,must,must,can,can,can,can,can,can,can
+The Code Project Open License___CPOL,can,can,can,can,must,cannot,can,can,can,can,can,can
+ODC Open Database License___ODbL,can,must,can,can,can,must,can,can,can,can,can,can
+DON'T BE A DICK PUBLIC LICENSE,can,can,can,can,can,can,can,can,can,can,can,can
+X11 License,must,must,can,can,can,can,can,can,can,can,can,can
+JSON License,must,must,can,can,can,can,can,can,can,can,can,can
+Lisp Lesser General Public License___LLGPL,can,can,can,can,can,must,can,can,can,can,can,can
+Common Public Attribution License___CPAL-1.0,must,must,must,must,must,can,can,can,can,can,can,can
+Aladdin Free Public License,can,must,can,can,must,must,can,can,can,can,can,can
+Clarified Artistic License,must,can,can,must,must,can,can,can,can,can,can,can
+Frameworx Open License___Frameworx-1.0,can,must,must,must,can,can,can,can,can,can,can,can
+Freetype Project License___FTL,must,must,can,can,can,can,can,can,can,can,can,can
+Qhull,must,can,must,must,must,can,can,can,can,can,can,can
+The Don't Ask Me About It,can,can,can,can,can,can,can,can,cannot,can,can,can
+European Union Public License___EUPL-1.1,must,must,can,must,must,can,can,can,can,can,can,can
+The Unlicense,cannot,can,can,can,can,can,can,can,can,can,can,can
+MiTTY,can,can,can,can,can,can,can,can,must,can,can,can
+Fair License,can,must,can,can,can,can,can,can,can,can,can,can
+Educational Community License___ECL-2.0,must,must,must,can,must,can,can,can,can,can,can,can
+Ubuntu Font License___UFL-1.0,must,must,can,can,can,can,can,cannot,can,can,can,can
+Open Software Licence 3.0___OSL-3.0,must,must,can,must,can,can,can,can,can,can,can,can
+Adaptive Public License 1.0___APL-1.0,can,must,must,must,must,can,must,can,can,can,can,can
+ANTLR Software Rights Notice___ANTLR-PD,can,can,can,can,can,can,must,can,can,can,can,can
+Attribution Assurance License___AAL,can,must,can,can,can,can,must,can,can,can,can,can
+Common Public License___CPL-1.0,must,must,can,must,can,can,can,can,can,can,can,can
+Condor Public License___Condor-1.1,must,must,can,can,can,can,can,can,can,can,can,can
+Do What The F*ck You Want To Public License___WTFPL license,can,can,can,can,can,can,can,must,can,can,can,can
+Eiffel Forum License___EFL-2.0,must,must,can,can,can,can,can,can,can,can,can,can
+Historical Permission Notice and Disclaimer___HPND-license,can,must,must,can,can,can,can,can,can,can,can,can
+IBM PowerPC Initialization and Boot Software (IBM-pibs),must,must,can,can,can,can,can,can,can,can,can,can
+Intel Open Source,can,must,can,can,can,can,can,can,can,can,can,can
+Lucent Public License___LPL-1.02,can,must,can,can,must,can,can,can,can,can,can,can
+MirOS (MirOS),can,must,can,can,can,can,can,can,can,can,can,can
+OCLC Research Public License (OCLC-2.0),can,must,can,must,can,can,can,can,can,can,can,can
+ODC Public Domain Dedication & License___PDDL-1.0,can,can,can,can,can,can,can,can,can,can,can,can
+OpenSSL License___OpenSSL-license,must,must,can,can,can,can,must,can,can,can,can,can
+PostgreSQL___PostgreSQL,must,must,can,can,can,can,can,can,can,can,can,can
+Q Public License___QPL-1.0,must,must,can,must,can,can,can,can,can,can,can,can
+Ruby License,must,can,can,must,can,can,can,can,can,can,can,can
+Mozilla Public License 1.1___MPL-1.1,must,must,must,must,must,can,must,can,can,can,can,can
+Sun Industry Standards Source License v1.2 (SISSL-1.2),can,must,can,must,can,can,can,can,can,can,can,can
+Vovida Software License___VSL-1.0,must,must,can,can,can,can,can,can,can,can,can,can
+W3C Software Notice and License___W3C license,must,must,can,can,must,can,can,can,can,can,can,can
+wxWindows Library___WXwindows license,must,can,can,can,can,must,can,can,can,can,can,can
+Yahoo! Public License___YPL-1.1,must,must,can,must,can,can,can,can,can,can,can,can
+Zimbra Public License (Zimbra-1.3),must,must,can,must,can,can,can,can,can,can,can,can
+Zope Public License 2.1___ZPL-2.1,must,must,can,can,must,can,can,can,can,can,can,can
+Netscape Public License___NPL-1.1,must,must,must,must,must,can,must,can,can,can,can,can
+Nokia Open Source License,must,must,must,must,must,can,must,can,can,can,can,can
+Sun Public License___SPL-1.0,must,must,must,must,must,can,must,can,can,can,can,can
+Sybase Open Watcom Public (Watcom-1.0),must,must,can,must,must,can,can,can,can,can,can,can
+Open Public License___OPL-1.0,must,must,must,must,must,can,must,can,can,can,can,can
+RealNetworks Public Source License (RPSL-1.0),must,must,can,must,must,can,can,can,can,can,can,can
+Reciprocal Public License 1.5___RPL-1.5,must,must,must,must,must,can,must,must,can,can,can,can
+Creative Commons CC0___CC-0___CC0-1.0,can,can,can,can,can,can,can,can,can,can,can,can
+Peer Production License,must,can,can,can,can,can,can,can,can,can,can,can
+Creative Commons Attribution___CC-BY,must,can,can,can,must,can,must,can,can,can,can,can
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International___CC-BY-NC-SA,must,can,can,can,must,can,must,can,can,can,can,can
+GG License 1.0 (GG1),must,must,can,can,must,must,must,can,can,can,can,can
+bzip2,must,must,can,can,must,can,can,can,can,can,can,can
+Creative Commons Attribution-NonCommercial 4.0 International___CC-BY-NC,must,can,can,can,must,can,must,can,can,can,can,can
+Creative Commons Attribution-ShareAlike 4.0 International___CC-BY-SA___CC-BY-SA-4.0___CC-BY-4.0___Creative Commons Attribution 4.0 International,must,can,can,can,must,can,must,can,can,can,can,can
+Creative Commons Attribution-NoDerivatives 4.0 International___CC BY-ND,must,can,can,can,must,can,must,can,can,can,can,can
+Agate License,can,can,can,can,can,can,can,can,can,can,can,can
+Copyfree Open Innovation License___COIL-0.3,must,must,can,can,can,can,can,can,can,can,can,can
+Do What The Fuck You Want To But It's Not My Fault Public License v1___WTFNMFPL-1.0,can,can,can,can,can,can,can,can,can,can,can,can
+GNU Lesser General Public License (LGPL-3.0),must,must,can,must,must,must,can,can,can,must,can,can
+The Spice Software License Version 1.1___Spice-1.1,must,must,can,can,can,can,can,can,can,can,can,can
+Apache License 1.1___Apache-1.1,must,must,must,can,can,can,can,can,can,can,can,can
+Apache License 1.0___Apache-1.0,must,must,can,can,can,can,can,can,can,can,can,can
+Mug Foundation open formats license,must,must,can,can,can,must,must,can,can,can,can,can
+CeCILL Free Software License Agreement v1.0___CECILL-1.0,must,must,must,must,must,can,can,can,can,can,can,can
+CeCILL Free Software License Agreement v1.1___CECILL-1.1,must,must,must,must,must,can,can,can,can,can,can,can
+CeCILL Free Software License Agreement v2.0___CECILL-2.0,must,must,must,must,must,can,can,can,can,can,can,can
+Simple non code license___SNCL license,must,must,must,can,can,can,must,can,can,can,can,can
+Apple MIT License (AML),must,must,can,can,can,can,can,can,can,can,can,can
+Zope Public License 1.1___ZPL-1.1,must,must,can,can,must,can,can,can,can,can,can,can
+Zope Public License 2.0___ZPL-2.0,must,must,can,can,must,can,can,can,can,can,can,can
+Mozilla Public License 1.0___MPL-1.0,must,must,can,must,must,can,can,can,can,can,can,can
+Open Software License 1.0___OSL-1.0,must,must,can,must,can,can,can,can,can,can,can,can
+Open Software License 1.1___OSL-1.1,must,must,can,must,can,can,can,can,can,can,can,can
+Open Software License 2.0___OSL-2.0,must,must,can,must,can,can,can,can,can,can,can,can
+Open Software License 2.1___OSL-2.1,must,must,can,must,can,can,can,can,can,can,can,can
+Tcl license,must,must,can,can,can,can,can,can,can,can,can,can
+BSD-4-Clause,must,must,can,can,can,can,must,can,can,can,can,can
+Universal Permissive License 1.0___UPL-1.0,must,must,can,can,can,can,can,can,can,can,can,can
+Unlicence___Unlicence license,can,can,can,can,can,can,can,can,can,can,can,can
+Free Public License 1.0.0,can,can,can,can,can,can,can,can,can,can,can,can
+gridSlider license,can,can,can,can,can,can,can,can,can,can,can,can
+Afmparse license,must,can,can,can,must,can,can,can,can,can,cannot,can
+CMU license,must,must,can,can,can,can,can,can,can,can,can,can
+Cube license,must,can,can,can,can,can,can,can,can,can,cannot,can
+curl license,must,must,can,can,can,can,can,can,can,can,can,can
+diffmark license,can,can,can,can,can,can,can,can,can,can,can,can
+DOC License,must,must,can,can,can,can,can,can,can,can,can,can
+psutils license,can,can,must,can,can,must,can,can,can,can,can,can
+BSD 0-Clause License___BSD-0-Clause___BSD Zero Clause License,can,can,can,can,can,can,can,can,can,can,can,can
+Wizardry license,can,must,can,can,can,can,must,can,can,can,can,can

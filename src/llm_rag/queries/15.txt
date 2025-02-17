@@ -1,0 +1,1 @@
+disclose your source code when you distribute the software and make the source for the library available

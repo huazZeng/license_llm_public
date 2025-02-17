@@ -1,0 +1,341 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "32.3.0",
+      "options": {
+        "input": [
+          "pypi_source\\objective-0.0.12"
+        ],
+        "--json-pp": "scanresult/objective-0.0.12_result.json",
+        "--license": true,
+        "--license-text": true
+      },
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2025-02-07T104530.503044",
+      "end_timestamp": "2025-02-07T104539.550827",
+      "output_format_version": "4.0.0",
+      "duration": 9.047783136367798,
+      "message": null,
+      "errors": [],
+      "warnings": [],
+      "extra_data": {
+        "system_environment": {
+          "operating_system": "win",
+          "cpu_architecture": "64",
+          "platform": "Windows-10-10.0.22631-SP0",
+          "platform_version": "10.0.22631",
+          "python_version": "3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)]"
+        },
+        "spdx_license_list_version": "3.25",
+        "files_count": 17
+      }
+    }
+  ],
+  "license_detections": [
+    {
+      "identifier": "apache_2_0-e267f9d9-ae62-e9c9-9cc2-8cd0a1e4928f",
+      "license_expression": "apache-2.0",
+      "license_expression_spdx": "Apache-2.0",
+      "detection_count": 3,
+      "reference_matches": [
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "from_file": "objective-0.0.12/PKG-INFO",
+          "start_line": 14,
+          "end_line": 14,
+          "matcher": "2-aho",
+          "score": 95.0,
+          "matched_length": 6,
+          "match_coverage": 100.0,
+          "rule_relevance": 95,
+          "rule_identifier": "pypi_apache_no-version.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_apache_no-version.RULE",
+          "matched_text": "Classifier: License :: OSI Approved :: Apache Software License"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "objective-0.0.12",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "objective-0.0.12/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": "apache-2.0",
+      "detected_license_expression_spdx": "Apache-2.0",
+      "license_detections": [
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "matches": [
+            {
+              "license_expression": "apache-2.0",
+              "license_expression_spdx": "Apache-2.0",
+              "from_file": "objective-0.0.12/PKG-INFO",
+              "start_line": 14,
+              "end_line": 14,
+              "matcher": "2-aho",
+              "score": 95.0,
+              "matched_length": 6,
+              "match_coverage": 100.0,
+              "rule_relevance": 95,
+              "rule_identifier": "pypi_apache_no-version.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_apache_no-version.RULE",
+              "matched_text": "Classifier: License :: OSI Approved :: Apache Software License"
+            }
+          ],
+          "identifier": "apache_2_0-e267f9d9-ae62-e9c9-9cc2-8cd0a1e4928f"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 8.82,
+      "scan_errors": []
+    },
+    {
+      "path": "objective-0.0.12/README.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "objective-0.0.12/setup.cfg",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "objective-0.0.12/setup.py",
+      "type": "file",
+      "detected_license_expression": "apache-2.0",
+      "detected_license_expression_spdx": "Apache-2.0",
+      "license_detections": [
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "matches": [
+            {
+              "license_expression": "apache-2.0",
+              "license_expression_spdx": "Apache-2.0",
+              "from_file": "objective-0.0.12/setup.py",
+              "start_line": 43,
+              "end_line": 43,
+              "matcher": "2-aho",
+              "score": 95.0,
+              "matched_length": 6,
+              "match_coverage": 100.0,
+              "rule_relevance": 95,
+              "rule_identifier": "pypi_apache_no-version.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_apache_no-version.RULE",
+              "matched_text": "        'License :: OSI Approved :: Apache Software License',"
+            }
+          ],
+          "identifier": "apache_2_0-e267f9d9-ae62-e9c9-9cc2-8cd0a1e4928f"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 3.43,
+      "scan_errors": []
+    },
+    {
+      "path": "objective-0.0.12/src",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "objective-0.0.12/src/objective",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "objective-0.0.12/src/objective/__init__.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "objective-0.0.12/src/objective/core.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "objective-0.0.12/src/objective/exc.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "objective-0.0.12/src/objective/fields.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "objective-0.0.12/src/objective/validation.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "objective-0.0.12/src/objective/values.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "objective-0.0.12/src/objective.egg-info",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "objective-0.0.12/src/objective.egg-info/dependency_links.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "objective-0.0.12/src/objective.egg-info/not-zip-safe",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "objective-0.0.12/src/objective.egg-info/pbr.json",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "objective-0.0.12/src/objective.egg-info/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": "apache-2.0",
+      "detected_license_expression_spdx": "Apache-2.0",
+      "license_detections": [
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "matches": [
+            {
+              "license_expression": "apache-2.0",
+              "license_expression_spdx": "Apache-2.0",
+              "from_file": "objective-0.0.12/src/objective.egg-info/PKG-INFO",
+              "start_line": 14,
+              "end_line": 14,
+              "matcher": "2-aho",
+              "score": 95.0,
+              "matched_length": 6,
+              "match_coverage": 100.0,
+              "rule_relevance": 95,
+              "rule_identifier": "pypi_apache_no-version.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_apache_no-version.RULE",
+              "matched_text": "Classifier: License :: OSI Approved :: Apache Software License"
+            }
+          ],
+          "identifier": "apache_2_0-e267f9d9-ae62-e9c9-9cc2-8cd0a1e4928f"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 8.82,
+      "scan_errors": []
+    },
+    {
+      "path": "objective-0.0.12/src/objective.egg-info/requires.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "objective-0.0.12/src/objective.egg-info/SOURCES.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "objective-0.0.12/src/objective.egg-info/top_level.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    }
+  ]
+}

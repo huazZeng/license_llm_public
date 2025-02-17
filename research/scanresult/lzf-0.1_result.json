@@ -1,0 +1,780 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "32.3.0",
+      "options": {
+        "input": [
+          "pypi_source\\lzf-0.1"
+        ],
+        "--json-pp": "scanresult/lzf-0.1_result.json",
+        "--license": true,
+        "--license-text": true
+      },
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2025-02-07T103940.824350",
+      "end_timestamp": "2025-02-07T103958.570487",
+      "output_format_version": "4.0.0",
+      "duration": 17.746136903762817,
+      "message": null,
+      "errors": [],
+      "warnings": [],
+      "extra_data": {
+        "system_environment": {
+          "operating_system": "win",
+          "cpu_architecture": "64",
+          "platform": "Windows-10-10.0.22631-SP0",
+          "platform_version": "10.0.22631",
+          "python_version": "3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)]"
+        },
+        "spdx_license_list_version": "3.25",
+        "files_count": 30
+      }
+    }
+  ],
+  "license_detections": [
+    {
+      "identifier": "bsd_new-f4e99f86-00ab-18d9-a65d-a3a12767dcf5",
+      "license_expression": "bsd-new",
+      "license_expression_spdx": "BSD-3-Clause",
+      "detection_count": 3,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "from_file": "lzf-0.1/PKG-INFO",
+          "start_line": 95,
+          "end_line": 95,
+          "matcher": "2-aho",
+          "score": 99.0,
+          "matched_length": 5,
+          "match_coverage": 100.0,
+          "rule_relevance": 99,
+          "rule_identifier": "pypi_bsd_license.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_bsd_license.RULE",
+          "matched_text": "Classifier: License :: OSI Approved :: BSD License"
+        }
+      ]
+    },
+    {
+      "identifier": "bsd_simplified_or_gpl_2_0_plus-bcdd0893-bf7d-7c3f-3bbf-a939ceb59741",
+      "license_expression": "bsd-simplified OR gpl-2.0-plus",
+      "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+      "detection_count": 12,
+      "reference_matches": [
+        {
+          "license_expression": "bsd-simplified OR gpl-2.0-plus",
+          "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+          "from_file": "lzf-0.1/liblzf/lzf.c",
+          "start_line": 5,
+          "end_line": 35,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 302,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "bsd-simplified_or_gpl-2.0-plus_4.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_or_gpl-2.0-plus_4.RULE",
+          "matched_text": " * Redistribution and use in source and binary forms, with or without modifica-\n * tion, are permitted provided that the following conditions are met:\n *\n *   1.  Redistributions of source code must retain the above copyright notice,\n *       this list of conditions and the following disclaimer.\n *\n *   2.  Redistributions in binary form must reproduce the above copyright\n *       notice, this list of conditions and the following disclaimer in the\n *       documentation and/or other materials provided with the distribution.\n *\n * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED\n * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MER-\n * CHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO\n * EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPE-\n * CIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\n * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;\n * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\n * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTH-\n * ERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n *\n * Alternatively, the contents of this file may be used under the terms of\n * the GNU General Public License (\"GPL\") version 2 or any later version,\n * in which case the provisions of the GPL are applicable instead of\n * the above. If you wish to allow the use of your version of this file\n * only under the terms of the GPL and not to allow others to use your\n * version of this file under the BSD license, indicate your decision\n * by deleting the provisions above and replace them with the notice\n * and other provisions required by the GPL. If you do not delete the\n * provisions above, a recipient may use your version of this file under\n * either the BSD or the GPL."
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "lzf-0.1",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/lzf.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/lzf_build.py",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/MANIFEST.in",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": "bsd-new",
+      "detected_license_expression_spdx": "BSD-3-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "lzf-0.1/PKG-INFO",
+              "start_line": 95,
+              "end_line": 95,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "pypi_bsd_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_bsd_license.RULE",
+              "matched_text": "Classifier: License :: OSI Approved :: BSD License"
+            }
+          ],
+          "identifier": "bsd_new-f4e99f86-00ab-18d9-a65d-a3a12767dcf5"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 1.23,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/README.rst",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/setup.cfg",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/setup.py",
+      "type": "file",
+      "detected_license_expression": "bsd-new",
+      "detected_license_expression_spdx": "BSD-3-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "lzf-0.1/setup.py",
+              "start_line": 27,
+              "end_line": 27,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "pypi_bsd_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_bsd_license.RULE",
+              "matched_text": "        'License :: OSI Approved :: BSD License',"
+            }
+          ],
+          "identifier": "bsd_new-f4e99f86-00ab-18d9-a65d-a3a12767dcf5"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 5.15,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/liblzf",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/liblzf/bench.c",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/liblzf/config.h",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/liblzf/crc32.h",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/liblzf/lzf.c",
+      "type": "file",
+      "detected_license_expression": "bsd-simplified OR gpl-2.0-plus",
+      "detected_license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+      "license_detections": [
+        {
+          "license_expression": "bsd-simplified OR gpl-2.0-plus",
+          "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+          "matches": [
+            {
+              "license_expression": "bsd-simplified OR gpl-2.0-plus",
+              "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+              "from_file": "lzf-0.1/liblzf/lzf.c",
+              "start_line": 5,
+              "end_line": 35,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 302,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "matched_text": " * Redistribution and use in source and binary forms, with or without modifica-\n * tion, are permitted provided that the following conditions are met:\n *\n *   1.  Redistributions of source code must retain the above copyright notice,\n *       this list of conditions and the following disclaimer.\n *\n *   2.  Redistributions in binary form must reproduce the above copyright\n *       notice, this list of conditions and the following disclaimer in the\n *       documentation and/or other materials provided with the distribution.\n *\n * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED\n * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MER-\n * CHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO\n * EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPE-\n * CIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\n * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;\n * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\n * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTH-\n * ERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n *\n * Alternatively, the contents of this file may be used under the terms of\n * the GNU General Public License (\"GPL\") version 2 or any later version,\n * in which case the provisions of the GPL are applicable instead of\n * the above. If you wish to allow the use of your version of this file\n * only under the terms of the GPL and not to allow others to use your\n * version of this file under the BSD license, indicate your decision\n * by deleting the provisions above and replace them with the notice\n * and other provisions required by the GPL. If you do not delete the\n * provisions above, a recipient may use your version of this file under\n * either the BSD or the GPL."
+            }
+          ],
+          "identifier": "bsd_simplified_or_gpl_2_0_plus-bcdd0893-bf7d-7c3f-3bbf-a939ceb59741"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 18.11,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/liblzf/lzf.h",
+      "type": "file",
+      "detected_license_expression": "bsd-simplified OR gpl-2.0-plus",
+      "detected_license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+      "license_detections": [
+        {
+          "license_expression": "bsd-simplified OR gpl-2.0-plus",
+          "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+          "matches": [
+            {
+              "license_expression": "bsd-simplified OR gpl-2.0-plus",
+              "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+              "from_file": "lzf-0.1/liblzf/lzf.h",
+              "start_line": 4,
+              "end_line": 34,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 302,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "matched_text": " * Redistribution and use in source and binary forms, with or without modifica-\n * tion, are permitted provided that the following conditions are met:\n *\n *   1.  Redistributions of source code must retain the above copyright notice,\n *       this list of conditions and the following disclaimer.\n *\n *   2.  Redistributions in binary form must reproduce the above copyright\n *       notice, this list of conditions and the following disclaimer in the\n *       documentation and/or other materials provided with the distribution.\n *\n * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED\n * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MER-\n * CHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO\n * EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPE-\n * CIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\n * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;\n * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\n * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTH-\n * ERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n *\n * Alternatively, the contents of this file may be used under the terms of\n * the GNU General Public License (\"GPL\") version 2 or any later version,\n * in which case the provisions of the GPL are applicable instead of\n * the above. If you wish to allow the use of your version of this file\n * only under the terms of the GPL and not to allow others to use your\n * version of this file under the BSD license, indicate your decision\n * by deleting the provisions above and replace them with the notice\n * and other provisions required by the GPL. If you do not delete the\n * provisions above, a recipient may use your version of this file under\n * either the BSD or the GPL."
+            }
+          ],
+          "identifier": "bsd_simplified_or_gpl_2_0_plus-bcdd0893-bf7d-7c3f-3bbf-a939ceb59741"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 39.02,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/liblzf/lzf_c.c",
+      "type": "file",
+      "detected_license_expression": "bsd-simplified OR gpl-2.0-plus",
+      "detected_license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+      "license_detections": [
+        {
+          "license_expression": "bsd-simplified OR gpl-2.0-plus",
+          "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+          "matches": [
+            {
+              "license_expression": "bsd-simplified OR gpl-2.0-plus",
+              "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+              "from_file": "lzf-0.1/liblzf/lzf_c.c",
+              "start_line": 4,
+              "end_line": 34,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 302,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "matched_text": " * Redistribution and use in source and binary forms, with or without modifica-\n * tion, are permitted provided that the following conditions are met:\n *\n *   1.  Redistributions of source code must retain the above copyright notice,\n *       this list of conditions and the following disclaimer.\n *\n *   2.  Redistributions in binary form must reproduce the above copyright\n *       notice, this list of conditions and the following disclaimer in the\n *       documentation and/or other materials provided with the distribution.\n *\n * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED\n * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MER-\n * CHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO\n * EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPE-\n * CIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\n * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;\n * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\n * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTH-\n * ERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n *\n * Alternatively, the contents of this file may be used under the terms of\n * the GNU General Public License (\"GPL\") version 2 or any later version,\n * in which case the provisions of the GPL are applicable instead of\n * the above. If you wish to allow the use of your version of this file\n * only under the terms of the GPL and not to allow others to use your\n * version of this file under the BSD license, indicate your decision\n * by deleting the provisions above and replace them with the notice\n * and other provisions required by the GPL. If you do not delete the\n * provisions above, a recipient may use your version of this file under\n * either the BSD or the GPL."
+            }
+          ],
+          "identifier": "bsd_simplified_or_gpl_2_0_plus-bcdd0893-bf7d-7c3f-3bbf-a939ceb59741"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 24.9,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/liblzf/lzf_c_best.c",
+      "type": "file",
+      "detected_license_expression": "bsd-simplified OR gpl-2.0-plus",
+      "detected_license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+      "license_detections": [
+        {
+          "license_expression": "bsd-simplified OR gpl-2.0-plus",
+          "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+          "matches": [
+            {
+              "license_expression": "bsd-simplified OR gpl-2.0-plus",
+              "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+              "from_file": "lzf-0.1/liblzf/lzf_c_best.c",
+              "start_line": 4,
+              "end_line": 34,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 302,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "matched_text": " * Redistribution and use in source and binary forms, with or without modifica-\n * tion, are permitted provided that the following conditions are met:\n *\n *   1.  Redistributions of source code must retain the above copyright notice,\n *       this list of conditions and the following disclaimer.\n *\n *   2.  Redistributions in binary form must reproduce the above copyright\n *       notice, this list of conditions and the following disclaimer in the\n *       documentation and/or other materials provided with the distribution.\n *\n * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED\n * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MER-\n * CHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO\n * EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPE-\n * CIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\n * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;\n * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\n * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTH-\n * ERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n *\n * Alternatively, the contents of this file may be used under the terms of\n * the GNU General Public License (\"GPL\") version 2 or any later version,\n * in which case the provisions of the GPL are applicable instead of\n * the above. If you wish to allow the use of your version of this file\n * only under the terms of the GPL and not to allow others to use your\n * version of this file under the BSD license, indicate your decision\n * by deleting the provisions above and replace them with the notice\n * and other provisions required by the GPL. If you do not delete the\n * provisions above, a recipient may use your version of this file under\n * either the BSD or the GPL."
+            }
+          ],
+          "identifier": "bsd_simplified_or_gpl_2_0_plus-bcdd0893-bf7d-7c3f-3bbf-a939ceb59741"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 34.44,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/liblzf/lzf_d.c",
+      "type": "file",
+      "detected_license_expression": "bsd-simplified OR gpl-2.0-plus",
+      "detected_license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+      "license_detections": [
+        {
+          "license_expression": "bsd-simplified OR gpl-2.0-plus",
+          "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+          "matches": [
+            {
+              "license_expression": "bsd-simplified OR gpl-2.0-plus",
+              "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+              "from_file": "lzf-0.1/liblzf/lzf_d.c",
+              "start_line": 4,
+              "end_line": 34,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 302,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "matched_text": " * Redistribution and use in source and binary forms, with or without modifica-\n * tion, are permitted provided that the following conditions are met:\n *\n *   1.  Redistributions of source code must retain the above copyright notice,\n *       this list of conditions and the following disclaimer.\n *\n *   2.  Redistributions in binary form must reproduce the above copyright\n *       notice, this list of conditions and the following disclaimer in the\n *       documentation and/or other materials provided with the distribution.\n *\n * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED\n * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MER-\n * CHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO\n * EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPE-\n * CIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\n * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;\n * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\n * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTH-\n * ERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n *\n * Alternatively, the contents of this file may be used under the terms of\n * the GNU General Public License (\"GPL\") version 2 or any later version,\n * in which case the provisions of the GPL are applicable instead of\n * the above. If you wish to allow the use of your version of this file\n * only under the terms of the GPL and not to allow others to use your\n * version of this file under the BSD license, indicate your decision\n * by deleting the provisions above and replace them with the notice\n * and other provisions required by the GPL. If you do not delete the\n * provisions above, a recipient may use your version of this file under\n * either the BSD or the GPL."
+            }
+          ],
+          "identifier": "bsd_simplified_or_gpl_2_0_plus-bcdd0893-bf7d-7c3f-3bbf-a939ceb59741"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 38.97,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/liblzf/lzfP.h",
+      "type": "file",
+      "detected_license_expression": "bsd-simplified OR gpl-2.0-plus",
+      "detected_license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+      "license_detections": [
+        {
+          "license_expression": "bsd-simplified OR gpl-2.0-plus",
+          "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+          "matches": [
+            {
+              "license_expression": "bsd-simplified OR gpl-2.0-plus",
+              "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+              "from_file": "lzf-0.1/liblzf/lzfP.h",
+              "start_line": 4,
+              "end_line": 34,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 302,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "matched_text": " * Redistribution and use in source and binary forms, with or without modifica-\n * tion, are permitted provided that the following conditions are met:\n *\n *   1.  Redistributions of source code must retain the above copyright notice,\n *       this list of conditions and the following disclaimer.\n *\n *   2.  Redistributions in binary form must reproduce the above copyright\n *       notice, this list of conditions and the following disclaimer in the\n *       documentation and/or other materials provided with the distribution.\n *\n * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED\n * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MER-\n * CHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO\n * EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPE-\n * CIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\n * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;\n * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\n * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTH-\n * ERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n *\n * Alternatively, the contents of this file may be used under the terms of\n * the GNU General Public License (\"GPL\") version 2 or any later version,\n * in which case the provisions of the GPL are applicable instead of\n * the above. If you wish to allow the use of your version of this file\n * only under the terms of the GPL and not to allow others to use your\n * version of this file under the BSD license, indicate your decision\n * by deleting the provisions above and replace them with the notice\n * and other provisions required by the GPL. If you do not delete the\n * provisions above, a recipient may use your version of this file under\n * either the BSD or the GPL."
+            }
+          ],
+          "identifier": "bsd_simplified_or_gpl_2_0_plus-bcdd0893-bf7d-7c3f-3bbf-a939ceb59741"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 28.22,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/lzf.egg-info",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/lzf.egg-info/dependency_links.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/lzf.egg-info/entry_points.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/lzf.egg-info/not-zip-safe",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/lzf.egg-info/PKG-INFO",
+      "type": "file",
+      "detected_license_expression": "bsd-new",
+      "detected_license_expression_spdx": "BSD-3-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "license_expression_spdx": "BSD-3-Clause",
+              "from_file": "lzf-0.1/lzf.egg-info/PKG-INFO",
+              "start_line": 95,
+              "end_line": 95,
+              "matcher": "2-aho",
+              "score": 99.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 99,
+              "rule_identifier": "pypi_bsd_license.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/pypi_bsd_license.RULE",
+              "matched_text": "Classifier: License :: OSI Approved :: BSD License"
+            }
+          ],
+          "identifier": "bsd_new-f4e99f86-00ab-18d9-a65d-a3a12767dcf5"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 1.23,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/lzf.egg-info/requires.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/lzf.egg-info/SOURCES.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/lzf.egg-info/top_level.txt",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/vendor",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/vendor/liblzf",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/vendor/liblzf/config.h",
+      "type": "file",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "license_clues": [],
+      "percentage_of_license_text": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/vendor/liblzf/lzf.c",
+      "type": "file",
+      "detected_license_expression": "bsd-simplified OR gpl-2.0-plus",
+      "detected_license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+      "license_detections": [
+        {
+          "license_expression": "bsd-simplified OR gpl-2.0-plus",
+          "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+          "matches": [
+            {
+              "license_expression": "bsd-simplified OR gpl-2.0-plus",
+              "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+              "from_file": "lzf-0.1/vendor/liblzf/lzf.c",
+              "start_line": 5,
+              "end_line": 35,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 302,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "matched_text": " * Redistribution and use in source and binary forms, with or without modifica-\n * tion, are permitted provided that the following conditions are met:\n *\n *   1.  Redistributions of source code must retain the above copyright notice,\n *       this list of conditions and the following disclaimer.\n *\n *   2.  Redistributions in binary form must reproduce the above copyright\n *       notice, this list of conditions and the following disclaimer in the\n *       documentation and/or other materials provided with the distribution.\n *\n * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED\n * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MER-\n * CHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO\n * EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPE-\n * CIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\n * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;\n * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\n * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTH-\n * ERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n *\n * Alternatively, the contents of this file may be used under the terms of\n * the GNU General Public License (\"GPL\") version 2 or any later version,\n * in which case the provisions of the GPL are applicable instead of\n * the above. If you wish to allow the use of your version of this file\n * only under the terms of the GPL and not to allow others to use your\n * version of this file under the BSD license, indicate your decision\n * by deleting the provisions above and replace them with the notice\n * and other provisions required by the GPL. If you do not delete the\n * provisions above, a recipient may use your version of this file under\n * either the BSD or the GPL."
+            }
+          ],
+          "identifier": "bsd_simplified_or_gpl_2_0_plus-bcdd0893-bf7d-7c3f-3bbf-a939ceb59741"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 18.11,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/vendor/liblzf/lzf.h",
+      "type": "file",
+      "detected_license_expression": "bsd-simplified OR gpl-2.0-plus",
+      "detected_license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+      "license_detections": [
+        {
+          "license_expression": "bsd-simplified OR gpl-2.0-plus",
+          "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+          "matches": [
+            {
+              "license_expression": "bsd-simplified OR gpl-2.0-plus",
+              "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+              "from_file": "lzf-0.1/vendor/liblzf/lzf.h",
+              "start_line": 4,
+              "end_line": 34,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 302,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "matched_text": " * Redistribution and use in source and binary forms, with or without modifica-\n * tion, are permitted provided that the following conditions are met:\n *\n *   1.  Redistributions of source code must retain the above copyright notice,\n *       this list of conditions and the following disclaimer.\n *\n *   2.  Redistributions in binary form must reproduce the above copyright\n *       notice, this list of conditions and the following disclaimer in the\n *       documentation and/or other materials provided with the distribution.\n *\n * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED\n * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MER-\n * CHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO\n * EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPE-\n * CIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\n * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;\n * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\n * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTH-\n * ERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n *\n * Alternatively, the contents of this file may be used under the terms of\n * the GNU General Public License (\"GPL\") version 2 or any later version,\n * in which case the provisions of the GPL are applicable instead of\n * the above. If you wish to allow the use of your version of this file\n * only under the terms of the GPL and not to allow others to use your\n * version of this file under the BSD license, indicate your decision\n * by deleting the provisions above and replace them with the notice\n * and other provisions required by the GPL. If you do not delete the\n * provisions above, a recipient may use your version of this file under\n * either the BSD or the GPL."
+            }
+          ],
+          "identifier": "bsd_simplified_or_gpl_2_0_plus-bcdd0893-bf7d-7c3f-3bbf-a939ceb59741"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 39.02,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/vendor/liblzf/lzf_c.c",
+      "type": "file",
+      "detected_license_expression": "bsd-simplified OR gpl-2.0-plus",
+      "detected_license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+      "license_detections": [
+        {
+          "license_expression": "bsd-simplified OR gpl-2.0-plus",
+          "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+          "matches": [
+            {
+              "license_expression": "bsd-simplified OR gpl-2.0-plus",
+              "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+              "from_file": "lzf-0.1/vendor/liblzf/lzf_c.c",
+              "start_line": 4,
+              "end_line": 34,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 302,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "matched_text": " * Redistribution and use in source and binary forms, with or without modifica-\n * tion, are permitted provided that the following conditions are met:\n *\n *   1.  Redistributions of source code must retain the above copyright notice,\n *       this list of conditions and the following disclaimer.\n *\n *   2.  Redistributions in binary form must reproduce the above copyright\n *       notice, this list of conditions and the following disclaimer in the\n *       documentation and/or other materials provided with the distribution.\n *\n * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED\n * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MER-\n * CHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO\n * EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPE-\n * CIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\n * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;\n * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\n * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTH-\n * ERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n *\n * Alternatively, the contents of this file may be used under the terms of\n * the GNU General Public License (\"GPL\") version 2 or any later version,\n * in which case the provisions of the GPL are applicable instead of\n * the above. If you wish to allow the use of your version of this file\n * only under the terms of the GPL and not to allow others to use your\n * version of this file under the BSD license, indicate your decision\n * by deleting the provisions above and replace them with the notice\n * and other provisions required by the GPL. If you do not delete the\n * provisions above, a recipient may use your version of this file under\n * either the BSD or the GPL."
+            }
+          ],
+          "identifier": "bsd_simplified_or_gpl_2_0_plus-bcdd0893-bf7d-7c3f-3bbf-a939ceb59741"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 24.9,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/vendor/liblzf/lzf_c_best.c",
+      "type": "file",
+      "detected_license_expression": "bsd-simplified OR gpl-2.0-plus",
+      "detected_license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+      "license_detections": [
+        {
+          "license_expression": "bsd-simplified OR gpl-2.0-plus",
+          "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+          "matches": [
+            {
+              "license_expression": "bsd-simplified OR gpl-2.0-plus",
+              "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+              "from_file": "lzf-0.1/vendor/liblzf/lzf_c_best.c",
+              "start_line": 4,
+              "end_line": 34,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 302,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "matched_text": " * Redistribution and use in source and binary forms, with or without modifica-\n * tion, are permitted provided that the following conditions are met:\n *\n *   1.  Redistributions of source code must retain the above copyright notice,\n *       this list of conditions and the following disclaimer.\n *\n *   2.  Redistributions in binary form must reproduce the above copyright\n *       notice, this list of conditions and the following disclaimer in the\n *       documentation and/or other materials provided with the distribution.\n *\n * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED\n * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MER-\n * CHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO\n * EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPE-\n * CIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\n * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;\n * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\n * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTH-\n * ERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n *\n * Alternatively, the contents of this file may be used under the terms of\n * the GNU General Public License (\"GPL\") version 2 or any later version,\n * in which case the provisions of the GPL are applicable instead of\n * the above. If you wish to allow the use of your version of this file\n * only under the terms of the GPL and not to allow others to use your\n * version of this file under the BSD license, indicate your decision\n * by deleting the provisions above and replace them with the notice\n * and other provisions required by the GPL. If you do not delete the\n * provisions above, a recipient may use your version of this file under\n * either the BSD or the GPL."
+            }
+          ],
+          "identifier": "bsd_simplified_or_gpl_2_0_plus-bcdd0893-bf7d-7c3f-3bbf-a939ceb59741"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 34.44,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/vendor/liblzf/lzf_d.c",
+      "type": "file",
+      "detected_license_expression": "bsd-simplified OR gpl-2.0-plus",
+      "detected_license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+      "license_detections": [
+        {
+          "license_expression": "bsd-simplified OR gpl-2.0-plus",
+          "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+          "matches": [
+            {
+              "license_expression": "bsd-simplified OR gpl-2.0-plus",
+              "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+              "from_file": "lzf-0.1/vendor/liblzf/lzf_d.c",
+              "start_line": 4,
+              "end_line": 34,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 302,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "matched_text": " * Redistribution and use in source and binary forms, with or without modifica-\n * tion, are permitted provided that the following conditions are met:\n *\n *   1.  Redistributions of source code must retain the above copyright notice,\n *       this list of conditions and the following disclaimer.\n *\n *   2.  Redistributions in binary form must reproduce the above copyright\n *       notice, this list of conditions and the following disclaimer in the\n *       documentation and/or other materials provided with the distribution.\n *\n * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED\n * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MER-\n * CHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO\n * EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPE-\n * CIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\n * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;\n * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\n * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTH-\n * ERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n *\n * Alternatively, the contents of this file may be used under the terms of\n * the GNU General Public License (\"GPL\") version 2 or any later version,\n * in which case the provisions of the GPL are applicable instead of\n * the above. If you wish to allow the use of your version of this file\n * only under the terms of the GPL and not to allow others to use your\n * version of this file under the BSD license, indicate your decision\n * by deleting the provisions above and replace them with the notice\n * and other provisions required by the GPL. If you do not delete the\n * provisions above, a recipient may use your version of this file under\n * either the BSD or the GPL."
+            }
+          ],
+          "identifier": "bsd_simplified_or_gpl_2_0_plus-bcdd0893-bf7d-7c3f-3bbf-a939ceb59741"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 38.97,
+      "scan_errors": []
+    },
+    {
+      "path": "lzf-0.1/vendor/liblzf/lzfP.h",
+      "type": "file",
+      "detected_license_expression": "bsd-simplified OR gpl-2.0-plus",
+      "detected_license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+      "license_detections": [
+        {
+          "license_expression": "bsd-simplified OR gpl-2.0-plus",
+          "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+          "matches": [
+            {
+              "license_expression": "bsd-simplified OR gpl-2.0-plus",
+              "license_expression_spdx": "BSD-2-Clause OR GPL-2.0-or-later",
+              "from_file": "lzf-0.1/vendor/liblzf/lzfP.h",
+              "start_line": 4,
+              "end_line": 34,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 302,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_or_gpl-2.0-plus_4.RULE",
+              "matched_text": " * Redistribution and use in source and binary forms, with or without modifica-\n * tion, are permitted provided that the following conditions are met:\n *\n *   1.  Redistributions of source code must retain the above copyright notice,\n *       this list of conditions and the following disclaimer.\n *\n *   2.  Redistributions in binary form must reproduce the above copyright\n *       notice, this list of conditions and the following disclaimer in the\n *       documentation and/or other materials provided with the distribution.\n *\n * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED\n * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MER-\n * CHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO\n * EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPE-\n * CIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\n * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;\n * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\n * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTH-\n * ERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n *\n * Alternatively, the contents of this file may be used under the terms of\n * the GNU General Public License (\"GPL\") version 2 or any later version,\n * in which case the provisions of the GPL are applicable instead of\n * the above. If you wish to allow the use of your version of this file\n * only under the terms of the GPL and not to allow others to use your\n * version of this file under the BSD license, indicate your decision\n * by deleting the provisions above and replace them with the notice\n * and other provisions required by the GPL. If you do not delete the\n * provisions above, a recipient may use your version of this file under\n * either the BSD or the GPL."
+            }
+          ],
+          "identifier": "bsd_simplified_or_gpl_2_0_plus-bcdd0893-bf7d-7c3f-3bbf-a939ceb59741"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 28.22,
+      "scan_errors": []
+    }
+  ]
+}
